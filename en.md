@@ -1,4 +1,4 @@
-001 8.7.8.7.D.
+# 001 8.7.8.7.D.
 
 1 God, our Father, we adore Thee!
 
@@ -48,7 +48,7 @@ We adore Thee! We adore Thee!
 
 Thee we bless, through endless days!
 
-002 6.6.4.6.6.6.4.
+# 002 6.6.4.6.6.6.4.
 
 1 Come, Thou Almighty King,
 
@@ -108,7 +108,7 @@ Love and adore.
 
 []{#_Toc65240571 .anchor}
 
-003 12.13.12.10.
+# 003 12.13.12.10.
 
 1.  Holy, Holy, Holy, Lord, God Almighty!
 
@@ -134,7 +134,7 @@ Only Thou art holy, there is none beside Thee,
 
 Perfect in power, in love, and purity.
 
-004 Irregular Meter
+# 004 Irregular Meter
 
 l Heavenly Father, I appreciate you,
 
@@ -156,7 +156,7 @@ Sent the Holy Ghost within;
 
 Son of God, what a wonder you are.
 
-005 6.6.4.
+# 005 6.6.4.
 
 1 Father, I adore you;
 
@@ -176,7 +176,7 @@ lay my life before you.
 
 How I love you!
 
-006 8. 6. 8. 6. with chorus
+# 006 8. 6. 8. 6. with chorus
 
 Praise God, from whom all blessings flow;
 
@@ -186,7 +186,7 @@ Praise Him above, ye heav’nly host;
 
 Praise Father, Son, and Holy Ghost!
 
-007 8. 7. 8. 7. with chorus
+# 007 8. 7. 8. 7. with chorus
 
 Glory, glory to the Father!
 
@@ -204,7 +204,7 @@ Give Him glory; Give Him glory!
 
 Wondrous things for us our God hath done!
 
-008 11. 10.11.10. with chorus
+# 008 11. 10.11.10. with chorus
 
 1 O Lord my God, when I in awesome wonder,
 
@@ -246,7 +246,7 @@ Then shall I bow, in humble adoration,
 
 And there proclaim, my God, how great Thou art!
 
-009 Irregular Meter
+# 009 Irregular Meter
 
 1 Father, we love You,
 
@@ -272,7 +272,7 @@ Glorify Thy name,
 
 Glorify Thy name in all the earth.
 
-010 6. 6. 6. 6. 8. 8.
+# 010 6. 6. 6. 6. 8. 8.
 
 1 What was it, blessed God,
 
@@ -332,7 +332,7 @@ Make us, O God, to praise Thee thus
 
 For all Thy boundless love to us.
 
-011 Irregular Meter
+# 011 Irregular Meter
 
 1 The love of God is greater far
 
@@ -390,7 +390,7 @@ Nor could the scroll contain the whole,
 
 Though stretched from sky to sky.
 
-012 6. 10. 10. 6.
+# 012 6. 10. 10. 6.
 
 1 Blessed be God, our God,
 
@@ -440,7 +440,7 @@ For us He fought the fight, the triumph won:
 
 The victory is ours!
 
-013 8. 6. 8. 6. with chorus
+# 013 8. 6. 8. 6. with chorus
 
 1 Behold, what love, what boundless love,
 
@@ -484,7 +484,7 @@ More like our risen, glorious Lord,
 
 Whose face we soon shall see.
 
-014 8.8.8.8.
+# 014 8.8.8.8.
 
 1 O God! we see Thee in the Lamb
 
@@ -518,7 +518,7 @@ And lifts on high each feeble voice,
 
 While we have breath to pray or praise.
 
-015 8.6.8.6.
+# 015 8.6.8.6.
 
 1 All that we were—our sin, our guilt,
 
@@ -592,7 +592,7 @@ With grateful thanks before Thee fall,
 
 ’Tis all that we can give.
 
-016 8.7.8.7.8.7.
+# 016 8.7.8.7.8.7.
 
 1 Father, ’twas Thy love that knew us
 
@@ -636,7 +636,7 @@ Be to God and to the Lamb!
 
 Be to God and to the Lamb!
 
-017 8. 6. 8. 6.
+# 017 8. 6. 8. 6.
 
 1 My God, how wonderful Thou art,
 
@@ -694,7 +694,7 @@ Prostrate before Thy throne to lie,
 
 And gaze, and gaze on Thee.
 
-018 8.7.8.7.
+# 018 8.7.8.7.
 
 1 There’s a wideness in God’s mercy
 
@@ -728,7 +728,7 @@ And our lives would be all sunshine
 
 In the sweetness of our Lord.
 
-019 12.12.12.5.
+# 019 12.12.12.5.
 
 And the Spirit in my heart cries, “Abba, Abba.”
 
@@ -738,7 +738,7 @@ Oh, the Spirit in my heart cries, “Abba, Abba
 
 Father I love You.”
 
-020 8. 7. 8. 7.8.7.
+# 020 8. 7. 8. 7.8.7.
 
 1 Father, long before creation,
 
@@ -796,7 +796,7 @@ To our God and to the Lamb,
 
 To our God and to the Lamb.
 
-021 Irregular Meter
+# 021 Irregular Meter
 
 The steadfast love of the Lord never ceases,
 
@@ -810,7 +810,7 @@ Great is Thy faithfulness, O Lord,
 
 Great is Thy faithfulness.
 
-022 11.10.11.10. with chorus
+# 022 11.10.11.10. with chorus
 
 1 “Great is Thy faithfulness,” O God my Father,
 
@@ -842,7 +842,7 @@ Strength for today and bright hope for tomorrow,
 
 Blessings all mine, with ten thousand beside!
 
-023 Irregular Meter
+# 023 Irregular Meter
 
 1 We praise Thee, O God,
 
@@ -884,7 +884,7 @@ And each heart is rekindled
 
 With fire from above.
 
-024 11.11.11.11. with chorus
+# 024 11.11.11.11. with chorus
 
 1 To God be the glory, great things He hath done,
 
@@ -922,7 +922,7 @@ But purer, and higher, and greater will be
 
 Our wonder, our transport when Jesus we see.
 
-025 7.7.7.6.
+# 025 7.7.7.6.
 
 1 Gracious God, we worship Thee,
 
@@ -964,7 +964,7 @@ Now, and soon through endless days:
 
 Father, we adore Thee.
 
-026 7.6.7.6.D.
+# 026 7.6.7.6.D.
 
 1 We praise Thee, glorious Father,
 
@@ -998,7 +998,7 @@ We’ll shine in His blest image
 
 Eternally, Amen!
 
-027 8.7.8.7.D.
+# 027 8.7.8.7.D.
 
 1 “Abba, Father,” We approach Thee
 
@@ -1064,7 +1064,7 @@ Abba’s love as shown in Jesus,
 
 And how full is Abba’s name!
 
-028 13.8.13.8. with chorus
+# 028 13.8.13.8. with chorus
 
 1 We are never never weary of the grand old song;
 
@@ -1110,7 +1110,7 @@ blood-washed throng,
 
 Glory to God, hallelujah!
 
-029 8.7.8.7.D.
+# 029 8.7.8.7.D.
 
 1 Abba, Father! we adore Thee,
 
@@ -1176,7 +1176,7 @@ And, in songs of rich salvation,
 
 Shout to Thine eternal praise.
 
-030 7.6.7.6.D.
+# 030 7.6.7.6.D.
 
 1 O gracious God, Thy pleasure
 
@@ -1226,7 +1226,7 @@ Each voice in strains adoring
 
 Re-echoes—”God is love.”
 
-031 7.6.7.6.D.
+# 031 7.6.7.6.D.
 
 1 By Thee, O God, invited,
 
@@ -1292,7 +1292,7 @@ His perfect love dismisses
 
 All terror from our breasts.
 
-032 8.6.8.6.
+# 032 8.6.8.6.
 
 1 Father, Thy name our souls would bless,
 
@@ -1350,7 +1350,7 @@ Walking before Thee without fear,
 
 Thy perfect will to prove.
 
-033 8.7.8.7.D.
+# 033 8.7.8.7.D.
 
 1 Joyful, joyful, we adore Thee,
 
@@ -1416,7 +1416,7 @@ Joyful music leads us sunward
 
 In the triumph song of life.
 
-034 7.6.7.6.D.
+# 034 7.6.7.6.D.
 
 1 We bless thee, God and Father,
 
@@ -1466,7 +1466,7 @@ The many sons—His brethren—
 
 In Him, how near, how blest!
 
-035 10.4.10.4.10.10.
+# 035 10.4.10.4.10.10.
 
 1 Our God and Father, we respond to Thee
 
@@ -1504,7 +1504,7 @@ In worship, God and Father, unto Thee,
 
 Supreme, Thou Source in love’s economy!
 
-036 10.10.10.10.
+# 036 10.10.10.10.
 
 1 Father, Thy Son beloved leads our praise
 
@@ -1538,7 +1538,7 @@ Joyfully feasting on Thy holy love,
 
 Tasting, as sons, the sweetness of Thy name.
 
-037 10.10.10.10.
+# 037 10.10.10.10.
 
 1 O God our Father, we would come to Thee
 
@@ -1572,7 +1572,7 @@ Who, in the midst, His brethren’s song doth lead.
 
 To Him, our Savior, shall the glory be!
 
-038 10.10.10.10.
+# 038 10.10.10.10.
 
 1 Our God and Father we respond anew
 
@@ -1606,7 +1606,7 @@ Each with some trait of Him whose love us thrills,
 
 For Thy delight and joy eternally.
 
-039 10.4.10.4.10.10.
+# 039 10.4.10.4.10.10.
 
 1 Father, to Thee a joyful song we raise
 
@@ -1644,7 +1644,7 @@ To share His place: ’twas thus that Thou didst plan;
 
 Thou lovedst Him before the world began.
 
-040 8.8.8.8.D.
+# 040 8.8.8.8.D.
 
 1 The spacious firmament on high,
 
@@ -1694,7 +1694,7 @@ Forever singing as they shine,
 
 “The hand that made us is divine.”
 
-041 11.11.11.11.
+# 041 11.11.11.11.
 
 1 Immortal, invisible, God only wise,
 
@@ -1736,7 +1736,7 @@ Most blessed, most glorious, the Ancient of Days,
 
 Almighty, victorious, Thy great name we praise.
 
-042 8.6.8.6. with chorus
+# 042 8.6.8.6. with chorus
 
 1 Thou art the everlasting Word,
 
@@ -1782,7 +1782,7 @@ Th’ eternal theme of praise is this,
 
 To heav’n’s beloved One.
 
-043 11.11.11.11.
+# 043 11.11.11.11.
 
 1 The living of Christ when He sojourned on earth,
 
@@ -1832,7 +1832,7 @@ E’en now at the Father’s right hand is His seat,
 
 Where flowing forever are pleasures complete.
 
-044 7.6.7.6.D.
+# 044 7.6.7.6.D.
 
 1 O soul inspiring story—
 
@@ -1882,7 +1882,7 @@ God’s face unveiled so sweetly
 
 In Thine, Thou Son of man!
 
-045 13.13.13.14. with chorus
+# 045 13.13.13.14. with chorus
 
 1 O how nigh the Lord is unto all who call on Him!
 
@@ -1948,7 +1948,7 @@ With all the saints who from a pure heart call and taste
 
 His grace.
 
-046 6.5.6.5.D.
+# 046 6.5.6.5.D.
 
 1 In the Name of Jesus
 
@@ -2062,7 +2062,7 @@ And our hearts confess Him
 
 King of glory now.
 
-047 8.8.8.8.
+# 047 8.8.8.8.
 
 1 Lift that Name high! That glorious Name,
 
@@ -2104,7 +2104,7 @@ Fruit of His Cross, when earth shall bring
 
 Her tribute to her Lord and King.
 
-048 8.8.8.8.
+# 048 8.8.8.8.
 
 1 Thy name is as ointment poured forth:
 
@@ -2178,7 +2178,7 @@ We love Thee with all of our heart,
 
 We love Thee with all of our heart.
 
-049 8.8.8.7. with chorus
+# 049 8.8.8.7. with chorus
 
 1 The name of Jesus is so sweet,
 
@@ -2220,7 +2220,7 @@ Oh, let its praises ever swell,
 
 Oh, praise the name of Jesus.
 
-050 7.7.8.7.D.
+# 050 7.7.8.7.D.
 
 1 Thy name we love, Lord Jesus,
 
@@ -2286,7 +2286,7 @@ The vict’ry won, Thy work well done,
 
 Our righteousness completed.
 
-051 8.6.8.6. with chorus
+# 051 8.6.8.6. with chorus
 
 1 All praise to Him who reigns on high,
 
@@ -2328,7 +2328,7 @@ Of all earth’s Kingdoms, conqueror,
 
 Whose reign shall never cease.
 
-052 Irregular Meter
+# 052 Irregular Meter
 
 His name is higher than any other,
 
@@ -2342,7 +2342,7 @@ His name is higher than any other—
 
 His name is Jesus, His name is Lord.
 
-053 6.6.6.6.8.8.
+# 053 6.6.6.6.8.8.
 
 1 Join all the glorious names
 
@@ -2404,7 +2404,7 @@ Thine is the pow’r; behold I sit
 
 In willing bonds beneath Thy feet.
 
-054 7.8.7.8.D.
+# 054 7.8.7.8.D.
 
 Jesus, name above all names,
 
@@ -2414,7 +2414,7 @@ Emmanuel, God is with us,
 
 Blessed Redeemer, living Word.
 
-055 8.6.8.6.
+# 055 8.6.8.6.
 
 1 Jesus! how much Thy name unfolds
 
@@ -2456,7 +2456,7 @@ The chiefest of ten thousand Thou,
 
 Whose love has set us free.
 
-056 Irregular Meter
+# 056 Irregular Meter
 
 1 How we love the glorious name,
 
@@ -2482,7 +2482,7 @@ Is the enjoyment of our days;
 
 Calling JESUS is to call the One we love!
 
-057 8.6.8.6. with repeat
+# 057 8.6.8.6. with repeat
 
 1 How sweet the Name of Jesus sounds
 
@@ -2532,7 +2532,7 @@ And triumph in that blessed Name
 
 Which quells the pow’r of death.
 
-058 6.4.6.4.6.6.6.4.
+# 058 6.4.6.4.6.6.6.4.
 
 1 Jesus! that name we love, Jesus, our Lord!
 
@@ -2574,7 +2574,7 @@ Then shall we like Thee be,
 
 Then evermore with Thee, Jesus, our Lord!
 
-059 8.7.8.7.
+# 059 8.7.8.7.
 
 1 Glorious, mighty Name of Jesus,
 
@@ -2608,7 +2608,7 @@ In Thy Name, we live and conquer,
 
 Blessed, glorious, coming Lord.
 
-060 8.6.8.6.
+# 060 8.6.8.6.
 
 1 Jesus, the name high over all,
 
@@ -2658,7 +2658,7 @@ Preach Him to all, and cry in death,
 
 “Behold, behold the Lamb!”
 
-061 7.7.7.7.
+# 061 7.7.7.7.
 
 1 Name of Jesus! highest Name!
 
@@ -2692,7 +2692,7 @@ Jesus, evermore the same,
 
 He is mine and I am His!
 
-062 Irregular Meter
+# 062 Irregular Meter
 
 Praise the name of Jesus,
 
@@ -2706,7 +2706,7 @@ In Him will I trust.
 
 Praise the name of Jesus.
 
-063 6.5.6.5.
+# 063 6.5.6.5.
 
 1 Jesus, Jesus, Jesus!
 
@@ -2764,7 +2764,7 @@ Oh! the joy and rapture
 
 Of that sacred Name.
 
-064 Irregular Meter
+# 064 Irregular Meter
 
 1 Jesus, You’re the sweetest name of all.
 
@@ -2790,7 +2790,7 @@ Oh, Jesus, we lift our voices up and sing,
 
 You’re the sweetest, the sweetest name of all.
 
-065 8.7.8.7.D.
+# 065 8.7.8.7.D.
 
 1 There is no name so sweet on earth,
 
@@ -2832,7 +2832,7 @@ Today as yesterday the same,
 
 Thou art the same forever.
 
-066 10.10.10.9. with chorus
+# 066 10.10.10.9. with chorus
 
 1 There have been names that I have loved to hear,
 
@@ -2866,7 +2866,7 @@ Which He gave to me when He made me free;
 
 The blessed Son of God called Jesus.
 
-067 8.6.8.6.6.8.
+# 067 8.6.8.6.6.8.
 
 1 Joy to the world! the Lord is come;
 
@@ -2916,7 +2916,7 @@ And wonders of His love,
 
 And wonders, wonders of His love.
 
-068 Irregular Meter
+# 068 Irregular Meter
 
 1 Down from His glory,
 
@@ -2968,7 +2968,7 @@ Sacrifice of Calv’ry,
 
 And now I know Thou art the great “I AM.”
 
-069 12.11.12.11.12.10.
+# 069 12.11.12.11.12.10.
 
 1 Meekness and majesty, manhood and Diety,
 
@@ -2998,7 +2998,7 @@ Lord of infinity, stooping so tenderly;
 
 Lifts our humanity to the heights of His throne.
 
-070 Irregular Meter
+# 070 Irregular Meter
 
 1 O come, all ye faithful, joyful and triumphant,
 
@@ -3026,7 +3026,7 @@ O Jesus! forever be Thy Name adored;
 
 Word of the Father, now in flesh appearing;
 
-071 7.7.7.7.D. with repeat
+# 071 7.7.7.7.D. with repeat
 
 1 Hark! the herald angels sing,
 
@@ -3094,7 +3094,7 @@ Final Adam from above,
 
 Reinstate us in Thy love.
 
-072 7.4.7.4.7.7.6.6.
+# 072 7.4.7.4.7.7.6.6.
 
 1.  Praise the Lord, God sent His Son,
 
@@ -3152,7 +3152,7 @@ We all must call on Him,
 
 We give our all to Him.
 
-073 8.6.8.6.
+# 073 8.6.8.6.
 
 1 O lord! When we the path retrace
 
@@ -3202,7 +3202,7 @@ And all our rest and pleasure find
 
 In learning, Lord, of Thee.
 
-074 8.8.8.8.
+# 074 8.8.8.8.
 
 1 How beauteous were the marks divine,
 
@@ -3244,7 +3244,7 @@ And learn of Thee, the lowly One,
 
 And like Thee, all my journey run.
 
-075 7.7.7.7.
+# 075 7.7.7.7.
 
 1 Lord, accept our feeble song!
 
@@ -3302,7 +3302,7 @@ May we ever for Thee live,
 
 Till Thy saints Thou dost receive.
 
-076 8.7.8.7.8.8.7.7.
+# 076 8.7.8.7.8.8.7.7.
 
 1 Jesus! Source of life eternal!
 
@@ -3370,7 +3370,7 @@ Evermore the theme shall be,
 
 Of thanksgivings, Lord, to Thee.
 
-077 8.8.8.8.
+# 077 8.8.8.8.
 
 1 When I survey the wondrous cross
 
@@ -3412,7 +3412,7 @@ Love so amazing, so divine,
 
 Demands my heart, my life, my all!
 
-078 7.6.7.6.D.
+# 078 7.6.7.6.D.
 
 1 O Head once full of bruises,
 
@@ -3462,7 +3462,7 @@ Until, to glory taken,
 
 We see Thee face to face.
 
-079 8.6.8.6.8.6.
+# 079 8.6.8.6.8.6.
 
 1 O Christ, what burdens bow’d
 
@@ -3536,7 +3536,7 @@ When purified, made white, and tried,
 
 Thy glory then for me!
 
-080 8.7.8.7. with chorus
+# 080 8.7.8.7. with chorus
 
 1 Lord, we treasure with affection
 
@@ -3578,7 +3578,7 @@ Man-betrayed, by God forsaken;
 
 Thus we learn Thy love divine!
 
-081 Irregular Meter
+# 081 Irregular Meter
 
 1 Oh, hallelujah, what a death
 
@@ -3636,7 +3636,7 @@ Lord, how we love Your cross;
 
 Oh, hallelujah, for such a cross!
 
-082 8.7.8.7.8.7. with repeat
+# 082 8.7.8.7.8.7. with repeat
 
 1 Lamb of God so pure and spotless,
 
@@ -3694,7 +3694,7 @@ What an all-inclusive death,
 
 What an all-inclusive death!
 
-083 8.6.8.6.
+# 083 8.6.8.6.
 
 1 Behold! a spotless Victim dies,
 
@@ -3736,7 +3736,7 @@ And this the new and endless song,
 
 Thy love to us—to me!
 
-084 Irregular Meter
+# 084 Irregular Meter
 
 1 God was born a human being
 
@@ -3802,7 +3802,7 @@ Hallelujah, Hallelujah,
 
 Hallelujah, Amen!
 
-085 7.7.7.7.
+# 085 7.7.7.7.
 
 1 Crowned with thorns upon the tree,
 
@@ -3844,7 +3844,7 @@ Thou alone my rest shall be,
 
 Now and thro’ eternity.
 
-086 6.6.6.6.8.8.
+# 086 6.6.6.6.8.8.
 
 1 Himself He could not save,
 
@@ -3902,7 +3902,7 @@ Till praise flows forth to Him alone!
 
 Till praise flows forth to Him alone!
 
-087 8.8.8.8.D.
+# 087 8.8.8.8.D.
 
 1 On Calvary’s brow my Savior died
 
@@ -3936,7 +3936,7 @@ To bear the cross and agony
 
 In that dread hour on Calvary!
 
-088 8.6.8.6.8.8.8.6.
+# 088 8.6.8.6.8.8.8.6.
 
 1 Behold! behold the Lamb of God,
 
@@ -4018,7 +4018,7 @@ And join, as one, to hail Him now:
 
 On the throne! On the throne!
 
-089 8.6.8.6.
+# 089 8.6.8.6.
 
 1 Alas! and did my Savior bleed?
 
@@ -4060,7 +4060,7 @@ Here, Lord, I give myself away:
 
 ’Tis all that I can do.
 
-090 6.6.8.6.10.12.
+# 090 6.6.8.6.10.12.
 
 1 No blood, no altar now,
 
@@ -4132,7 +4132,7 @@ The kingdom of our God
 
 and His incarnate Son.
 
-091 7.7.7.8.
+# 091 7.7.7.8.
 
 1 “Man of Sorrows,” what a name
 
@@ -4174,7 +4174,7 @@ Then anew this song we’ll sing:
 
 Hallelujah! what a Savior!
 
-092 8.6.8.8.6.8.8.
+# 092 8.6.8.8.6.8.8.
 
 1 O solemn hour! O hour alone,
 
@@ -4246,7 +4246,7 @@ We, who were worthy but to die,
 
 Now with Thee, “Abba Father,” cry.
 
-093 6.6.8.6.
+# 093 6.6.8.6.
 
 1 Jesus, the sinner’s Friend,
 
@@ -4296,7 +4296,7 @@ And give ten thousand thanks to Thee,
 
 Adoring, at Thy feet.
 
-094 11.11.11.11. with chorus
+# 094 11.11.11.11. with chorus
 
 1 How sweet is the story of Christ’s boundless love,
 
@@ -4334,7 +4334,7 @@ Yes, Jesus, the Savior, the glory-crowned Lord,
 
 Is worthy by all to be ever adored.
 
-095 6.6.8.6.
+# 095 6.6.8.6.
 
 1 Not all the blood of beasts,
 
@@ -4376,7 +4376,7 @@ We bless the Lamb with cheerful voice,
 
 And sing His bleeding love.
 
-096 8.7.8.7.D.
+# 096 8.7.8.7.D.
 
 1 Hail, Thou once despised Jesus!
 
@@ -4442,7 +4442,7 @@ Joyful hearts will ever greet Thee,
 
 Source of joy to all the throng!
 
-097 8.8.8.8.
+# 097 8.8.8.8.
 
 1 How pleasant is the sound of praise!
 
@@ -4492,7 +4492,7 @@ That Thou lost sinners may restore
 
 And to the Father bring them nigh.
 
-098 8.7.8.7.8.7.
+# 098 8.7.8.7.8.7.
 
 1 Hark! the voice of love and mercy
 
@@ -4542,7 +4542,7 @@ Hallelujah! Hallelujah!
 
 Glory to the bleeding Lamb!
 
-099 10.11.11.11. with chorus
+# 099 10.11.11.11. with chorus
 
 1 Thine be the glory, risen, conqu’ring Son,
 
@@ -4574,7 +4574,7 @@ love;
 
 May we in Thy Kingdom reign with Thee above.
 
-100 10.10.10.10.
+# 100 10.10.10.10.
 
 1 The Lord is ris’n; and death’s dark judgment flood
 
@@ -4608,7 +4608,7 @@ The Lord is ris’n: our triumph-shout shall be,
 
 “Thou hast prevailed! Thy people, Lord, are free!”
 
-101 Irregular Meter
+# 101 Irregular Meter
 
 1 Low in the grave He lay—
 
@@ -4646,7 +4646,7 @@ He tore the bars away—
 
 Jesus, my Lord!
 
-102 7.4.7.4.D.
+# 102 7.4.7.4.D.
 
 1 Christ the Lord is ris’n indeed,
 
@@ -4712,7 +4712,7 @@ Free from all the earthly ties,
 
 Hallelujah!
 
-103 6.4.6.4.6.6.6.4.
+# 103 6.4.6.4.6.6.6.4.
 
 1 Thou, Lord, to death’s domain
 
@@ -4778,7 +4778,7 @@ Worthy of all esteem;
 
 Worthy art Thou!
 
-104 8.7.8.7.D. with chorus
+# 104 8.7.8.7.D. with chorus
 
 1 Christ is risen! Hallelujah!
 
@@ -4836,7 +4836,7 @@ Of our trembling hearts have ceased,
 
 Let us rise and keep the feast.
 
-105 6.6.8.6.
+# 105 6.6.8.6.
 
 1 His be the Victor’s name,
 
@@ -4870,7 +4870,7 @@ Who lived, Who died, Who lives again,
 
 For thee, His church, for thee!
 
-106 8.7.8.7.D.
+# 106 8.7.8.7.D.
 
 1 Hallelujah! sing to Jesus,
 
@@ -4936,7 +4936,7 @@ Jesus out of every nation,
 
 Hath redeemed us by His blood.
 
-107 8.6.8.6.
+# 107 8.6.8.6.
 
 1 The veil is rent: Lo! Jesus stands
 
@@ -4986,7 +4986,7 @@ Assured our prayers and songs of praise
 
 Ascend, by Him, to Thee.
 
-108 7.6.7.6.D. Psalm 45 - Part 1
+# 108 7.6.7.6.D. Psalm 45 - Part 1
 
 1 Our hearts are overflowing
 
@@ -5068,7 +5068,7 @@ And praises upon praises
 
 Thy joyful saints shall add.
 
-109 7.6.7.6.D. Psaml 45 - Part 2
+# 109 7.6.7.6.D. Psaml 45 - Part 2
 
 1 The queen in gold of Ophir
 
@@ -5150,7 +5150,7 @@ In all this blest enjoyment
 
 The glory goes to Him.
 
-110 7.6.7.6.D. Psalm 110
+# 110 7.6.7.6.D. Psalm 110
 
 1 The Lord said unto to my Lord,
 
@@ -5232,7 +5232,7 @@ Our all we give unto Thee,
 
 Thou Conqueror glorified.
 
-111 8.6.8.6.D. Psalm 8
+# 111 8.6.8.6.D. Psalm 8
 
 1 O Lord, our Lord, how excellent
 
@@ -5314,7 +5314,7 @@ Let every people, tribe, and tongue
 
 Proclaim its boundless worth.
 
-112 8.7.8.7.7.7.8.7. Psalm 68
+# 112 8.7.8.7.7.7.8.7. Psalm 68
 
 1 God shall rise, His foes be scattered,
 
@@ -5444,7 +5444,7 @@ Hallelujah, hallelujah,
 
 Hallelujah, Amen!
 
-113 8.8.6.8.8.6.
+# 113 8.8.6.8.8.6.
 
 1 O Jesus, Lord ‘tis joy to know
 
@@ -5494,7 +5494,7 @@ How does the thought our spirits cheer,
 
 The throne of glory’s Thine!
 
-114 10.10.10.10. with chorus
+# 114 10.10.10.10. with chorus
 
 1 Far above all is our Savior enthroned;
 
@@ -5536,7 +5536,7 @@ With Him the victors, who follow’d His call,
 
 Share in His royalty far above all.
 
-115 8.6.8.6.
+# 115 8.6.8.6.
 
 1 Behold the Lamb with glory crowned,
 
@@ -5578,7 +5578,7 @@ The crown is His, and His by right
 
 The highest place in heav’n.
 
-116 8.7.8.7.D.
+# 116 8.7.8.7.D.
 
 1 See the Conqu’ror mount in triumph,
 
@@ -5670,7 +5670,7 @@ We by faith, we by faith, we by
 
 faith behold our own.
 
-117 8.7.8.7.
+# 117 8.7.8.7.
 
 1 Hark! Ten thousand voices crying,
 
@@ -5728,7 +5728,7 @@ Through creation’s vault, Amen!
 
 Amen! responsive joy doth raise.
 
-118 10.11.10.11. with chorus
+# 118 10.11.10.11. with chorus
 
 1 At Your feet we fall, mighty risen Lord,
 
@@ -5760,7 +5760,7 @@ And Your words like a two-edged sword have mighty
 
 power.
 
-119 7.7.7.7.
+# 119 7.7.7.7.
 
 1 O my Savior, glorified!
 
@@ -5802,7 +5802,7 @@ Let me but Thy beauty see,
 
 Other light is dark to me.
 
-120 8.7.8.7.7.7.
+# 120 8.7.8.7.7.7.
 
 1 Lord of glory, we adore Thee!
 
@@ -5852,7 +5852,7 @@ Thee we rev’rence, Thee obey—
 
 Own Thee Lord and Christ alway.
 
-121 8.7.8.7.
+# 121 8.7.8.7.
 
 1 Gazing on the Lord in glory,
 
@@ -5902,7 +5902,7 @@ Endless praise and adoration
 
 To the Father and the Son.
 
-122 8.6.8.6. with repeat
+# 122 8.6.8.6. with repeat
 
 1 All hail the pow’r of Jesus’ name!
 
@@ -5942,7 +5942,7 @@ We at His feet may fall!
 
 We’ll join the everlasting song,
 
-123 8.6.8.6. with repeat
+# 123 8.6.8.6. with repeat
 
 1 All hail the pow’r of Jesus’ name!
 
@@ -5978,7 +5978,7 @@ We’ll join the everlasting song,
 
 And crown Him Lord of all!
 
-124 6.6.8.6.D.
+# 124 6.6.8.6.D.
 
 1 Crown Him with many crowns,
 
@@ -6044,7 +6044,7 @@ Be Thou, O Lord, thro’ endless days
 
 Adored and magnified.
 
-125 8.6.8.6.
+# 125 8.6.8.6.
 
 1 Jesus, Thy head, once crown’d with thorns,
 
@@ -6086,7 +6086,7 @@ Our present glory, joy and wealth,
 
 Our everlasting stay.
 
-126 8.7.8.7.8.7.
+# 126 8.7.8.7.8.7.
 
 1 Look, ye saints, the sight is glorious;
 
@@ -6144,7 +6144,7 @@ Crown Him! Crown Him!
 
 King of kings, and Lord of lords!
 
-127 Irregular Meter.
+# 127 Irregular Meter.
 
 He is Lord. He is Lord.
 
@@ -6156,7 +6156,7 @@ ev’ry tongue confess
 
 That Jesus Christ is Lord.
 
-128 9.12.9.12.12.12.9.12.
+# 128 9.12.9.12.12.12.9.12.
 
 Majesty, worship His majesty.
 
@@ -6178,7 +6178,7 @@ Jesus, who died, now glorified,
 
 King of all Kings.
 
-129 8.7.8.7.
+# 129 8.7.8.7.
 
 1 Jesus, Thou alone art worthy
 
@@ -6208,7 +6208,7 @@ Praise Him! praise Him! till in glory
 
 Perfected we’ll sing His praise.
 
-130 8.8.6.8.8.6.6.
+# 130 8.8.6.8.8.6.6.
 
 1 O blessed Savior, Son of God!
 
@@ -6266,7 +6266,7 @@ And ever dwell with Thee,
 
 And ever dwell with Thee.
 
-131 8.8.8.8.
+# 131 8.8.8.8.
 
 1 Jesus shall reign where’er the sun
 
@@ -6316,7 +6316,7 @@ Angels descend with songs again,
 
 And earth repeat the loud Amen.
 
-132 8.7.8.7.7.7. with chorus
+# 132 8.7.8.7.7.7. with chorus
 
 1 Hark! Ten thousand heav’nly voices
 
@@ -6382,7 +6382,7 @@ Then with raptured hearts we’ll sing.
 
 “Glory, glory to our King!”
 
-133 6.6.6.6.8.8.
+# 133 6.6.6.6.8.8.
 
 1 Rejoice, the Lord is King,
 
@@ -6432,7 +6432,7 @@ Lift up your heart, lift up your voice;
 
 Rejoice, again I say, rejoice.
 
-134 8.7.8.7.7.7.
+# 134 8.7.8.7.7.7.
 
 1 Lord, Thy love has sought and found us
 
@@ -6518,7 +6518,7 @@ Yet e’en now our song shall be,
 
 Jesus gave Himself for me.
 
-135 8.6.8.8.6.
+# 135 8.6.8.8.6.
 
 1 Eternal Love! Oh, mighty sea,
 
@@ -6570,7 +6570,7 @@ The light in which Thy saints shall shine
 
 Thru everlasting days.
 
-136 8.7.8.7.D.
+# 136 8.7.8.7.D.
 
 1 Oh, the deep, deep love of Jesus,
 
@@ -6620,7 +6620,7 @@ And it lifts me up to glory,
 
 For it lifts me up to Thee.
 
-137 13.13.13.13. with chorus
+# 137 13.13.13.13. with chorus
 
 1.  I stand all amazed at the
 
@@ -6678,7 +6678,7 @@ Until at the glorified throne
 
 I kneel at His feet.
 
-138 8.7.8.7. with chorus
+# 138 8.7.8.7. with chorus
 
 1 I stand amazed in the presence
 
@@ -6728,7 +6728,7 @@ His face I at last shall see,
 
 To sing of His love for me.
 
-139 8.6.8.6.
+# 139 8.6.8.6.
 
 1 O blessed Savior, is Thy love
 
@@ -6786,7 +6786,7 @@ And ever shall Thy name to us
 
 A grateful odor prove.
 
-140 8.8.8.8.4.4.8.8.
+# 140 8.8.8.8.4.4.8.8.
 
 1 I have a Friend, whose faithful love
 
@@ -6858,7 +6858,7 @@ And bowing there with loud acclaim
 
 I’ll praise Him—Blessed be His name!
 
-141 8.6.8.6.
+# 141 8.6.8.6.
 
 1 Lord Jesus, are we one with Thee?
 
@@ -6908,7 +6908,7 @@ Thou shalt to wondering worlds display
 
 That Thou with us art one.
 
-142 10.10.10.10.4.
+# 142 10.10.10.10.4.
 
 1 It passeth knowledge, that dear love of Thine,
 
@@ -6980,7 +6980,7 @@ Its height and depth, its everlasting strength,
 
 My soul shall sing.
 
-143 8.6.8.6. with repeat
+# 143 8.6.8.6. with repeat
 
 1 Majestic sweetness sits enthroned
 
@@ -7024,7 +7024,7 @@ Had I a thousand hearts to give,
 
 Lord, they should all be Thine.
 
-144 8.6.8.6.8.8.8.6.
+# 144 8.6.8.6.8.8.8.6.
 
 1 King of my life, I crown Thee now,
 
@@ -7074,7 +7074,7 @@ Then touch my lips with holy fire.
 
 To speak of Calvary.
 
-145 11.12.12.12.
+# 145 11.12.12.12.
 
 1 With praise and thanksgiving there
 
@@ -7124,7 +7124,7 @@ So that others, believing, this new
 
 song shall sing.
 
-146 8.6.8.6.
+# 146 8.6.8.6.
 
 1 O for a thousand tongues to sing
 
@@ -7174,7 +7174,7 @@ Had I a thousand hearts to give,
 
 My Lord, they all were Thine!
 
-147 6.5.6.5.D.
+# 147 6.5.6.5.D.
 
 1 Jesus, wondrous Savior!
 
@@ -7240,7 +7240,7 @@ May we, gracious Savior,
 
 Share this ecstasy.
 
-148 5.6.8.5.5.8.
+# 148 5.6.8.5.5.8.
 
 1 Fairest Lord Jesus!
 
@@ -7290,7 +7290,7 @@ Fairer, or dearer,
 
 Than Thou my Savior art to me.
 
-149 8.8.8.8.8.8.
+# 149 8.8.8.8.8.8.
 
 1 Our hearts are full of Christ and long
 
@@ -7316,7 +7316,7 @@ God ever-blest! we bow the knee,
 
 And own all fullness dwells in Thee.
 
-150. 8.6.8.6.
+# 150. 8.6.8.6.
 
 1 Lord Jesus! when we think of Thee,
 
@@ -7358,7 +7358,7 @@ Till we, in robes of white arrayed,
 
 Thy face in glory see.
 
-151 7.6.7.6.D.
+# 151 7.6.7.6.D.
 
 1 O Christ, He is the fountain,
 
@@ -7408,7 +7408,7 @@ The Lamb is all the glory,
 
 And my eternal stand!
 
-152 6.6.4.6.6.6.4.
+# 152 6.6.4.6.6.6.4.
 
 1 Glory to Christ on high!
 
@@ -7466,7 +7466,7 @@ And, without ceasing, sing,
 
 “Worthy the Lamb!”
 
-153 8.4.8.4.8.8.8.4.
+# 153 8.4.8.4.8.8.8.4.
 
 1 “Tis the Church triumphant singing,
 
@@ -7532,7 +7532,7 @@ Still untold, though ever telling.
 
 Worthy the Lamb.
 
-154 8.5.8.5.D.
+# 154 8.5.8.5.D.
 
 1 Blessed Lord, our hallelujahs
 
@@ -7574,7 +7574,7 @@ Join with saints from every nation,
 
 Every tribe and tongue.
 
-155 11.10.11.10. with chorus
+# 155 11.10.11.10. with chorus
 
 1 Jesus, our Lord, with what joy we adore Thee,
 
@@ -7616,7 +7616,7 @@ Can we refrain then from telling the story?
 
 Lord, Thou art Victor o’er death and the grave.
 
-156 8.6.8.6.
+# 156 8.6.8.6.
 
 1 Come, let us join our cheerful songs,
 
@@ -7658,7 +7658,7 @@ Of Him that sits upon the throne,
 
 And to exalt the Lamb.
 
-157 8.7.8.7.8.7.
+# 157 8.7.8.7.8.7.
 
 1 Glory be to Him who loved us,
 
@@ -7696,7 +7696,7 @@ Glory ever and forever
 
 To the King of Glory bring.
 
-158 6.6.6.6.8.8.
+# 158 6.6.6.6.8.8.
 
 1 We come, O Christ, to Thee,
 
@@ -7758,7 +7758,7 @@ So fill our hearts that men may see
 
 Thy life in us and turn to Thee!
 
-159 8.7.8.7.D.
+# 159 8.7.8.7.D.
 
 1 Jesus only is our message,
 
@@ -7816,7 +7816,7 @@ But ‘twill still be Jesus only,
 
 Jesus ever, all in all.
 
-160 8.7.8.7.
+# 160 8.7.8.7.
 
 1 Gathered in Thy name, Lord Jesus,
 
@@ -7866,7 +7866,7 @@ Psalms of glory, joy increasing,
 
 Through God’s endless day of days.
 
-161 11.10.11.10. with chorus
+# 161 11.10.11.10. with chorus
 
 1 O Jesus Lord, when present at Thy table,
 
@@ -7920,7 +7920,7 @@ That all Thou art is small enough to eat.
 
 (First chorus)
 
-162 7.6.7.6.D. with chorus
+# 162 7.6.7.6.D. with chorus
 
 1 Lord, Thou art our peace off’ring;
 
@@ -8034,7 +8034,7 @@ O what a joy, O what a feast
 
 With all God’s people here.
 
-163 Irregular Meter
+# 163 Irregular Meter
 
 1 Praise Him! praise Him! Jesus our blessed Redeemer!
 
@@ -8084,7 +8084,7 @@ Jesus lives! No longer thy portals are cheerless;
 
 Jesus lives, the mighty and strong to save.
 
-164 4.8.4.6.
+# 164 4.8.4.6.
 
 1 In my life, Lord,
 
@@ -8102,7 +8102,7 @@ In Your church, Lord,
 
 Be glorified today.
 
-165 8.7.8.7.D.
+# 165 8.7.8.7.D.
 
 1 Lamb of God! our souls adore Thee,
 
@@ -8184,7 +8184,7 @@ Thine the praise and Thine the glory,
 
 Lamb of God, for sinners slain!
 
-166 7.7.7.3.
+# 166 7.7.7.3.
 
 1 O come, let us adore Him,
 
@@ -8218,7 +8218,7 @@ For He alone is worthy,
 
 Christ the lord.
 
-167 7.6.7.6.D. with chorus
+# 167 7.6.7.6.D. with chorus
 
 1 Ten thousand thanks to Jesus,
 
@@ -8276,7 +8276,7 @@ His love thro’ endless ages
 
 Our sweetest song shall be.
 
-168 Irregular Meter
+# 168 Irregular Meter
 
 Blessing and honor and glory be Thine,
 
@@ -8300,7 +8300,7 @@ Blessing and honor and glory be Thine,
 
 Both now and evermore.
 
-169 6.6.6.6.6.6.
+# 169 6.6.6.6.6.6.
 
 1 When morning gilds the skies,
 
@@ -8374,7 +8374,7 @@ Through all the ages long,
 
 May Jesus Christ be praised!
 
-170 Irregular Meter
+# 170 Irregular Meter
 
 I love You, Lord, and I lift my voice
 
@@ -8384,7 +8384,7 @@ Take joy, my King, in what You hear,
 
 May it be a sweet, sweet sound in Your ear.
 
-171 12.12.12.6. with chorus
+# 171 12.12.12.6. with chorus
 
 1.  Oh, spread the tidings ‘round,
 
@@ -8456,7 +8456,7 @@ should in His image shine!
 
 The Comforter has come!
 
-172 Irregular Meter
+# 172 Irregular Meter
 
 1 Fainting in the desert, Israel’s thousands stand
 
@@ -8492,7 +8492,7 @@ So on Thy bosom Let my spirit rest,
 
 Filled with Thy life, With Thy blessing blest.
 
-173 8.7.8.7. with chorus
+# 173 8.7.8.7. with chorus
 
 1 Joys are flowing like a river,
 
@@ -8542,7 +8542,7 @@ What a perfect habitation!
 
 What a quiet resting place!
 
-174 7.7.8.7. with chorus
+# 174 7.7.8.7. with chorus
 
 1 Rivers of living water,
 
@@ -8590,7 +8590,7 @@ Anything, anywhere only,
 
 Just for His service made meet!
 
-175 Irregular Meter
+# 175 Irregular Meter
 
 1 There’s a river of life flowing out thru me,
 
@@ -8648,7 +8648,7 @@ O Lord, just take this life and let me live for thee,
 
 There’s a full salvation wrought for you and me.
 
-176 8.7.8.7. with chorus
+# 176 8.7.8.7. with chorus
 
 1 O Lord, breathe Thy Spirit on me,
 
@@ -8707,7 +8707,7 @@ Breath by breath I live upon Thee,
 
 Lord, Thy Spirit breathe in me.
 
-177 8.6.8.6.D.
+# 177 8.6.8.6.D.
 
 1 Praise waiteth Thee in Zion’s Courts,
 
@@ -8757,7 +8757,7 @@ Make this another Pentecost,
 
 Answer our spirit’s cry.
 
-178 6.6.6.6.D. with chorus
+# 178 6.6.6.6.D. with chorus
 
 1 God sent His mighty pow’r
 
@@ -8823,7 +8823,7 @@ His love is shed abroad,
 
 The fire is in my soul.
 
-179 11.9.11.9. with chorus
+# 179 11.9.11.9. with chorus
 
 1 Now the Triune God has come to dwell within
 
@@ -8873,7 +8873,7 @@ When we call “Lord Jesus” how our spirits spring
 
 With this life-giving Spirit in us!
 
-180 11.11.8.11
+# 180 11.11.8.11
 
 .
 
@@ -8893,7 +8893,7 @@ Spirit of the Living God,
 
 Fall fresh on me.
 
-181 16.11.16.11. with chorus
+# 181 16.11.16.11. with chorus
 
 1 O let the Son of God enfold you
 
@@ -8929,7 +8929,7 @@ And you’ll enter into life in Jesus’ name.
 
 (Repeat Chorus)
 
-182 8.7.8.7. with chorus
+# 182 8.7.8.7. with chorus
 
 1 What a glory! What a blessing!
 
@@ -8971,7 +8971,7 @@ Transformed to Thy glorious image,
 
 I’d forever flow out Thee.
 
-183 8.7.8.7.
+# 183 8.7.8.7.
 
 1 Praise the Lord, who firmly joined us
 
@@ -9031,7 +9031,7 @@ Such a wondrous, blest deposit
 
 God has given you and me.
 
-184 8.8.8.8.
+# 184 8.8.8.8.
 
 1 The Holy Spirit is the seal,
 
@@ -9076,7 +9076,7 @@ With all Thy Spirit’s inward move;\
 That we become Thy masterpiece,\
 Th’eternal purpose thus to prove.
 
-185 7.6.7.6.D. with chorus
+# 185 7.6.7.6.D. with chorus
 
 1 Lord, may Thy blood now cleanse me,
 
@@ -9143,7 +9143,7 @@ And may Thy living water
 
 On me and thru me pour.
 
-186 7.7.7.7. with chorus
+# 186 7.7.7.7. with chorus
 
 1 “Seven Spirits” of our God—
 
@@ -9205,7 +9205,7 @@ All the churches of the Lord
 
 May this Spirit now enjoy.
 
-187 9.8.9.8.
+# 187 9.8.9.8.
 
 1 O Breath of Life, come sweeping through us,
 
@@ -9247,7 +9247,7 @@ Revive us, Lord, the world is waiting,
 
 Equip Thy Church to spread the light.
 
-188 8.7.8.7. D.
+# 188 8.7.8.7. D.
 
 1 Of the Spirit, born of Spirit—
 
@@ -9313,7 +9313,7 @@ Just the Spirit in the churches
 
 Is the Lord’s recovery.
 
-189 11.11.11.11.
+# 189 11.11.11.11.
 
 1 We have come, we have come to the house of God;
 
@@ -9355,7 +9355,7 @@ Let the fount from this mount life abundant bring,
 
 Till the deserts of the earth with churches spring!
 
-190 8.8.8.8.
+# 190 8.8.8.8.
 
 1 Lord, when the Father ne’er was known,
 
@@ -9413,7 +9413,7 @@ For since we know how real Thou art,
 
 No other one could lovelier be.
 
-191 8.8.8.8.
+# 191 8.8.8.8.
 
 1 In all thy work, O Lord, Thou didst
 
@@ -9471,7 +9471,7 @@ But Thou art still on earth; how grand!
 
 Thou livest right within my heart.
 
-192 8.8.8.8.
+# 192 8.8.8.8.
 
 1 Lord, Thou didst know when in the flesh,
 
@@ -9529,7 +9529,7 @@ Thus I am all the time myself
 
 And constantly am also Thee.
 
-193 8.8.8.8.
+# 193 8.8.8.8.
 
 1 Oh, Jesus, Lord, when Thou on earth
 
@@ -9603,7 +9603,7 @@ Thy presence sweetly fills our souls;
 
 Our hearts are to Thy praises giv’n.
 
-194 Irregular Meter
+# 194 Irregular Meter
 
 1.  We’ve come to love the Bible,
 
@@ -9681,7 +9681,7 @@ The Word! The Word unites us to the Lord
 
 Until the Spirit and the Bride say, Come! in one accord.
 
-195 8.8.8.8.D.
+# 195 8.8.8.8.D.
 
 1 Oh, how we love the precious Word!
 
@@ -9747,7 +9747,7 @@ By it we’re gaining Christ each day;
 
 And righteousness of faith display.
 
-196 8.8.8.8.
+# 196 8.8.8.8.
 
 1 Oh, how I love this blessed Book!
 
@@ -9781,7 +9781,7 @@ The lamp that cheers my darkest night,
 
 The sunshine of my brightest day.
 
-197 6.5.6.5.
+# 197 6.5.6.5.
 
 1 Speak, Lord, in the stillness,
 
@@ -9839,7 +9839,7 @@ Lingering in Thy presence,
 
 Let my life appear.
 
-198 8.8.8.8.
+# 198 8.8.8.8.
 
 1 Lord, hast Thou not one word for me
 
@@ -9881,7 +9881,7 @@ To dwell with Thee in sweet accord;
 
 One word, O Lord! One word from Thee.
 
-199 8.8.9.8. with chorus
+# 199 8.8.9.8. with chorus
 
 1 Open my eyes that I may see
 
@@ -9923,7 +9923,7 @@ What shall I fear while yet Thou dost lead?
 
 Only for light from Thee I plead.
 
-200 8.7.8.7.7.7.
+# 200 8.7.8.7.7.7.
 
 1 Master, speak! Thy servant heareth,
 
@@ -9985,7 +9985,7 @@ Where the Shepherd leads the flock,
 
 In the shadow of the Rock!
 
-201 6.4.6.4.D.
+# 201 6.4.6.4.D.
 
 1 Break Thou the Bread of Life,
 
@@ -10051,7 +10051,7 @@ And I shall find my peace,
 
 My All in all.
 
-202 8.6.8.6.D.
+# 202 8.6.8.6.D.
 
 1 Thy Word is like a storehouse, Lord,
 
@@ -10117,7 +10117,7 @@ And to its heav’nly teaching turn,
 
 With simple, child-like hearts.
 
-203 8.6.8.6.D.
+# 203 8.6.8.6.D.
 
 1 We limit not the truth of God
 
@@ -10199,7 +10199,7 @@ The Lord hath yet more light and truth
 
 To break forth from His Word.
 
-204 8.6.8.6.
+# 204 8.6.8.6.
 
 1 Jesus is longing for His Bride,
 
@@ -10249,7 +10249,7 @@ Now by Thy Word supply our lack,
 
 Make us Thy counterpart.
 
-205 8.6.8.6.
+# 205 8.6.8.6.
 
 1 Teach us to pray that we may cause
 
@@ -10283,7 +10283,7 @@ To know the victory is ours
 
 And Thine authority.
 
-206 7.7.7.3.
+# 206 7.7.7.3.
 
 1 Christian, seek not yet repose,
 
@@ -10333,7 +10333,7 @@ Pray, that help may be sent down:
 
 Watch and pray.
 
-207 8.7.8.7. with chorus
+# 207 8.7.8.7. with chorus
 
 1 In the mighty Name of Jesus,
 
@@ -10367,7 +10367,7 @@ When the Mighty Name of Jesus
 
 Shall exalt us to the Throne.
 
-208 8.7.8.7.
+# 208 8.7.8.7.
 
 1 “Ask in faith,” the Name of Jesus
 
@@ -10401,7 +10401,7 @@ Faith delights Him; faith can touch Him,
 
 Every moment, everywhere.
 
-209 10.9.10.9. with chorus
+# 209 10.9.10.9. with chorus
 
 1 I must tell Jesus all of my trials;
 
@@ -10443,7 +10443,7 @@ I must tell Jesus; He will enable
 
 Over the world the vict’ry to win.
 
-210 8.7.8.7.D.
+# 210 8.7.8.7.D.
 
 1 What a Friend we have in Jesus,
 
@@ -10493,7 +10493,7 @@ In His arms He’ll take and shield thee,
 
 Thou wilt find a solace there.
 
-211 8.7.8.7.D. with repeat
+# 211 8.7.8.7.D. with repeat
 
 1 In the secret of His presence
 
@@ -10561,7 +10561,7 @@ By the Spirit bear the image
 
 Of the Master in your face.
 
-212 8.7.8.7.D.
+# 212 8.7.8.7.D.
 
 1 Sitting at the feet of Jesus,
 
@@ -10611,7 +10611,7 @@ May I prove I’ve been with Jesus,
 
 Who is all my righteousness.
 
-213 6.5.6.5.D.
+# 213 6.5.6.5.D.
 
 1 “Keep the incense burning”
 
@@ -10677,7 +10677,7 @@ Making us a glory
 
 To our Savior’s name.
 
-214 10.10.10.10.10.10.
+# 214 10.10.10.10.10.10.
 
 1 Stir me, oh, stir me, Lord, I care not how,
 
@@ -10739,7 +10739,7 @@ Oh! stir us, Lord, as heralds of that day.
 
 For night is past, our King is on His way.
 
-215 7.7.7.7.
+# 215 7.7.7.7.
 
 1 Father, let Thy kingdom come,
 
@@ -10789,7 +10789,7 @@ And, in every human heart,
 
 Father, let Thy kingdom come.
 
-216 8.6.8.6.D.
+# 216 8.6.8.6.D.
 
 1 All heaven waits with bated breath,
 
@@ -10871,7 +10871,7 @@ Let Jesus voice speak like the roar
 
 Of a great multitude.
 
-217 6.6.8.6.D.
+# 217 6.6.8.6.D.
 
 1 Revive Thy work, O Lord!
 
@@ -10929,7 +10929,7 @@ Be Thine the glory, Thine alone!
 
 The blessing, Lord, be ours!
 
-218 8.8.8.8.D.
+# 218 8.8.8.8.D.
 
 1 Sweet hour of prayer, sweet hour of prayer,
 
@@ -10979,7 +10979,7 @@ I’ll cast on Him my ev’ry care,
 
 And wait for thee, sweet hour of pray’r.
 
-219 Irregular Meter
+# 219 Irregular Meter
 
 1 Don’t you be in such a hurry,
 
@@ -11041,7 +11041,7 @@ Come and spend some time with Me,
 
 Come away.
 
-220 7.6.7.6.D.
+# 220 7.6.7.6.D.
 
 1 The Church’s one foundation
 
@@ -11107,7 +11107,7 @@ Like them, the meek and lowly,
 
 In love may dwell with Thee.
 
-221 8.7.8.7.D.
+# 221 8.7.8.7.D.
 
 1 Church of God, beloved and chosen,
 
@@ -11173,7 +11173,7 @@ Spotless, glorious, and holy,
 
 Is the Church, His chosen Bride.
 
-222 8.8.8.8.
+# 222 8.8.8.8.
 
 1 On Christ, salvation rests secure;
 
@@ -11215,7 +11215,7 @@ For us, the lost, condemned, undone,
 
 He gave Himself, the “Living Stone.”
 
-223 8.8.8.8.8.8. with repeat
+# 223 8.8.8.8.8.8. with repeat
 
 1 Oh, what a might! Oh, what a strength!
 
@@ -11255,7 +11255,7 @@ All that He is and all He has
 
 Is now our life unspeakable.
 
-224 9.8.8.9. with chorus
+# 224 9.8.8.9. with chorus
 
 1 Father God, Thou art the source of life.
 
@@ -11305,7 +11305,7 @@ In Thy glory, in Thy glory,
 
 In Thy glory we are all made one!
 
-225 6.6.8.6.
+# 225 6.6.8.6.
 
 1 Let party names no more
 
@@ -11339,7 +11339,7 @@ Where streams of endless pleasure flow,
 
 And every heart is love.
 
-226 8.7.8.7.D.
+# 226 8.7.8.7.D.
 
 1 Saints in Christ! Why thus divided?
 
@@ -11421,7 +11421,7 @@ Then—oh! blessed hope we shall be
 
 ONE, “for ever with the Lord!”
 
-227 8.7.8.7. with chorus
+# 227 8.7.8.7. with chorus
 
 1 Jesus, our wonderful Shepherd
 
@@ -11471,7 +11471,7 @@ Here all the sheep dwell securely,
 
 Kept by His presence so dear.
 
-228 6.6.6.6.8.8.
+# 228 6.6.6.6.8.8.
 
 1 Behold how good a thing
 
@@ -11547,7 +11547,7 @@ The grace, the grace for all is free,
 
 For, lo, it reaches now to me!
 
-229 15.11.15.11. with chorus
+# 229 15.11.15.11. with chorus
 
 1.  Splendid church life! His green garden!
 
@@ -11619,7 +11619,7 @@ in the spirit feast on Him,
 
 So God’s garden can bear fruit abundantly.
 
-230 7.7.7.7.
+# 230 7.7.7.7.
 
 1 Christ, from whom all blessings flow,
 
@@ -11661,7 +11661,7 @@ Names, and sects, and parties fall:
 
 Thou, O Christ, art all in all.
 
-231 8.6.8.6.
+# 231 8.6.8.6.
 
 1 How sweet, how heav’nly is the sight,
 
@@ -11703,7 +11703,7 @@ And he is glory’s heir that finds
 
 His bosom glow with love.
 
-232 6.6.8.6.
+# 232 6.6.8.6.
 
 1 Blest be the tie that binds
 
@@ -11745,7 +11745,7 @@ And perfect love and oneness reign
 
 Through all eternity.
 
-233 8.6.8.6. with repeat
+# 233 8.6.8.6. with repeat
 
 1 All praise to our redeeming Lord,
 
@@ -11789,7 +11789,7 @@ What height of rapture shall we know,
 
 When round His throne we meet!
 
-234 Irregular Meter
+# 234 Irregular Meter
 
 Welcome to the family,
 
@@ -11821,7 +11821,7 @@ And teach us how to pray,
 
 That we might be a true family.
 
-235 8.7.8.7.D.
+# 235 8.7.8.7.D.
 
 1 Lord, to know Thee as the Body,
 
@@ -11887,7 +11887,7 @@ Gain in us Thy heart’s desire,
 
 Corporately Thyself display.
 
-236 6.6.8.6.
+# 236 6.6.8.6.
 
 1 I love Thy kingdom, Lord,
 
@@ -11929,7 +11929,7 @@ The brightest glories earth can yield,
 
 And brighter bliss of heaven.
 
-237 15.11.15.11. with chorus
+# 237 15.11.15.11. with chorus
 
 1.  Oh, the church of Christ is glorious,
 
@@ -12011,7 +12011,7 @@ How we shine by eating Jesus!
 
 Hallelujah, eating Jesus is the way!
 
-238 8.6.8.6. with chorus
+# 238 8.6.8.6. with chorus
 
 1 The Bible is the Word of God,
 
@@ -12061,7 +12061,7 @@ That we be wholly sanctified,
 
 A Bride all-glorious.
 
-239 9.7.9.7. with repeat
+# 239 9.7.9.7. with repeat
 
 1 O walk about, walk about Zion,
 
@@ -12145,7 +12145,7 @@ O tell it to all generations,
 
 The Spirit and Bride say, “Come!”
 
-240 8.8.8.6. with chorus
+# 240 8.8.8.6. with chorus
 
 1 From ev’rything to Christ we’ve turned;
 
@@ -12227,7 +12227,7 @@ O brothers, let us utterly
 
 Be one with Him for this.
 
-241 Irregular Meter
+# 241 Irregular Meter
 
 1 This is the time for building the temple of the Lord
 
@@ -12285,7 +12285,7 @@ gone before,
 
 And we will share this glory forevermore.
 
-242 Irregular Meter
+# 242 Irregular Meter
 
 1 Recall how David swore,
 
@@ -12353,7 +12353,7 @@ We rise, O Lord, to build!
 
 (Repeat the last four lines)
 
-243 6.5.6.5.D. with chorus
+# 243 6.5.6.5.D. with chorus
 
 1 See the golden lampstands,
 
@@ -12451,7 +12451,7 @@ God’s complete expression,
 
 For eternity.
 
-244 7.6.7.6.D. with chorus
+# 244 7.6.7.6.D. with chorus
 
 1 The churches are the Body
 
@@ -12525,7 +12525,7 @@ And to Thy throne do take us,
 
 To reign with Thee on high.
 
-245 8.8.8.8.
+# 245 8.8.8.8.
 
 1 In Revelation chapter one
 
@@ -12583,7 +12583,7 @@ All other loves now lay aside;
 
 Let’s take this Jesus, none beside.
 
-246 8.8.8.8.
+# 246 8.8.8.8.
 
 1 In Revelation two and three,
 
@@ -12721,7 +12721,7 @@ Anoint our eyes and let us see
 
 So You can have recovery.
 
-247 8.7.8.7.D.
+# 247 8.7.8.7.D.
 
 1 Glorious things to thee are spoken,
 
@@ -12803,7 +12803,7 @@ Now the Spirit in the churches
 
 Speaks to all who have an ear.
 
-248 8.7.8.7.
+# 248 8.7.8.7.
 
 1 Oh, the Lord is quickly coming,
 
@@ -12869,7 +12869,7 @@ Quickly come, Lord Jesus”,
 
 Answer back His faithful few.
 
-249 9.8.8.9. with chorus
+# 249 9.8.8.9. with chorus
 
 1 God be with you till we meet again;
 
@@ -12911,7 +12911,7 @@ Smite death’s threatening wave before you;
 
 God be with you till we meet again!
 
-250 7.6.7.6.D.
+# 250 7.6.7.6.D.
 
 1 Around Thy grave, Lord Jesus,
 
@@ -12977,7 +12977,7 @@ And here would walk as strangers.
 
 Alive with Thee to God.
 
-251 8.8.8.8.
+# 251 8.8.8.8.
 
 1 Is it Thy will that I should be
 
@@ -13027,7 +13027,7 @@ That joy will far exceed the shame
 
 I bear on earth for Thy loved name.
 
-252 12.11.12.12
+# 252 12.11.12.12
 
 1 We gather together to eat the Lord’s supper:
 
@@ -13061,7 +13061,7 @@ Thy blood we’re employing, Thy Body enjoying;
 
 Thus Thou wilt have the church for Thyself glorious.
 
-253 9.8.8.9. with chorus
+# 253 9.8.8.9. with chorus
 
 1 Oh, how glorious is Thy table, Lord,
 
@@ -13119,7 +13119,7 @@ Hope, to fill our daily living;
 
 How encouraging Thy table, Lord!
 
-254 11.10.11.10. with chorus
+# 254 11.10.11.10. with chorus
 
 1 We’re gathered here, O Lord, as Thy one Body:
 
@@ -13169,7 +13169,7 @@ And we too share this blissful satisfaction
 
 Sweet foretaste of the Bridegroom with His Bride.
 
-255 8.6.8.6.
+# 255 8.6.8.6.
 
 1 According to Thy gracious word,
 
@@ -13219,7 +13219,7 @@ When Thou shalt in Thy kingdom come,
 
 Jesus, remember me.
 
-256 8.7.8.7.D.
+# 256 8.7.8.7.D.
 
 1 Jesus spreads His banner o’er us,
 
@@ -13269,7 +13269,7 @@ Coming soon in glory splendid—
 
 Blest remembrance, Lord, of Thee.
 
-257 8.7.8.7.D.
+# 257 8.7.8.7.D.
 
 1 Jesus, Lord, we know Thee present
 
@@ -13335,7 +13335,7 @@ That with Thee we soon shall be, Lord,
 
 Yes, “forever” where Thou art.
 
-258 7.6.7.6.D.
+# 258 7.6.7.6.D.
 
 1 On that same night, Lord Jesus,
 
@@ -13417,7 +13417,7 @@ More to Thy death conformed,
 
 While we remember Thee.
 
-259 6.6.8.6.
+# 259 6.6.8.6.
 
 1 Sweet feast of love divine!
 
@@ -13467,7 +13467,7 @@ And all Thy ways of wondrous grace
 
 Through endless years declare.
 
-260 10.10.10.10.
+# 260 10.10.10.10.
 
 1 Here, O my Lord, I see Thee face to face;
 
@@ -13517,7 +13517,7 @@ Giving sweet foretastes of the festal joy,
 
 The Lamb’s great bridal-feast of bliss and love.
 
-261 7.7.7.6.
+# 261 7.7.7.6.
 
 1 For the bread and for the wine,
 
@@ -13583,7 +13583,7 @@ For the glory and the throne,
 
 We give Thee thanks, O Lord.
 
-262 7.8.7.8. with chorus
+# 262 7.8.7.8. with chorus
 
 1 From heav’n You came, helpless babe,
 
@@ -13625,7 +13625,7 @@ Each other’s needs to prefer,
 
 For it is Christ we’re serving.
 
-263 9.9.10.10.7.
+# 263 9.9.10.10.7.
 
 Make me a servant, humble and meek,
 
@@ -13637,7 +13637,7 @@ Make me a servant, make me a servant,
 
 Make me a servant today.
 
-264 8.8.8.8.D.
+# 264 8.8.8.8.D.
 
 1 We have a most glorious King;
 
@@ -13719,7 +13719,7 @@ We’ll dwell with the King for His work
 
 In endless, ineffable joy!
 
-265 8.8.8.8.
+# 265 8.8.8.8.
 
 1 O Master, let me walk with Thee
 
@@ -13753,7 +13753,7 @@ In peace that only Thou canst give,
 
 With Thee, O Master, let me live.
 
-266 10.8.10.8.8.8.10.8.
+# 266 10.8.10.8.8.8.10.8.
 
 If you want to be great in God’s kingdom,
 
@@ -13771,7 +13771,7 @@ If you want to be great in God’s kingdom,
 
 Learn to be the servant of all.
 
-267 8.8.8.8.
+# 267 8.8.8.8.
 
 1 Lord, speak to me, that I may speak
 
@@ -13829,7 +13829,7 @@ Until Thy blessed face I see,
 
 Thy rest, Thy joy, Thy glory share!
 
-268 6.6.6.6.D.
+# 268 6.6.6.6.D.
 
 1 Shine Thou upon us, Lord,
 
@@ -13895,7 +13895,7 @@ And plead, by more than speech,
 
 For Thee with every heart.
 
-269 8.7.8.7.D.
+# 269 8.7.8.7.D.
 
 1 How I praise Thee, precious Savior,
 
@@ -13945,7 +13945,7 @@ That the streams of living water
 
 From our inner man may flow.
 
-270 11.10.11.10.
+# 270 11.10.11.10.
 
 1 Flow through me, Lord, a weak and earthly vessel,
 
@@ -13995,7 +13995,7 @@ Flow through me, Lord, till naught in earth or heaven,
 
 Can satisfy my being, Lord, but Thee.
 
-271 7.7.7.7.
+# 271 7.7.7.7.
 
 1 In the wilderness for God!
 
@@ -14029,7 +14029,7 @@ Make me that, just that, O God,
 
 For the glory of Thy Name.
 
-272 7.6.7.6.D.
+# 272 7.6.7.6.D.
 
 1 Work, for the Day is coming,
 
@@ -14111,7 +14111,7 @@ Night shades appall no longer,
 
 Jesus, our Lord, is near.
 
-273 8.8.8.8.
+# 273 8.8.8.8.
 
 1 Go labor on; spend, and be spent;
 
@@ -14169,7 +14169,7 @@ Soon shalt thou hear the Master’s voice,
 
 The midnight cry, Behold, I come!
 
-274 Irregular Meter
+# 274 Irregular Meter
 
 1 Come let us anew
 
@@ -14219,7 +14219,7 @@ May receive the glad word,
 
 Enter into My joy, and sit down on My throne!
 
-275 7.7.7.7.
+# 275 7.7.7.7.
 
 1 Not where we elect to go,
 
@@ -14261,7 +14261,7 @@ Thus we serve, and pray, and give,
 
 Christ Himself our great Reward.
 
-276 8.7.8.7. with chorus
+# 276 8.7.8.7. with chorus
 
 1 There shall be showers of blessing:
 
@@ -14311,7 +14311,7 @@ There shall be seasons refreshing
 
 If we let God have His way.
 
-277 11.10.11.10.
+# 277 11.10.11.10.
 
 1 O perfect Love, all human thought transcending,
 
@@ -14337,7 +14337,7 @@ And to life’s day the glorious, unknown morrow
 
 That dawns upon eternal love and life.
 
-278 8.8.8.6.
+# 278 8.8.8.6.
 
 1 O God of love to Thee we bow,
 
@@ -14379,7 +14379,7 @@ For even death cannot divide
 
 Those whom Thou makest one.
 
-279 10.6.10.6. with chorus
+# 279 10.6.10.6. with chorus
 
 1 She only touch’d the hem of His garment
 
@@ -14413,7 +14413,7 @@ And peace that passeth all understanding
 
 With gladness filled her soul.
 
-280 8.8.8.8.D.
+# 280 8.8.8.8.D.
 
 1 He healeth me, oh, bless His name!
 
@@ -14463,7 +14463,7 @@ But now I trust with all my soul,
 
 And now thro’ faith He makes me whole.
 
-281 8.7.8.7.D.
+# 281 8.7.8.7.D.
 
 1 I’ve found a Friend, oh, such a Friend!
 
@@ -14513,7 +14513,7 @@ Shall life or death, or earth or hell?
 
 No, I am His forever.
 
-282 7.7.7.7.D.
+# 282 7.7.7.7.D.
 
 1 Loved with everlasting love,
 
@@ -14581,7 +14581,7 @@ But, while God and I shall be,
 
 I am His, and He is mine.
 
-283 6.6.9.6.
+# 283 6.6.9.6.
 
 1 Come and rejoice with me!
 
@@ -14639,7 +14639,7 @@ And hear it still from day to day.
 
 Can I enough rejoice?
 
-284 7.6.7.6.D. with chorus
+# 284 7.6.7.6.D. with chorus
 
 1 Of Jesus’ love that sought me,
 
@@ -14705,7 +14705,7 @@ With our Redeemer’s praise.
 
 (No English translation)
 
-285 10. 10. 9. 6. with chorus
+# 285 10. 10. 9. 6. with chorus
 
 1 Jesus my Lord will love me forever,
 
@@ -14739,7 +14739,7 @@ His precious blood He gave to redeem,
 
 Now I belong to Him.
 
-286 11.10.11.10. with chorus
+# 286 11.10.11.10. with chorus
 
 1 I am amazed that God could ever love me,
 
@@ -14773,7 +14773,7 @@ Eternal life to ev’ry land and nation,
 
 This is the wondrous message we have heard.
 
-287 10.10.10.10. with chorus
+# 287 10.10.10.10. with chorus
 
 1 I am so glad that our Father in heav’n
 
@@ -14807,7 +14807,7 @@ This shall my song in eternity be:
 
 “Oh, what a wonder that Jesus loves me.”
 
-288 12.11.12.11. with chorus
+# 288 12.11.12.11. with chorus
 
 1 I would love to tell you what I think of Jesus
 
@@ -14841,7 +14841,7 @@ But I’ll never know just why He came to save me,
 
 Till some day I see His blessed face above.
 
-289 8.8.8.8.
+# 289 8.8.8.8.
 
 1 Cleansed in our Savior’s precious Blood,
 
@@ -14883,7 +14883,7 @@ With one continual joyous sound,
 
 Hallelujah! Hallelujah!
 
-290 8.8.8.8.8.8. with repeat
+# 290 8.8.8.8.8.8. with repeat
 
 1 And can it be that I should gain
 
@@ -14947,7 +14947,7 @@ Bold I approach the eternal throne,
 
 And claim the crown, through Christ my own.
 
-291 8.7.8.7.
+# 291 8.7.8.7.
 
 1 On the Lamb our souls are resting,
 
@@ -14981,7 +14981,7 @@ Till we find that peace around us
 
 In the Lamb’s high glory there.
 
-292 8.7.8.7. D.
+# 292 8.7.8.7. D.
 
 1 Precious Savior, Thou hast saved me;
 
@@ -15039,7 +15039,7 @@ Glory to the Lord who keeps me,
 
 Glory, glory evermore!
 
-293 10. 10. 10. 12. with chorus
+# 293 10. 10. 10. 12. with chorus
 
 1 Gone from my heart the world and all its charms;
 
@@ -15071,7 +15071,7 @@ Once I was dead, but now in Christ I live,
 
 To tell the world around the peace that He doth give.
 
-294 8.8.8.8.
+# 294 8.8.8.8.
 
 1 Jesus,Thy blood and righteousness.
 
@@ -15121,7 +15121,7 @@ Their beauty this, their glorious dress,
 
 Jesus the Lord, our Righteousness.
 
-295 8.8.8.8. with chorus
+# 295 8.8.8.8. with chorus
 
 1 My hope is built on nothing less
 
@@ -15161,7 +15161,7 @@ Dressed in His Righteousness alone,
 
 Faultless to stand before the throne.
 
-296 6.6.6.6. with chorus
+# 296 6.6.6.6. with chorus
 
 1 My hope is in the Lord
 
@@ -15203,7 +15203,7 @@ And recognize His work
 
 Of love, and Christ receive.
 
-297 Irregular Meter
+# 297 Irregular Meter
 
 1 In a low dungeon hope we had none;
 
@@ -15245,7 +15245,7 @@ We are saved in His life!
 
 We are saved in His life!
 
-298 6.6.6.6.8.8.
+# 298 6.6.6.6.8.8.
 
 1 Arise, my soul, arise!
 
@@ -15309,7 +15309,7 @@ With confidence I now draw nigh,
 
 And Father, Abba, Father, cry.
 
-299 8.6.8.6.
+# 299 8.6.8.6.
 
 1 A mind at perfect peace with God;
 
@@ -15351,7 +15351,7 @@ He watches o’er me night and day,
 
 And tells me “Mine is thine.”
 
-300 9.8.9.8. with chorus
+# 300 9.8.9.8. with chorus
 
 1 Redeemed—how I love to proclaim it!
 
@@ -15390,7 +15390,7 @@ Who lovingly guardeth my footsteps,
 
 And giveth me songs in the night.
 
-301 8.6.8.6. with chorus
+# 301 8.6.8.6. with chorus
 
 1 I have a song I love to sing,
 
@@ -15442,7 +15442,7 @@ With whom I’ll dwell eternally—
 
 Since I have been redeemed.
 
-302 8.7.8.7. with chorus
+# 302 8.7.8.7. with chorus
 
 1 I will sing of my Redeemer,
 
@@ -15484,7 +15484,7 @@ He from death to life hath brought me,
 
 Son of God with Him to be.
 
-303 8.6.8.6.D.
+# 303 8.6.8.6.D.
 
 1 O Jesus Lord, we come to Thee,
 
@@ -15550,7 +15550,7 @@ Oh, Lamb of God, we’ll sing Thy praise,
 
 Through all eternity!
 
-304 9.10.9.9. with chorus
+# 304 9.10.9.9. with chorus
 
 1 Blessed assurance, Jesus is mine;
 
@@ -15584,7 +15584,7 @@ Watching and waiting, looking above,
 
 Filled with His goodness, lost in His love.
 
-305 12.8.12.8. with chorus
+# 305 12.8.12.8. with chorus
 
 1 What a wonderful change in my life has been wrought
 
@@ -15634,7 +15634,7 @@ And I’m happy, so happy as onward I go,
 
 Since Jesus came into my heart!
 
-306 Irregular Meter
+# 306 Irregular Meter
 
 1 What a happy day
 
@@ -15672,7 +15672,7 @@ You’ll be my life for all eternity;
 
 You are the only One for me.
 
-307 11.10.7.7.10. with chorus
+# 307 11.10.7.7.10. with chorus
 
 1 I remember when my burdens rolled away,
 
@@ -15722,7 +15722,7 @@ And with joy I shout and sing
 
 Hallelu, all my burdens rolled away.
 
-308 8.8.8.8. with chorus
+# 308 8.8.8.8. with chorus
 
 1 O happy day that fixed my choice
 
@@ -15768,7 +15768,7 @@ Till in life’s latest hour I bow,
 
 And bless, in death, a bond so dear.
 
-309 10.9.1 0.9.D.
+# 309 10.9.1 0.9.D.
 
 1 Once I was bound by sin’s galling fetters,\
 Chained like a slave I struggled in vain;\
@@ -15807,7 +15807,7 @@ Freedom in Christ my blessed Redeemer,
 
 He who has rent my fetters in twain.
 
-310 10.10.9.9. with chorus
+# 310 10.10.9.9. with chorus
 
 1 Naught have I gotten but what I received;
 
@@ -15849,7 +15849,7 @@ Once more to tell it, would I embrace—
 
 I’m only a sinner saved by grace!
 
-311 6.6.8.6. with chorus
+# 311 6.6.8.6. with chorus
 
 1 Grace! ’tis a charming sound,\
 Harmonious to the ear;\
@@ -15893,7 +15893,7 @@ May all my powers to Thee aspire,
 
 And all my days be Thine.
 
-312 6.6.6.6. with chorus
+# 312 6.6.6.6. with chorus
 
 1 Dear Savior, Thou art mine,
 
@@ -15935,7 +15935,7 @@ I cannot doubt Thy word,
 
 I know that I am Thine.
 
-313 9.6.9.8. with chorus
+# 313 9.6.9.8. with chorus
 
 1 I’ve found a Friend who is all to me,
 
@@ -15969,7 +15969,7 @@ In love He said to me,
 
 To live with Me eternally.”
 
-314 8.6.8.6. with chorus
+# 314 8.6.8.6. with chorus
 
 1 My Father is omnipotent,
 
@@ -16005,7 +16005,7 @@ And every little bird and flower
 
 Are testimonies too.
 
-315 8.8.8.6. with chorus
+# 315 8.8.8.6. with chorus
 
 1 In loving kindness Jesus came
 
@@ -16047,7 +16047,7 @@ Yet how or why, I cannot tell,
 
 He should have lifted me.
 
-316 7.6.7.6.7.6.12. with chorus
+# 316 7.6.7.6.7.6.12. with chorus
 
 1 Wonderful grace of Jesus,
 
@@ -16095,7 +16095,7 @@ Giving me liberty;
 
 For the wonderful grace of Jesus reaches me.
 
-317 8.6.8.6.
+# 317 8.6.8.6.
 
 1 Amazing grace! how sweet the sound,
 
@@ -16137,7 +16137,7 @@ We’ve no less days to sing God’s praise
 
 Than when we first begun.
 
-318 11.11.11.8. with chores
+# 318 11.11.11.8. with chores
 
 1 So precious is Jesus, my Savior, my King,
 
@@ -16179,7 +16179,7 @@ I know I shall see Him, shall look on His face,
 
 For He is so precious to me.
 
-319 8.7.8.7.
+# 319 8.7.8.7.
 
 1 Come, Thou Fount of ev’ry blessing,
 
@@ -16221,7 +16221,7 @@ May I walk on earth a stranger,
 
 As a son and heir of God.
 
-320 9.9.9.4. with chorus
+# 320 9.9.9.4. with chorus
 
 1 Years I spent in vanity and pride,
 
@@ -16263,7 +16263,7 @@ Oh, the mighty gulf that God did span
 
 At Calvary !
 
-321 8.7.8.7.8.7.
+# 321 8.7.8.7.8.7.
 
 1 Full salvation! Full salvation!
 
@@ -16327,7 +16327,7 @@ Full salvation! Full salvation!
 
 Full and free for evermore!
 
-322 11.7.11.7. with chorus
+# 322 11.7.11.7. with chorus
 
 1 Many weary years I vainly sought a spring,
 
@@ -16371,7 +16371,7 @@ To this healing Fountain I would ever fly,
 
 There to bathe my weary soul.
 
-323 8.6.8.6.D.
+# 323 8.6.8.6.D.
 
 1 I heard the voice of Jesus say,
 
@@ -16421,7 +16421,7 @@ And in that Light of life I’ll walk
 
 Till trav’lling days are done.
 
-324 Irregular Meter
+# 324 Irregular Meter
 
 1 Far away the noise of strife upon my ear is falling,
 
@@ -16467,7 +16467,7 @@ Dwelling in the spirit, here I learn of full salvation,
 
 Gladly will I tarry in Beulah Land.
 
-325 12.8.2.9. with chorus
+# 325 12.8.2.9. with chorus
 
 1 There’s a peace in my heart that the world never gave,
 
@@ -16501,7 +16501,7 @@ But He’s coming to take me some glorious day,
 
 Over there to my heavenly home!
 
-326 8.7.8.7.D.
+# 326 8.7.8.7.D.
 
 1 All my life long I had panted
 
@@ -16543,7 +16543,7 @@ Untold wealth that never faileth,
 
 My Redeemer is to me.
 
-327 8.8.8.8.D.
+# 327 8.8.8.8.D.
 
 1 Since Christ my soul from sin set free,
 
@@ -16585,7 +16585,7 @@ Where Jesus is, ’tis heaven there.
 
 (No English translation)
 
-328 9.7.9.7. with chorus
+# 328 9.7.9.7. with chorus
 
 1 There’s within my heart a melody,
 
@@ -16635,7 +16635,7 @@ I shall wing my flight to worlds unknown,
 
 I shall reign with Him on high.
 
-329 9.7.10.7. with chorus
+# 329 9.7.10.7. with chorus
 
 1 I have a song that Jesus gave me,
 
@@ -16677,7 +16677,7 @@ When the courts of heaven ring.
 
 (No English translation)
 
-330 6.6.8.8.6.6. with chorus
+# 330 6.6.8.8.6.6. with chorus
 
 1 Come, we that love the Lord,
 
@@ -16735,7 +16735,7 @@ To fairer worlds on high,
 
 To fairer worlds on high.
 
-331 8.6.8.6.
+# 331 8.6.8.6.
 
 1 I’m not ashamed to own my Lord,
 
@@ -16769,7 +16769,7 @@ And, in the New Jerusalem,
 
 Appoint my soul a place.
 
-332 9.6.8.6. with chorus
+# 332 9.6.8.6. with chorus
 
 1 There is sunshine in my soul today,
 
@@ -16811,7 +16811,7 @@ For blessings which He gives me now,
 
 For joys laid up above.
 
-333 8.7.8.7. with chorus
+# 333 8.7.8.7. with chorus
 
 1 Who can cheer the heart like Jesus,
 
@@ -16861,7 +16861,7 @@ And forever and forever
 
 Praise and glorify the King.
 
-334 10.10.10.10. with chorus
+# 334 10.10.10.10. with chorus
 
 1 I’d rather have Jesus than silver or gold,
 
@@ -16895,7 +16895,7 @@ He’s all that my hungering spirit needs,
 
 I’d rather have Jesus and let Him lead.
 
-335 8.8.8.8.
+# 335 8.8.8.8.
 
 1 Before the throne of God above
 
@@ -16945,7 +16945,7 @@ My life is hid with Christ on high,
 
 With Christ, my Savior and my God.
 
-336 8.8.8.8. D.
+# 336 8.8.8.8. D.
 
 1 Complete in Thee! no work of mine
 
@@ -16987,7 +16987,7 @@ Among Thy chosen will I be,
 
 At Thy right hand—complete in Thee.
 
-337 8.6.8.6.D.
+# 337 8.6.8.6.D.
 
 1 My faith has found a resting place,
 
@@ -17029,7 +17029,7 @@ For me His precious blood He shed,
 
 For me His life He gave.
 
-338 10.9.10.9. with chorus
+# 338 10.9.10.9. with chorus
 
 1 What a fellowship, what a joy divine.
 
@@ -17063,7 +17063,7 @@ I have peace complete with my Lord so near,
 
 Leaning on the Everlasting Arms!
 
-339 8.6.8.6. with chorus
+# 339 8.6.8.6. with chorus
 
 1 I know not why God’s wondrous grace
 
@@ -17113,7 +17113,7 @@ Nor if I’ll walk the vale with Him,
 
 Or “meet Him in the air.”
 
-340 10.9.10.9. with chorus
+# 340 10.9.10.9. with chorus
 
 1 Will your anchor hold in the storms of life,
 
@@ -17155,7 +17155,7 @@ On the rising tide it can never fail,
 
 While our hopes abide within the veil.
 
-341 6.6.8.6
+# 341 6.6.8.6
 
 1 I hear the words of love,
 
@@ -17221,7 +17221,7 @@ I know the throne on which He sits,
 
 I know His truth and love!
 
-342 11.8.11.8. with chorus
+# 342 11.8.11.8. with chorus
 
 1 A wonderful Savior is Jesus my Lord,
 
@@ -17265,7 +17265,7 @@ His perfect salvation, His wonderful love,
 
 I’ll shout with the millions on high.
 
-343 8.7.8.7. D.
+# 343 8.7.8.7. D.
 
 1 I will sing the wondrous story
 
@@ -17307,7 +17307,7 @@ But the Savior still is with me;
 
 By His hand I’m safely led.
 
-344 8.10.10.10.
+# 344 8.10.10.10.
 
 1 Wounded for me, wounded for me,
 
@@ -17349,7 +17349,7 @@ Then with what joy His dear face I shall see,
 
 Oh, how I praise Him! He’s coming for me.
 
-345 11.11.11.11.
+# 345 11.11.11.11.
 
 1 How firm a foundation, ye saints of the Lord,
 
@@ -17399,7 +17399,7 @@ That soul, though all hell should endeavor to shake,
 
 I’ll never, no never, no never forsake!”
 
-346 11.11.11.9. with chorus
+# 346 11.11.11.9. with chorus
 
 1 Standing on the promises of Christ my king,
 
@@ -17449,7 +17449,7 @@ Resting in my Savior as my All in all,
 
 Standing on the promises of God.
 
-347 11.8.11.9. with chorus
+# 347 11.8.11.9. with chorus
 
 1 When peace like a river attendeth my way,
 
@@ -17495,7 +17495,7 @@ The trump shall resound and the Lord shall descend,
 
 “Even so”—it is well with my soul.
 
-348 10.10.10.10.
+# 348 10.10.10.10.
 
 1 Thy mighty love, O God, constraineth me,
 
@@ -17529,7 +17529,7 @@ Shall flow a stream of tenderness and grace,
 
 Loving, because God loved, eternally.
 
-349 8.7.8.7.D. with chorus
+# 349 8.7.8.7.D. with chorus
 
 1 Let me love Thee, Thou art claiming
 
@@ -17599,7 +17599,7 @@ Love unquestioning will follow,
 
 Love will triumph, love will dare.
 
-350 8.6.8.6.8.8.8.6.
+# 350 8.6.8.6.8.8.8.6.
 
 1 O Jesus, Jesus, dearest Lord!
 
@@ -17657,7 +17657,7 @@ On, on! our Lord is sweeter far
 
 Today than yesterday.
 
-351 10.6.10.6. with chorus
+# 351 10.6.10.6. with chorus
 
 1 Down from His splendor in glory He came,
 
@@ -17691,7 +17691,7 @@ Wonderful beauty in Him I now see,
 
 More than I ever knew.
 
-352 10.6.10.6.10.10.
+# 352 10.6.10.6.10.10.
 
 1 I love my Lord, but with no love of mine,
 
@@ -17717,7 +17717,7 @@ Fountain of life, and all-abounding grace,
 
 Our source, our center, and our dwelling-place.
 
-353 8.6.8.6. with repeat
+# 353 8.6.8.6. with repeat
 
 1 Jesus Thine all victorious love
 
@@ -17761,7 +17761,7 @@ While Christ is all the world to me,
 
 And all my heart is love.
 
-354 11.11.11.11.
+# 354 11.11.11.11.
 
 1 Lord Jesus, I love Thee, I know Thou art mine;
 
@@ -17795,7 +17795,7 @@ I’ll sing with the glittering crown on my brow,
 
 If ever I loved Thee, Lord Jesus, ’tis now.
 
-355 7.7.7.7.D. with chorus
+# 355 7.7.7.7.D. with chorus
 
 1 Jesus, Lord, you’re our first love;
 
@@ -17841,7 +17841,7 @@ How we’re filled with Your sweet rest!
 
 (Do not repeat chorus)
 
-356 8.6.8.6. with chorus
+# 356 8.6.8.6. with chorus
 
 1 There is a name I love to hear,
 
@@ -17883,7 +17883,7 @@ Who in each sorrow bears a part,
 
 That none can bear below.
 
-357 11.11.11.11.
+# 357 11.11.11.11.
 
 1 Oh, who’s like our Jesus? He’s all we desire!
 
@@ -17917,7 +17917,7 @@ We love Thee, we love Thee, and that Thou dost know;
 
 As we’re in Thy presence, love for Thee will grow!
 
-358 6.4.6.4.6.6.4.4.
+# 358 6.4.6.4.6.6.4.4.
 
 1 More love to Thee, O Christ,
 
@@ -17975,7 +17975,7 @@ More love, O Christ, to Thee,
 
 More love to Thee, More love to Thee!
 
-359 Irregular Meter
+# 359 Irregular Meter
 
 In moments like these I sing out a song,
 
@@ -17993,7 +17993,7 @@ Singing I love You, Lord,
 
 I love You, Lord.
 
-360 9.7.9.7. with chorus
+# 360 9.7.9.7. with chorus
 
 1 As the deer panteth for the water,
 
@@ -18027,7 +18027,7 @@ You alone are the real joy giver
 
 And the apple of my eye.
 
-361 8.6.8.6.
+# 361 8.6.8.6.
 
 1 As pants the hart for cooling streams
 
@@ -18069,7 +18069,7 @@ The praise of Him who is thy God,
 
 Thy health’s eternal spring.
 
-362 10.10.10.10.
+# 362 10.10.10.10.
 
 1 My goal is God Him self, not joy, nor peace,
 
@@ -18103,7 +18103,7 @@ My God my glory here, from day to day,
 
 And in the glory there my great Reward.
 
-363 Irregular Meter
+# 363 Irregular Meter
 
 1 I need Jesus, my need I now confess;
 
@@ -18147,7 +18147,7 @@ So constant, kind, so strong and tree,
 
 Yes, I need Jesus.
 
-364 8.8.8.8.
+# 364 8.8.8.8.
 
 1 Jesus, Thou Joy of loving hearts,
 
@@ -18189,7 +18189,7 @@ Chase all dark thoughts of sin away,
 
 Shed o’er us here Thy holy light.
 
-365 8.7.8.7.D.
+# 365 8.7.8.7.D.
 
 1 Love Divine, all love excelling,
 
@@ -18255,7 +18255,7 @@ Till we cast our crowns before Thee,
 
 Lost in wonder, love and praise.
 
-366 6.6.6.6. with chorus
+# 366 6.6.6.6. with chorus
 
 1 O Light of light, shine in!\
 Cast out this night of sin,\
@@ -18304,7 +18304,7 @@ Make in this heart Thy home:
 
 My God and Lord, O come!
 
-367 8.6.8.6. with chorus
+# 367 8.6.8.6. with chorus
 
 1 He died for me that I might live;\
 I live for Him who died,\
@@ -18337,7 +18337,7 @@ His love to hearts that pine;\
 Let me like Him for others live,\
 And trace His steps divine.
 
-368 8.6.8.6.
+# 368 8.6.8.6.
 
 1 Be Thou supreme, O Jesus Christ,
 
@@ -18379,7 +18379,7 @@ To be Thy slave, to do Thy will,
 
 Is my felicity.
 
-369 10.10.10.10.
+# 369 10.10.10.10.
 
 1 Abide with me! fast falls the eventide;\
 The darkness deepens; Lord, with me abide!\
@@ -18410,7 +18410,7 @@ Ills have no weight, and tears no bitterness:\
 Where is death’s sting? where, grave, thy victory?\
 I triumph still, if Thou abide with me.
 
-370 Irregular Meter
+# 370 Irregular Meter
 
 1 Nothing between my soul and the Savior,
 
@@ -18452,7 +18452,7 @@ Watching with prayer and much self-denial,
 
 I’ll triumph at last, with nothing between.
 
-371 6.4.6.4. with chorus
+# 371 6.4.6.4. with chorus
 
 1 I need Thee every hour,
 
@@ -18502,7 +18502,7 @@ Oh, make me’ Thine indeed,
 
 Thou blessed Son.
 
-372 8.6.8.6.
+# 372 8.6.8.6.
 
 1 Fill Thou my life, O Lord my God,
 
@@ -18544,7 +18544,7 @@ But all my life, in every step,
 
 Be fellowship with Thee.
 
-373 Irregular Meter
+# 373 Irregular Meter
 
 1 Nothing between, Lord, nothing between;
 
@@ -18616,7 +18616,7 @@ Bursts on my open sight—
 
 Nothing between.
 
-374 6.6.6.6.
+# 374 6.6.6.6.
 
 1 I hunger and I thirst;
 
@@ -18650,7 +18650,7 @@ O living waters, rise
 
 Within me evermore.
 
-375 8.7.8.7.D.
+# 375 8.7.8.7.D.
 
 1 Savior, lead me up the mountain,
 
@@ -18681,7 +18681,7 @@ Till, as one, we share Thine image,
 
 And Thy love and grace extol.
 
-376 7.6.7.6.D.
+# 376 7.6.7.6.D.
 
 1 O Bread to pilgrims given,
 
@@ -18731,7 +18731,7 @@ Then, God the veil removing,
 
 Thy glorious face to see.
 
-377 7.6.7.6.D.
+# 377 7.6.7.6.D.
 
 1 O God, we seek Your pleasure,
 
@@ -18813,7 +18813,7 @@ Revealing Him within us,
 
 His dear beloved One.
 
-378 9.9.9.10. with chorus
+# 378 9.9.9.10. with chorus
 
 1 Fill all my vision, Savior, I pray,
 
@@ -18847,7 +18847,7 @@ Let me see only Thy blessed face,
 
 Feasting my soul on Thy infinite grace.
 
-379 11.11.11.11.
+# 379 11.11.11.11.
 
 1 O Father of glorify, now grant unto me
 
@@ -18889,7 +18889,7 @@ Then in me such power will be exercised,
 
 My hope and God’s glory will be realized.
 
-380 6.6.8.6.
+# 380 6.6.8.6.
 
 1 A charge to keep I have—
 
@@ -18920,7 +18920,7 @@ And let me ne’er my trust betray,
 
 But press to realms on high.
 
-381 8.8.8.8.8.8.
+# 381 8.8.8.8.8.8.
 
 1 Lord Jesus, Thou who only art
 
@@ -18982,7 +18982,7 @@ More of Thyself each day to know,
 
 And more into Thine image grow.
 
-382 8.8.8.8. with chorus
+# 382 8.8.8.8. with chorus
 
 1 More about Jesus would I know,
 
@@ -19021,7 +19021,7 @@ More of His kingdom’s sure increase;
 
 More of His coming, Prince of Peace.
 
-383 11.11.11.11.D.
+# 383 11.11.11.11.D.
 
 1 Lord Jesus, I long in Thy presence to live,
 
@@ -19087,7 +19087,7 @@ O let not my heart be contented or rest
 
 When loving or seeking what with Thee doth part.
 
-384 9.10.9.10.10.
+# 384 9.10.9.10.10.
 
 Let the beauty of Jesus be seen in me,
 
@@ -19097,7 +19097,7 @@ O Thou Spirit divine, all my nature refine,
 
 Till the beauty of Jesus be seen in me.
 
-385 9.10.9.10.10.
+# 385 9.10.9.10.10.
 
 1 Nearer, still nearer, close to Thy heart,
 
@@ -19139,7 +19139,7 @@ Nearer, my Savior, still nearer to Thee,
 
 Nearer, my Savior, still nearer to Thee.
 
-386 6.6.6.6.D.
+# 386 6.6.6.6.D.
 
 1 My Jesus, as Thou wilt!
 
@@ -19182,7 +19182,7 @@ And sing, in life or death,
 
 My Lord, Thy will be done!
 
-387 7.7.7.7. with chorus
+# 387 7.7.7.7. with chorus
 
 1 Savior, lead me, lest I stray,
 
@@ -19216,7 +19216,7 @@ To the land of endless day,
 
 Where all tears are wiped away.
 
-388 8.7.8.7. with chorus
+# 388 8.7.8.7. with chorus
 
 1 Thou my everlasting Portion,
 
@@ -19266,7 +19266,7 @@ Then the gate of life eternal
 
 May I enter, Lord, with Thee.
 
-389 7.7.7.8.D.
+# 389 7.7.7.8.D.
 
 1 I am weak, but Thou art strong;
 
@@ -19300,7 +19300,7 @@ On that bright eternal shore,
 
 I will walk, dear Lord, close to Thee.
 
-390 10.7.10.7. with chorus
+# 390 10.7.10.7. with chorus
 
 1 I am Thine, O Lord, I have heard Thy voice,
 
@@ -19342,7 +19342,7 @@ There are heights of joy that I yet may reach
 
 Till I rest in peace with Thee.
 
-391 7.7.7.7.7.7.
+# 391 7.7.7.7.7.7.
 
 1 Jesus, Savior, pilot me
 
@@ -19380,7 +19380,7 @@ I will hear Thee say to me,
 
 “Fear not, I will pilot thee.”
 
-392 8.6.8.6.D.
+# 392 8.6.8.6.D.
 
 1 O Jesus Christ, grow Thou in me,
 
@@ -19430,7 +19430,7 @@ Oh, make me daily through Thy grace
 
 More meet to bear Thy name.
 
-393 Irregular Meter
+# 393 Irregular Meter
 
 1 Lord, teach us how to pray,
 
@@ -19505,7 +19505,7 @@ We’ll make it, we’ll make it just by You.\
 Lord Jesus, grow in us.\
 Lord Jesus, grow in us.
 
-394 Irregular Meter
+# 394 Irregular Meter
 
 Not my will but Thine be done,
 
@@ -19519,7 +19519,7 @@ Becomes the thing that pleases You,
 
 Abba Father I would be a son indeed.
 
-395 8.8.8.8.D.
+# 395 8.8.8.8.D.
 
 1 I’m pressing on the upward way,
 
@@ -19558,7 +19558,7 @@ But still I’ll pray till rest I’ve found,
 
 “Lord, lead me on to higher ground.”
 
-396 6.5.6.5.D. with chorus
+# 396 6.5.6.5.D. with chorus
 
 1 More holiness give me, More sweetness within,
 
@@ -19599,7 +19599,7 @@ More blessed and holy, More, Savior, like Thee.
 
 (No English translation)
 
-397 10.9.10.9.D.
+# 397 10.9.10.9.D.
 
 1 O to be like Thee! blessed Redeemer;
 
@@ -19649,7 +19649,7 @@ Make me a temple meet for Thy dwelling,
 
 Fit for a life which Thou wouldst approve.
 
-398 8.7.8.7.D.
+# 398 8.7.8.7.D.
 
 1 Live Thyself, Lord Jesus, through me,
 
@@ -19715,7 +19715,7 @@ Thee I take to all my problems
 
 As the full solution now.
 
-399 8.7.8.7.D.
+# 399 8.7.8.7.D.
 
 1 Having seen the world’s fair beauty,
 
@@ -19769,7 +19769,7 @@ Is the glory all transcending
 
 Shining from His thorn-crowned head.
 
-400 6.4.6.4.6.6.6.4.
+# 400 6.4.6.4.6.6.6.4.
 
 1 Teach me Thy way, O Lord, Teach me Thy way;
 
@@ -19795,7 +19795,7 @@ Until the race is run, Until the journey’s done,
 
 Until the crown is won, Teach me Thy way.
 
-401 11.11.11.11. with chorus
+# 401 11.11.11.11. with chorus
 
 1 Lord Jesus, I long to be perfectly whole,
 
@@ -19841,7 +19841,7 @@ To those who have sought Thee Thou never saidst, No;
 
 Now wash me, and I shall be whiter than snow.
 
-402 8.6.8.6.
+# 402 8.6.8.6.
 
 1 Search me, O God, my actions try,
 
@@ -19888,7 +19888,7 @@ That God alone in Christ can be
 
 Unutterable love.
 
-403 8.6.8.6.
+# 403 8.6.8.6.
 
 1 Oh, for a heart to praise my God,
 
@@ -19930,7 +19930,7 @@ Write Thy new name upon my heart,
 
 Thy new, best name of Love.
 
-404 6.6.8.6.
+# 404 6.6.8.6.
 
 1 Bless’d are the pure in heart,
 
@@ -19961,7 +19961,7 @@ Give us a pure and lowly heart,
 
 A temple meet for Thee.
 
-405 7.7.7.7.D.
+# 405 7.7.7.7.D.
 
 1 Lord, reveal Thyself to me,
 
@@ -20054,7 +20054,7 @@ Praise the Lord, He heard my cry
 
 And has made me wholly free.
 
-406 8.7.8.7. with chorus
+# 406 8.7.8.7. with chorus
 
 1.  Lord, Thou knowest all the hunger
 
@@ -20116,7 +20116,7 @@ And I praise Thee for the answer,
 
 Resting simply on Thy word.
 
-407 10.10.10.10. with chorus
+# 407 10.10.10.10. with chorus
 
 1 Lower and lower, dear Lord, at Thy feet,
 
@@ -20150,7 +20150,7 @@ Humbly we follow the way of the cross,
 
 Then, crowns of glory, and gain for all loss.
 
-408 7.7.7.7.
+# 408 7.7.7.7.
 
 1 Jesus, cast a look on me;
 
@@ -20200,7 +20200,7 @@ In this temper let me die,
 
 And hosannas ever cry.
 
-409 8.8.8.8.8.8.
+# 409 8.8.8.8.8.8.
 
 1 Thou hidden love of God, whose height,
 
@@ -20286,7 +20286,7 @@ To feel Thy power, to hear Thy voice,
 
 To taste Thy love, be all my choice.
 
-410 11.10.11.10.
+# 410 11.10.11.10.
 
 1 Jesus, Redeemer and my one Inspirer,
 
@@ -20312,7 +20312,7 @@ Burn, burn, O Fire. O Wind, now winnow throughly;
 
 O Sword, awake against the flesh and slay.
 
-411 6.6.4.6.6.6.4.
+# 411 6.6.4.6.6.6.4.
 
 1 My faith looks up to Thee,
 
@@ -20364,7 +20364,7 @@ Oh, bear me safe above,
 
 A ransomed soul.
 
-412 8.8.6.8.8.6.
+# 412 8.8.6.8.8.6.
 
 1 O Love divine, how sweet Thou art,
 
@@ -20414,7 +20414,7 @@ My joy, my rest on earth be this,
 
 To hear the Bridegroom’s voice.
 
-413 7.7.7.5.
+# 413 7.7.7.5.
 
 1 Gracious Spirit, Holy Ghost,
 
@@ -20464,7 +20464,7 @@ But the greatest of the three,
 
 And the best, is love.
 
-414 8.8.8.8.8.8.
+# 414 8.8.8.8.8.8.
 
 1 O Lord, Thy boundless love to me
 
@@ -20502,7 +20502,7 @@ Lord Jesus, nothing may I see,
 
 And naught desire, or seek, but Thee.
 
-415 10.10.10.10.
+# 415 10.10.10.10.
 
 1 Search me, O God, and know my heart today;
 
@@ -20536,7 +20536,7 @@ Thy Word declares Thou wilt supply our need;
 
 For blessings now, O Lord, I humbly plead.
 
-416 9.9.10.10.6. with chorus Graham Kendrick
+# 416 9.9.10.10.6. with chorus Graham Kendrick
 
 1 Lord, the light of Your love is shining,
 
@@ -20578,7 +20578,7 @@ Mirror’d here may our lives tell Your story,
 
 Shine on me, shine on me.
 
-417 7.7.7.7.
+# 417 7.7.7.7.
 
 1 Prince of peace, control my will;
 
@@ -20610,7 +20610,7 @@ Let Thy happy servant be
 
 One forevermore with Thee.
 
-418 8.8.8.4.
+# 418 8.8.8.4.
 
 1 When I am in the natural man,
 
@@ -20682,7 +20682,7 @@ Oh, canst Thou e’er renew my heart,
 
 Have mercy, Lord!
 
-419 11.10.11.10.
+# 419 11.10.11.10.
 
 1 I am the Lord’s! O joy beyond expression,
 
@@ -20716,7 +20716,7 @@ As Thou, Beloved, in Thy grace and fullness
 
 Forever and forevermore art mine.
 
-420 8.6.8.6. with repeat
+# 420 8.6.8.6. with repeat
 
 1 How vast, immense, and measureless,
 
@@ -20800,7 +20800,7 @@ When Thou dost come, I’ll sing with joy,
 
 Hallelujah, Lord, to Thee!
 
-421 8.8.8.8.6.
+# 421 8.8.8.8.6.
 
 1 O Love, that wilt not let me go,
 
@@ -20838,7 +20838,7 @@ And from the ground there blossoms red
 
 Life that shall endless be.
 
-422 8.8.6.8.8.6.
+# 422 8.8.6.8.8.6.
 
 1 Lord, Thou hast won, at length I yield;\
 My heart by mighty grace compelled\
@@ -20871,7 +20871,7 @@ See all my powers waiting stand,
 
 To be employed by Thee.
 
-423 6.6.6.6.8.6.
+# 423 6.6.6.6.8.6.
 
 1 Thy Life was giv’n for me,
 
@@ -20945,7 +20945,7 @@ Thou gav’st Thyself for me, for me,
 
 I give myself to Thee.
 
-424 8.7.8.7.D.
+# 424 8.7.8.7.D.
 
 1 Hast thou heard Him, seen Him, known Him?
 
@@ -21008,7 +21008,7 @@ Till the cup o’erflow the brim;\
 What have we to do with idols\
 Who have companied with Him?
 
-425 8.7.8.7. with chorus
+# 425 8.7.8.7. with chorus
 
 1 All to Jesus I surrender,
 
@@ -21054,7 +21054,7 @@ Oh, the joy of full salvation!
 
 Glory, glory to His name!
 
-426 12.9.12.9. with chorus
+# 426 12.9.12.9. with chorus
 
 1 You have longed for sweet peace, and for faith to increase,
 
@@ -21096,7 +21096,7 @@ Oh, what fellowship sweet we shall share at His feet,
 
 When our all on the altar is laid!
 
-427 7.7.7.7. with repeat
+# 427 7.7.7.7. with repeat
 
 1 Take my life, and let it be
 
@@ -21148,7 +21148,7 @@ Take myself, and I will be
 
 Ever, only, all for Thee.
 
-428 Irregular Meter
+# 428 Irregular Meter
 
 1 What shall I give Thee, Master?
 
@@ -21190,7 +21190,7 @@ I Will not hold time, talents or gold—
 
 For everything shall be Thine.
 
-429 5.4.5.4.D.
+# 429 5.4.5.4.D.
 
 1 Have Thine own way, Lord,\
 Have Thine own way; Thou art the Potter,\
@@ -21219,7 +21219,7 @@ Fill with Thy Spirit Till all shall see
 
 Christ only, always, Living in me.
 
-430 8.7.8.7.D. with chorus
+# 430 8.7.8.7.D. with chorus
 
 1 Tell me not of earthly pleasures,
 
@@ -21273,7 +21273,7 @@ All He has He fully gives thee;
 
 Let thy love His portion be.
 
-431 7.7.7.7.7.7.
+# 431 7.7.7.7.7.7.
 
 1 When this passing world is done,
 
@@ -21297,7 +21297,7 @@ Make Thy Spirit,s help so meet:\
 E’en on earth, Lord, make me know\
 Something of how much I owe.
 
-432 9.8.9.8.D.
+# 432 9.8.9.8.D.
 
 1 My stubborn will at last hath yielded;\
 I would be Thine, and Thine alone,\
@@ -21328,7 +21328,7 @@ My wayward feet no more to roam;\
 What pow’r from Thee my soul can sever?\
 The center of God’s will my home.
 
-433 8.7.8.7.D.
+# 433 8.7.8.7.D.
 
 1 All for Jesus! All for Jesus!
 
@@ -21380,7 +21380,7 @@ All for Jesus! All for Jesus! Resting now beneath His wings.
 
 (Repeat last two lines of each stanza)
 
-434 6.5.6.5.D. with chorus
+# 434 6.5.6.5.D. with chorus
 
 1 Utterly abandoned To the Holy Ghost!
 
@@ -21442,7 +21442,7 @@ Now the light within me Never shall grow dim
 
 While abandoned ever, Living unto Him!
 
-435 6.6.8.6.D.
+# 435 6.6.8.6.D.
 
 1 Make me a captive, Lord,\
 And then I shall be free;\
@@ -21488,7 +21488,7 @@ Amid the clashing strife,\
 When on Thy bosom it has leant,\
 And found in Thee its life.
 
-436 8.7.8.7.D.
+# 436 8.7.8.7.D.
 
 1 I’ve turned my back upon the world
 
@@ -21586,7 +21586,7 @@ I’ve crossed the Red Sea of His death,
 
 And left the world behind me.
 
-437 Irregular Meter
+# 437 Irregular Meter
 
 1 Down in the valley with my Savior I would go,
 
@@ -21620,7 +21620,7 @@ He will lead me safely in the path that He has trod,
 
 Up to where they gather in the rest of God.
 
-438 8.8.8.8.
+# 438 8.8.8.8.
 
 1 How shall I follow Him I serve?
 
@@ -21650,7 +21650,7 @@ Thou camest, not Thyself to please;\
 And, dear as earthly comforts be,\
 Shall I not love Thee more than these?
 
-439 10.10.10.10. with chorus Thomas O. Chisholm
+# 439 10.10.10.10. with chorus Thomas O. Chisholm
 
 1 Living for Jesus a life that is true,\
 Striving to please Him in all that I do;\
@@ -21697,7 +21697,7 @@ Seeking the lost ones He died to redeem,
 
 Bringing the weary to find rest in Him.
 
-440 8.8.8.8.
+# 440 8.8.8.8.
 
 1 My glorious Victor, Prince Divine,\
 Clasp these surrendered hands in Thine;\
@@ -21723,7 +21723,7 @@ These hands shall with Thy gifts o’erfiow;\
 And pierced ears shall hear the tone\
 Which tells me Thou and I are one.
 
-441 8.7.8.7.D.
+# 441 8.7.8.7.D.
 
 1 Jesus, I my cross have taken,\
 All to leave and follow Thee;\
@@ -21776,7 +21776,7 @@ Hope shall change to glad fruition,
 
 Faith to sight, and prayer to praise.
 
-442 10.10.10.8.
+# 442 10.10.10.8.
 
 1 I have decided to follow Jesus,
 
@@ -21818,7 +21818,7 @@ Sing glory, glory and hallelujah,
 
 No turning back, no turning back.
 
-443 8.6.8.6.D.
+# 443 8.6.8.6.D.
 
 1 No mortal tongue can e’er describe
 
@@ -21868,7 +21868,7 @@ A boundless life in Him there is,
 
 Whence doubt and fear are gone.
 
-444 8.5.8.5.D.
+# 444 8.5.8.5.D.
 
 1 Many crowd the Savior’s kingdom,\
 Few receive His cross;\
@@ -21921,7 +21921,7 @@ Savior, Thou who thus hast loved me,
 
 Give me love like this.
 
-445 8.6.8.6. with chorus
+# 445 8.6.8.6. with chorus
 
 1 Am I a soldier of the Cross—
 
@@ -21963,7 +21963,7 @@ I’ll bear the toil, endure the pain,
 
 Supported by Thy Word.
 
-446 6.5.6.5.D. with chorus.
+# 446 6.5.6.5.D. with chorus.
 
 1 Who is on the Lord’s side?
 
@@ -22032,7 +22032,7 @@ Let us not grow cold;\
 Let us be right loyal,\
 Noble, true, and bold.
 
-447 8.7.8.7. with chorus
+# 447 8.7.8.7. with chorus
 
 1 I am one with Thee, Lord Jesus,
 
@@ -22090,7 +22090,7 @@ Even as I share Thy life, Lord,
 
 I in Thee and Thou in me.
 
-448 8.7.8.7.D.
+# 448 8.7.8.7.D.
 
 1 One with Thee, Thou Son eternal,\
 Joined by faith in spirit one,\
@@ -22136,7 +22136,7 @@ Glorified with Thee we’ll be,\
 E’er to manifest Thy beauty,\
 One with Thee eternally.
 
-449 10.10.10.10.D.
+# 449 10.10.10.10.D.
 
 1 Dying with Jesus, by death reckoned mine;
 
@@ -22183,7 +22183,7 @@ Never a sickness that He cannot heal;\
 Moment by moment, in woe or in weal,\
 Jesus, my Savior, abides with me still.
 
-450 9.8.9.9.5.
+# 450 9.8.9.9.5.
 
 1 Buried with Christ, and raised with Him too;
 
@@ -22235,7 +22235,7 @@ Life evermore, the end I shall share.
 
 Glory be to God!
 
-451 8.8.8.8.
+# 451 8.8.8.8.
 
 1 Lord, Thou hast shown the mystery,\
 How on the Cross I died with Thee;\
@@ -22289,7 +22289,7 @@ To reign with Thee when Thou dost come.\
 If we the cross will gladly bear,\
 Then in Thy glory we will share.
 
-452 7.6.7.6.D.
+# 452 7.6.7.6.D.
 
 1 Made free! Made free! O captive!
 
@@ -22349,7 +22349,7 @@ For now the law of sin and death
 
 Is conquered by His life.
 
-453 6.6.11.6.6.10. Dennis Cleveland
+# 453 6.6.11.6.6.10. Dennis Cleveland
 
 Beautiful, beautiful,
 
@@ -22363,7 +22363,7 @@ Causing my eyes to see;
 
 Jesus makes beautiful things of my life.
 
-454 8.8.8.8.
+# 454 8.8.8.8.
 
 1 Lord, I was blind; I could not see\
 In Thy marred visage any grace,\
@@ -22394,7 +22394,7 @@ The deaf to hear, the dumb to speak,\
 The dead to live; and, lo, I break\
 The chains of my captivity.
 
-455 Irregular Meter
+# 455 Irregular Meter
 
 1 His banner over me is love,
 
@@ -22428,7 +22428,7 @@ I’m feasting here in His banqueting house,
 
 And His fruit is sweet unto my taste.
 
-456 Irregular Meter
+# 456 Irregular Meter
 
 1 Nothing’s quite so precious
 
@@ -22468,7 +22468,7 @@ And God’s free gift of grace
 
 Becomes an endless joy to me.
 
-457 Irregular Meter
+# 457 Irregular Meter
 
 1 Dear Lord Jesus, precious Jesus,
 
@@ -22549,7 +22549,7 @@ Matchless One, unrivaled beauty,
 
 None can e’er compete with Thee!
 
-458 14.14.14.14. with chorus
+# 458 14.14.14.14. with chorus
 
 1 To Jesus ev’ry day I find my heart is closer drawn;
 
@@ -22579,7 +22579,7 @@ I love the Christ who all my burdens in His body bore;
 
 Each day He grows still sweeter than He was the day before.
 
-459 8.6.8.6.
+# 459 8.6.8.6.
 
 1 Jesus, the very thought of Thee
 
@@ -22637,7 +22637,7 @@ Jesus, be Thou our Glory now,
 
 And through eternity.
 
-460 8.6.8.8.6.
+# 460 8.6.8.8.6.
 
 1 I cannot breathe enough of Thee,
 
@@ -22693,7 +22693,7 @@ As Thou dost draw me close to Thee,
 
 And whisper, “All is well.”
 
-461 8.8.8.8.
+# 461 8.8.8.8.
 
 1 Jesus, my Savior! Thou art mine,\
 The Father’s gift of love divine;\
@@ -22722,7 +22722,7 @@ Each hour receiving “grace on grace,”
 
 Until I see Thee face to face.
 
-462 Irregular meter
+# 462 Irregular meter
 
 1 In the Testament of old
 
@@ -22772,7 +22772,7 @@ Drawing many men to Thee—
 
 Amen, Lord! Amen, Lord! Amen, Lord!
 
-463 8.7.8.7.8.7.
+# 463 8.7.8.7.8.7.
 
 1 What a victory! What a triumph!
 
@@ -22834,7 +22834,7 @@ For the building of God’s dwelling
 
 We His human life possess.
 
-464 Irregular Meter
+# 464 Irregular Meter
 
 1 Pow’r exceeding great God did demonstrate\
 When He raised His Son from the dead.\
@@ -22883,7 +22883,7 @@ Ruling over all, without, within!\
 Power, power, overruling power,\
 Ruling, reigning, through the inner man!
 
-465 8.7.8.7. with chorus
+# 465 8.7.8.7. with chorus
 
 1 Christ is now in resurrection,
 
@@ -22949,7 +22949,7 @@ And we’ll live in resurrection,
 
 Every part conformed to Christ.
 
-466 6.6.6.6.8.6.
+# 466 6.6.6.6.8.6.
 
 1 Once I was dead in sin,
 
@@ -22979,7 +22979,7 @@ Who from the law of sin
 
 And death has made me free.
 
-467 Irregular Meter
+# 467 Irregular Meter
 
 1 I serve a risen Savior;
 
@@ -23030,7 +23030,7 @@ None other is so loving,
 
 So good and kind.
 
-468 6.6.6.6.8.6.
+# 468 6.6.6.6.8.6.
 
 1 Once far from God and dead in sin,
 
@@ -23072,7 +23072,7 @@ As on the wondrous thought I dwell
 
 That Christ liveth in me.
 
-469 8.7.8.7.D.
+# 469 8.7.8.7.D.
 
 1 Art thou hung’ring for the fulness
 
@@ -23138,7 +23138,7 @@ Reaching those who sit in darkness,
 
 Winning priceless souls to Thee.
 
-470 Irregular Meter
+# 470 Irregular Meter
 
 1 There’s a Man in the glory
 
@@ -23206,7 +23206,7 @@ His Life in the glory
 
 Lived out in me.
 
-471 8.6.8.6. with chorus
+# 471 8.6.8.6. with chorus
 
 1 This is my wonderful story,
 
@@ -23256,7 +23256,7 @@ I am in Christ abiding,
 
 And Christ abides in me.
 
-472 8.7.8.7.8.8.7.
+# 472 8.7.8.7.8.8.7.
 
 1 Sing praise to Christ Who lives in us,
 
@@ -23356,7 +23356,7 @@ By life His people us He’ll make,
 
 And swallow death forever.
 
-473 8.8.8.8. with chorus
+# 473 8.8.8.8. with chorus
 
 1 We’re feeding on the living bread,
 
@@ -23458,7 +23458,7 @@ If you receive Him you will sing,
 
 And live forevermore.
 
-474 8.6.8.6.
+# 474 8.6.8.6.
 
 1 The tree of life, how sweet the fruit,
 
@@ -23492,7 +23492,7 @@ To put God’s life inside of me,
 
 To live by Him today.
 
-475 6.5.6.5.D. with chorus
+# 475 6.5.6.5.D. with chorus
 
 1 Once it was the blessing, Now it is the Lord;
 
@@ -23538,7 +23538,7 @@ Once for death I waited, Now His coming hail;
 
 And my hopes are anchored Safe within the veil.
 
-476 Irregular Meter
+# 476 Irregular Meter
 
 1 We have seen Christ is reality:
 
@@ -23614,7 +23614,7 @@ Christ as everything in you and me,
 
 He’s everything to us!
 
-477 Irregular Meter
+# 477 Irregular Meter
 
 1 My old person has been nullified;\
 With my Lord upon the cross he died;\
@@ -23661,7 +23661,7 @@ Taking Christ as all in all, to be
 
 The full-grown, perfect man.
 
-478 8.7.8.7.D. with chorus
+# 478 8.7.8.7.D. with chorus
 
 1 Lord, to know Thee as our Person,
 
@@ -23735,7 +23735,7 @@ Christ Himself is now our Person—
 
 He is ours and we are His.
 
-479 10.10.10.10.4.
+# 479 10.10.10.10.4.
 
 1 My old man has been crucified with Him,
 
@@ -23787,7 +23787,7 @@ And all Thy grand recovery work to crown
 
 In one new man.
 
-480 egular Meter
+# 480 egular Meter
 
 1 Oh, Christ in all His glory put on humanity
 
@@ -23839,7 +23839,7 @@ Come out, come out, break forth in glory here,
 
 And from the church, O glorious One, in glory soon appear.
 
-481 8.6.8.6.8.8.8.6.
+# 481 8.6.8.6.8.8.8.6.
 
 1 My heart is fixed, eternal God,
 
@@ -23899,7 +23899,7 @@ And pass from this dark world away,
 
 Christ for me, Christ for me.
 
-482 6.4.6.4.6.6.6.4.
+# 482 6.4.6.4.6.6.6.4.
 
 1 Fade, fade each earthly joy;\
 Jesus is mine.\
@@ -23951,7 +23951,7 @@ Welcome, my Savior’s breast;
 
 Jesus is mine.
 
-483 10.10.10.9. with chorus
+# 483 10.10.10.9. with chorus
 
 1 Jesus, my Savior, is all things to me;\
 Oh, what a wonderful Savior is He,\
@@ -23993,7 +23993,7 @@ Constant Companion where’er I may be,
 
 Living or dying—Jesus for me.
 
-484 8.6.8.6.8.8.8.6.
+# 484 8.6.8.6.8.8.8.6.
 
 1 Whom have I, Lord, in heav’n but Thee?\
 None but Thee! None but Thee!\
@@ -24061,7 +24061,7 @@ Still will I sing through death’s cold shade;
 
 Christ for me! Christ for me!
 
-485 8.6.8.6.
+# 485 8.6.8.6.
 
 1 I’ve found the One of peerless worth,
 
@@ -24111,7 +24111,7 @@ My Christ is First, my Christ is Last,
 
 My Christ is All in all.
 
-486 8.6.8.6.8.8.
+# 486 8.6.8.6.8.8.
 
 1 I thank Thee, Lord, that Thou hast shown,
 
@@ -24185,7 +24185,7 @@ Thou shalt be everything to me,
 
 In all things my sufficiency.
 
-487 8.6.8.6.D.
+# 487 8.6.8.6.D.
 
 1 O Christ, in Thee my soul hath found,\
 And found in Thee alone,\
@@ -24224,7 +24224,7 @@ Till grace the sightless eyes received,
 
 Thy loveliness to see.
 
-488 Irregular Meter
+# 488 Irregular Meter
 
 1 Jesus is all the world to me:\
 My life, my joy, my all.\
@@ -24277,7 +24277,7 @@ Eternal life, eternal joy,
 
 He’s my Friend.
 
-489 8.8.8.8.8.8.
+# 489 8.8.8.8.8.8.
 
 1 Lord, Thou hast made Thyself to me
 
@@ -24315,7 +24315,7 @@ So, life shall be transformed to love,
 
 Thy grace and mercy more to prove.
 
-490 8.6.8.6.
+# 490 8.6.8.6.
 
 1 The Lord’s my Shepherd, I’ll not want;
 
@@ -24357,7 +24357,7 @@ And in God’s house forevermore
 
 My dwelling-place shall be.
 
-491 13.10.13.14. with chorus
+# 491 13.10.13.14. with chorus
 
 1 In God’s green pastures feeding, by His cool waters lie;
 
@@ -24387,7 +24387,7 @@ On the mount, in the valley by His hand He will lead,
 
 His sheep am I.
 
-492 Irregular Meter Alfred B. Smith
+# 492 Irregular Meter Alfred B. Smith
 
 Surely goodness and mercy shall follow me
 
@@ -24405,7 +24405,7 @@ Surely goodness and mercy shall follow me
 
 All the days, all the days of my life.
 
-493 8.7.8.7. (I)
+# 493 8.7.8.7. (I)
 
 1 The King of love my Shepherd is,\
 Whose goodness faileth never;\
@@ -24441,7 +24441,7 @@ Thy goodness faileth never;\
 Good Shepherd, may I sing Thy praise\
 Within Thy house forever.
 
-494 10.10.10.10. with chorus
+# 494 10.10.10.10. with chorus
 
 1 Laboring on Jesus, the good land so real,
 
@@ -24499,7 +24499,7 @@ There bring and offer your surplus to God,
 
 There eat the riches, rejoice in the Lord!
 
-495 Irregular Meter
+# 495 Irregular Meter
 
 1 Jesus, the all-inclusive land,
 
@@ -24597,7 +24597,7 @@ This is our joy, this our employ—
 
 Christ our land!
 
-496 8.8.8.8.D. (A)
+# 496 8.8.8.8.D. (A)
 
 1 How tedious and tasteless the hours\
 When Jesus no longer I see!\
@@ -24643,7 +24643,7 @@ Thy soul-cheering presence restore;\
 Or take me to Thee up on high,\
 Where winter and clouds are no more.
 
-497 11.10.11.10.
+# 497 11.10.11.10.
 
 1 “Within the Veil”: be this, belov’d, thy portion,
 
@@ -24677,7 +24677,7 @@ Thou walkest calm above a world of strife;
 
 Shall live on earth His resurrection life.
 
-498 8.4.8.4.8.8.8.4.
+# 498 8.4.8.4.8.8.8.4.
 
 1 Through Thy precious body broken—\
 Inside the veil;\
@@ -24752,7 +24752,7 @@ We shall see Thee; grieve Thee never;
 
 Inside the veil.
 
-499 8.7.8.7.D.
+# 499 8.7.8.7.D.
 
 1 Marvel not that Christ in glory
 
@@ -24818,7 +24818,7 @@ And forever shall that glory
 
 Be my home, my dwelling-place.
 
-500 Irregular Meter
+# 500 Irregular Meter
 
 1 I’ve believed the true report,
 
@@ -24884,7 +24884,7 @@ Now the Lord is my abode,
 
 Hallelujah to the Lamb!
 
-501 7.6.8.6.8.6.7.4.
+# 501 7.6.8.6.8.6.7.4.
 
 1 I have a Friend so precious,
 
@@ -24982,7 +24982,7 @@ Soon there we’ll reign together,
 
 My Lord and I.
 
-502 8.7.8.7.D.
+# 502 8.7.8.7.D.
 
 1 Savior, I by faith am touching\
 Thee, the source of every good;\
@@ -25013,7 +25013,7 @@ All my need, by Thee supplied;\
 Keep me touching, keep me claiming,\
 Keep me ever at Thy side.
 
-503 8.7.8.7.
+# 503 8.7.8.7.
 
 1 Thou hast said Thou art the Vine, Lord,\
 And that I’m a branch in Thee,\
@@ -25088,7 +25088,7 @@ Thou art life and Thou art power,
 
 All in all to me Thou art.
 
-504 10.10.10.10.
+# 504 10.10.10.10.
 
 1 Abide in Thee! in that deep love of Thine,
 
@@ -25122,7 +25122,7 @@ All joy and peace, and knowledge of Thy word,
 
 All pow’r and fruit, and service for the Lord.
 
-505 Irregular Meter
+# 505 Irregular Meter
 
 You are the vine, We are the branches,
 
@@ -25140,7 +25140,7 @@ That the world Will surely know
 
 hat You have power to heal and to save.
 
-506 8.7.8.7. with chorus
+# 506 8.7.8.7. with chorus
 
 1 He’s the vine and we’re the branches,
 
@@ -25190,7 +25190,7 @@ As the fruit of life is added,
 
 And our joy is made complete.
 
-507 Irregular Meter
+# 507 Irregular Meter
 
 1 We’ve found the secret of living,
 
@@ -25234,7 +25234,7 @@ Both God and man are at home now
 
 By the mutual abiding in the vine.
 
-508 11.10.11.10. with chorus
+# 508 11.10.11.10. with chorus
 
 1 Under His wings I am safely abiding;
 
@@ -25268,7 +25268,7 @@ Sheltered, protected, no evil can harm me;
 
 Resting in Jesus I’m safe evermore.
 
-509 8.7.8.7.D. with chorus
+# 509 8.7.8.7.D. with chorus
 
 1 I have learned the wondrous secret
 
@@ -25346,7 +25346,7 @@ Savior, Sanctifier, Healer,
 
 Glorious Lord, and coming King.
 
-510 8.8.8.8. with chorus
+# 510 8.8.8.8. with chorus
 
 1 The Lord’s our Rock, in Him we hide,
 
@@ -25388,7 +25388,7 @@ Be Thou our helper ever near,
 
 A shelter in the time of storm.
 
-511 11.11.11.11. with chorus
+# 511 11.11.11.11. with chorus
 
 1 Oh, safe to the Rock that is higher than I,
 
@@ -25418,7 +25418,7 @@ How often, when trials like sea-billows roll,
 
 Have I hidden in Thee, O Thou Rock of my soul.
 
-512 8.7.8.7.D.
+# 512 8.7.8.7.D.
 
 1 ’Tis so sweet to trust in Jesus,
 
@@ -25460,7 +25460,7 @@ And I know that Thou art with me,
 
 Wilt be with me to the end.
 
-513 7.7.7.7.D.
+# 513 7.7.7.7.D.
 
 1 Simply trusting every day;
 
@@ -25502,7 +25502,7 @@ Till His gracious advent call,
 
 Trusting Jesus, that is all.
 
-514 8.7.8.7.7.7.
+# 514 8.7.8.7.7.7.
 
 1 Thou whose name is called Jesus,
 
@@ -25576,7 +25576,7 @@ Ever let my heart become
 
 Yet more consciously Thy home.
 
-515 8.6.8.6.
+# 515 8.6.8.6.
 
 1 I know that my Redeemer lives
 
@@ -25618,7 +25618,7 @@ Thou wilt return and claim me, Lord,
 
 And to Thyself receive.
 
-516 10.10.10.10.
+# 516 10.10.10.10.
 
 1 I take Thy promise, Lord, in all its length,\
 And breadth and fulness, as my daily strength;\
@@ -25663,7 +25663,7 @@ Then when these earthly years have passed away,
 
 Let me be with Thee in the perfect day.
 
-517 8.8.8.8.8.8.
+# 517 8.8.8.8.8.8.
 
 1 All things are possible to him
 
@@ -25725,7 +25725,7 @@ Give me this hour in Thee to prove
 
 The sweet omnipotence of love.
 
-518 8.7.8.5.D.
+# 518 8.7.8.5.D.
 
 1 Jesus! I am resting, resting
 
@@ -25799,7 +25799,7 @@ Keep me ever trusting, resting,
 
 Fill me with Thy grace.
 
-519 8.8.8.8.
+# 519 8.8.8.8.
 
 1 My will is weak, my strength is frail,
 
@@ -25833,7 +25833,7 @@ Though I’m the weakest of the weak,
 
 My strength is nothing but Thy grace.
 
-520 7.6.7.6.D. with chorus
+# 520 7.6.7.6.D. with chorus
 
 1 On Thee my heart is resting,
 
@@ -25914,7 +25914,7 @@ Thy grace shall still be with me,
 
 Thy grace, to live and die.
 
-521 6.6.9.6.6.9. with chorus
+# 521 6.6.9.6.6.9. with chorus
 
 1 When we walk with the Lord
 
@@ -25984,7 +25984,7 @@ Where He sends, we will go,
 
 Never fear, only trust and obey.
 
-522 11.11.11.11. with chorus
+# 522 11.11.11.11. with chorus
 
 1 Anywhere with Jesus I can safely go,
 
@@ -26014,7 +26014,7 @@ Knowing I shall waken never more to roam,
 
 Anywhere with Jesus will be home, sweet home.
 
-523 8.8.8.8.D.
+# 523 8.8.8.8.D.
 
 1 He leadeth me! O blessed thought,
 
@@ -26056,7 +26056,7 @@ E’en death’s cold wave I will not flee,
 
 Since Thou in triumph leadest me.
 
-524 8.7.8.7.D.
+# 524 8.7.8.7.D.
 
 1 God in heaven hath a treasure,\
 Riches none may count or tell;\
@@ -26108,7 +26108,7 @@ Telling forth His wondrous story,
 
 Emptied to be filled with Him.
 
-525 11.10.11.10. with chorus
+# 525 11.10.11.10. with chorus
 
 1 Not I, but Christ be honored, loved, exalted,
 
@@ -26156,7 +26156,7 @@ Christ, only Christ, my every wish fulfilling,
 
 Christ, only Christ, my all in all to be.\\
 
-526 7.5.7.5.D.
+# 526 7.5.7.5.D.
 
 1 In God’s image we were made;
 
@@ -26222,7 +26222,7 @@ All His inner life and being
 
 He will duplicate!
 
-527 8.7.8.7. with chorus
+# 527 8.7.8.7. with chorus
 
 1 Lord, our earnest expectation
 
@@ -26288,7 +26288,7 @@ That for Jesus’ testimony
 
 God through us may reach His goal.
 
-528 8.8.8.8.D.
+# 528 8.8.8.8.D.
 
 1 When God created man on earth,
 
@@ -26354,7 +26354,7 @@ Transforming Spirit to bring in
 
 Until we shine, expressing Him.
 
-529 8.7.8.7.D. with repeat
+# 529 8.7.8.7.D. with repeat
 
 1 There is always something over,
 
@@ -26404,7 +26404,7 @@ We can only praise and wonder
 
 And His Name forever bless.
 
-530 7.7.7.3.D. with chorus
+# 530 7.7.7.3.D. with chorus
 
 1 Jesus is reality,
 
@@ -26496,7 +26496,7 @@ He will soon be here to stay:
 
 Overcome!
 
-531 11.10.11.10.
+# 531 11.10.11.10.
 
 1 Out of the depths of darkness, death, and anguish,
 
@@ -26522,7 +26522,7 @@ Reigning with Christ, I taste His satisfaction;
 
 Feasting with Him, I glimpse the Bridegroom’s face.
 
-532 13.10.13.4. with chorus
+# 532 13.10.13.4. with chorus
 
 1 Christ is grace, coming to us from the Father above,
 
@@ -26560,7 +26560,7 @@ Brothers: that is streaming all God’s story.
 
 Everyone: We are coming and opening our hearts to its rays.
 
-533 13.10.13.4. with chorus
+# 533 13.10.13.4. with chorus
 
 1 God is Spirit—the nature of His Person divine;
 
@@ -26612,7 +26612,7 @@ Everyone: And we’re righteous, as God,
 
 in everything!
 
-534 8.6.8.6. with repeat
+# 534 8.6.8.6. with repeat
 
 1 My God, my Portion, and my Love,
 
@@ -26664,7 +26664,7 @@ Grant me the visits of Thy grace,
 
 And I desire no more, And I desire no more.
 
-535 8.6.8.8.6.
+# 535 8.6.8.8.6.
 
 1 Eternal Light! Eternal Light!\
 How pure the soul must be\
@@ -26708,7 +26708,7 @@ The sons of ignorance and night\
 May dwell in the eternal Light,\
 Through the eternal Love.
 
-536 10.10.10.10.10.10.
+# 536 10.10.10.10.10.10.
 
 1 My home is God Himself; Christ brought me there,
 
@@ -26746,7 +26746,7 @@ That as I rest within my home most fair,
 
 I’ll share my God in all and everywhere.
 
-537 8.6.8.6.D.
+# 537 8.6.8.6.D.
 
 1 My heart is resting, O my God,
 
@@ -26812,7 +26812,7 @@ That draws my captive will to Him,
 
 And makes it one with Thine.
 
-538 8.8.8.8.
+# 538 8.8.8.8.
 
 1 Thou sweet, beloved will of God,
 
@@ -26878,7 +26878,7 @@ And faith shall cry a joyous Yes
 
 To every dear command of Thine.
 
-539 12.8.12.8. with chorus
+# 539 12.8.12.8. with chorus
 
 1 From my spirit within flows a fountain of life—
 
@@ -26910,7 +26910,7 @@ Hallelujah, I’ve heard an encouraging word:
 
 “Abide—you’re a branch in the vine.”
 
-540 8.6.8.6.
+# 540 8.6.8.6.
 
 1 O God, our help in ages past,\
 Our hope for years to come,\
@@ -26951,7 +26951,7 @@ Our hope for years to come,\
 Be Thou our guard while life shall last,\
 And our eternal home.
 
-541 Irregular Meter
+# 541 Irregular Meter
 
 1 The cross it standeth fast,
 
@@ -26997,7 +26997,7 @@ Of Christ, our living King,
 
 Hallelujah for the cross!
 
-542 Irregular Meter
+# 542 Irregular Meter
 
 1 The cross—we all were there,
 
@@ -27069,7 +27069,7 @@ God has been released in us!\
 Hallelujah! hallelujah!\
 Hallelujah for the cross!
 
-543 12.8.12.8. with chorus
+# 543 12.8.12.8. with chorus
 
 1 On a hill far away stood an old rugged cross,
 
@@ -27111,7 +27111,7 @@ Then He’ll call me some day to my home far away,
 
 Where His glory forever I’ll share.
 
-544 8.7.8.7.
+# 544 8.7.8.7.
 
 1 In the cross of Christ I glory,
 
@@ -27145,7 +27145,7 @@ Peace is there that knows no measure,
 
 Joys that through all time abide.
 
-545 8.7.8.7. with chorus
+# 545 8.7.8.7. with chorus
 
 1 I am crucified with Christ,\
 And the cross hath set me free;
@@ -27198,7 +27198,7 @@ And like Him our path to glory,
 
 Ever leads through death alone.
 
-546 8.7.8.7.D. with chorus
+# 546 8.7.8.7.D. with chorus
 
 1 Crucified with Christ my Savior,
 
@@ -27256,7 +27256,7 @@ Should the Master say to thee,
 
 All the way to Calvary.”
 
-547 6.6.6.6.D. with chorus
+# 547 6.6.6.6.D. with chorus
 
 1 Though Christ a thousand times
 
@@ -27314,7 +27314,7 @@ Filled with the love of God,
 
 And holy like as He.
 
-548 8.7.8.7.D. with chorus
+# 548 8.7.8.7.D. with chorus
 
 1 First the blood, and then the ointment,
 
@@ -27413,7 +27413,7 @@ All the meaning of the Cross, Lord,
 
 Work in my—for this I plead.
 
-549 Irregular Meter
+# 549 Irregular Meter
 
 1 The way of the Cross means sacrifice,
 
@@ -27450,7 +27450,7 @@ One with Jesus crucified;\
 With the life alone to be lived through you,\
 Of the Risen, the Glorified.
 
-550 6.5.6.5.D.
+# 550 6.5.6.5.D.
 
 1 If the path I travel
 
@@ -27500,7 +27500,7 @@ Just a cleansed channel
 
 For Thy life through me.
 
-551 8.7.8.7.D.
+# 551 8.7.8.7.D.
 
 1 Via Bethlehem we journey,
 
@@ -27621,7 +27621,7 @@ For it may be ere tomorrow,
 
 The long journey will be done.”
 
-552 4.10.8.8.6.
+# 552 4.10.8.8.6.
 
 1 Hast thou no scar?
 
@@ -27653,7 +27653,7 @@ But whole? can he have followed far
 
 Who has no wound nor scar?
 
-553 8.5.8.7.D. with chorus
+# 553 8.5.8.7.D. with chorus
 
 1 Olives that have known no pressure
 
@@ -27743,7 +27743,7 @@ Thou increase and I decrease, Lord—
 
 This is now my only plea.
 
-554 7.7.7.7.
+# 554 7.7.7.7.
 
 1 ’Tis my happiness below
 
@@ -27777,7 +27777,7 @@ Bring me to my Savior’s feet,
 
 Lay me low and keep me there.
 
-555 8.7.8.7.D.
+# 555 8.7.8.7.D.
 
 1 Let us contemplate the grape vine,\
 From its life now let us learn,\
@@ -28022,7 +28022,7 @@ He who self-life never spareth
 
 Has the joys which all surpass.
 
-556 8.6.8.6.
+# 556 8.6.8.6.
 
 1 If from the right course I depart,
 
@@ -28104,7 +28104,7 @@ So faithfully I’ll still press on
 
 Until my Lord appears.
 
-557 7.6.8.6.8.6.8.6.
+# 557 7.6.8.6.8.6.8.6.
 
 1 Beneath the cross of Jesus
 
@@ -28186,7 +28186,7 @@ My sinful self my only shame,
 
 My glory all the cross.
 
-558 7.6.7.6. with chorus
+# 558 7.6.7.6. with chorus
 
 1 Jesus, keep me near the cross,
 
@@ -28228,7 +28228,7 @@ Till I see my Savior’s face,
 
 Leave His presence never.
 
-559 11.10.11.10.
+# 559 11.10.11.10.
 
 1 Life out of death—dear Master, is it Spoken\
 Of the life here, or in the better land?
@@ -28250,7 +28250,7 @@ They live in fellowship with “Jesus only,”
 
 And for His sake count earthly gain but loss.
 
-560 8.7.8.7.3 with chorus
+# 560 8.7.8.7.3 with chorus
 
 1 Take the name of Jesus with you,
 
@@ -28281,7 +28281,7 @@ King of kings in heav’n we’ll crown Him,
 
 When our journey is complete.
 
-561 10.10.10.10.
+# 561 10.10.10.10.
 
 1 Deep down into the depths of this Thy Name,
 
@@ -28307,7 +28307,7 @@ And there adore Thy ways in faith’s deep rest,
 
 And there adore Thy ways in faith’s quiet rest.
 
-562 10.10.10.10.
+# 562 10.10.10.10.
 
 1 Not what I am, O Lord, but what Thou art;
 
@@ -28357,7 +28357,7 @@ More of Thyself in all Thy grace and power;
 
 More of Thy love and truth, Incarnate Word.
 
-563 7.6.7.6.D. with chorus
+# 563 7.6.7.6.D. with chorus
 
 1 Safe in the arms of Jesus,
 
@@ -28415,7 +28415,7 @@ Wait till I see the morning
 
 Break on the golden shore.
 
-564 Irregular Meter
+# 564 Irregular Meter
 
 1 “Fear not, I am with thee”;\
 Blessed golden ray,\
@@ -28461,7 +28461,7 @@ Singing all so sweetly,
 
 “He will not leave me alone.”
 
-565 8.6.8.6.
+# 565 8.6.8.6.
 
 1 God moves in a mysterious way
 
@@ -28511,7 +28511,7 @@ God is His own Interpreter,
 
 And He will make it plain.
 
-566 7.6.7.6.D.
+# 566 7.6.7.6.D.
 
 1 In heav’nly love abiding
 
@@ -28561,7 +28561,7 @@ My Savior has my treasure,
 
 And He will walk with me.
 
-567 6.10.7.7.10.
+# 567 6.10.7.7.10.
 
 1 In His time, in His time,
 
@@ -28583,7 +28583,7 @@ May each song I have to sing
 
 Be to You a lovely thing in Your time.
 
-568 8.3.8.3. with chorus
+# 568 8.3.8.3. with chorus
 
 1 Hark! a voice from heav’n proclaiming,\
 “It is done.”\
@@ -28642,7 +28642,7 @@ Take Him at His word believing,
 
 “It is done.”
 
-569 8.8.8.8.
+# 569 8.8.8.8.
 
 1 He faileth not, for He is God;
 
@@ -28708,7 +28708,7 @@ He faileth not, His grace how good;
 
 He faileth not, for He is God!
 
-570 God will Take Care Of You <!-- editor: was missing -->
+# 570 God will Take Care Of You <!-- editor: was missing -->
 
 1.  Be not dismayed whate’er betide,
 
@@ -28758,7 +28758,7 @@ Lean, weary one, upon His breast,
 
 God will take care of you!
 
-571 10.10.10.10.10.10.
+# 571 10.10.10.10.10.10.
 
 1 Be still, my soul! the Lord is on thy side;
 
@@ -28796,7 +28796,7 @@ Be still, my soul! when change and tears are past,
 
 All safe and blessed we shall meet at last.
 
-572 Irregular Meter
+# 572 Irregular Meter
 
 1 Does Jesus care when my heart is pained
 
@@ -28840,7 +28840,7 @@ And my sad heart aches Till it nearly breaks,
 
 Is it aught to Him? Does He see?
 
-573 10.6.10.6. with chorus
+# 573 10.6.10.6. with chorus
 
 1 There’s not a Friend like, the lowly Jesus:
 
@@ -28890,7 +28890,7 @@ Will He refuse us the bliss of heaven?
 
 No, not one! no, not one!
 
-574 8.7.8.5.D.
+# 574 8.7.8.5.D.
 
 1 I’m a pilgrim and a stranger,
 
@@ -28956,7 +28956,7 @@ Jesus stands engaged to bless me;
 
 This my Father knows.
 
-575 8.7.8.7.D. with repeat
+# 575 8.7.8.7.D. with repeat
 
 1 All the way my Savior leads me;
 
@@ -29006,7 +29006,7 @@ This my song through endless ages:
 
 Jesus led me all the way.
 
-576 8.7.8.7.D.
+# 576 8.7.8.7.D.
 
 1 Precious promise God doth give thee,
 
@@ -29048,7 +29048,7 @@ Hear thy faithful Pilot calling,
 
 “I will guide thee with Mine eye.”
 
-577 8.8.8.8.D.
+# 577 8.8.8.8.D.
 
 1 Not now, but in the coming years,
 
@@ -29095,7 +29095,7 @@ Sometime with tearless eyes we’ll see;
 
 Yes, then, ’tis then, we’ll understand.
 
-578 Irregular Meter
+# 578 Irregular Meter
 
 1 I know not what awaits me,
 
@@ -29157,7 +29157,7 @@ I’d rather walk by faith with Him
 
 Than go alone by sight.
 
-579 8.8.8.8.
+# 579 8.8.8.8.
 
 1 Be still, my heart! these anxious cares
 
@@ -29207,7 +29207,7 @@ Then count thy present trials small,
 
 For God will make amends for all.
 
-580 11.11.11.11. with chorus
+# 580 11.11.11.11. with chorus
 
 1 When upon life’s billows you are tempest tossed,
 
@@ -29249,7 +29249,7 @@ Count your many blessings, angels will attend,
 
 Help and comfort give you to your journey’s end.
 
-581 10.9.10.9.10.9.10.7.
+# 581 10.9.10.9.10.9.10.7.
 
 1 Day by day, and with each passing moment,
 
@@ -29299,7 +29299,7 @@ One by one, the days, the moments fleeting,
 
 Till with Christ the Lord I stand.
 
-582 8.6.8.6.
+# 582 8.6.8.6.
 
 1 Through all the changing scenes of life,
 
@@ -29334,7 +29334,7 @@ Make you His service your delight,
 
 Your wants shall be His care.
 
-583 11.11.11.11. with chorus
+# 583 11.11.11.11. with chorus
 
 1 When sorrows and storms are besetting my track,
 
@@ -29384,7 +29384,7 @@ And when all is seeming as black as the night,
 
 We’ll keep on believing, and go on with the fight.
 
-584 6.6.8.6. with repeat
+# 584 6.6.8.6. with repeat
 
 1 Keep up the song of faith,\
 However dark the night;\
@@ -29415,7 +29415,7 @@ And we shall go to meet the Lord,
 
 And join the endless song.
 
-585 11.9.11.9. with chorus
+# 585 11.9.11.9. with chorus
 
 1 O let us rejoice in the Lord evermore,
 
@@ -29444,7 +29444,7 @@ No cordial like gladness our strength can restore,
 
 For joy is the fountain of healing.
 
-586 6.5.6.5.D.
+# 586 6.5.6.5.D.
 
 1 Like a river, glorious
 
@@ -29486,7 +29486,7 @@ We may trust Him fully All for us to do;
 
 They who trust Him wholly Find Him wholly true.
 
-587 10.10.
+# 587 10.10.
 
 1 Peace, perfect peace, in this dark world of sin?
 
@@ -29508,7 +29508,7 @@ In Jesus’ keeping we are Safe, and they.
 
 Jesus we know, and He is on the throne.
 
-588 9.8.9.8.D. with chorus
+# 588 9.8.9.8.D. with chorus
 
 1 I’ll sing of the wonderful promise
 
@@ -29581,7 +29581,7 @@ His wonderful promise to me,\
 My strength is made perfect in weakness,\
 My grace is sufficient for thee.
 
-589 9.9.9.9.D.
+# 589 9.9.9.9.D.
 
 1 God hath not promised skies always blue,
 
@@ -29613,7 +29613,7 @@ Never a mountain, rocky and steep,
 
 Never a river, turbid and deep.
 
-590 9.7.9.7. with chorus
+# 590 9.7.9.7. with chorus
 
 1 The cross that He gave may be heavy,
 
@@ -29648,7 +29648,7 @@ My trials more blessings are bringing,
 
 Christ in them is my delight.
 
-591 12.11.12.11.
+# 591 12.11.12.11.
 
 1 He giveth more grace when the burdens grow greater,\
 He sendeth more strength when the labors increase,\
@@ -29665,7 +29665,7 @@ His power no boundary known unto men,\
 For out of His infinite riches in Jesus,\
 He giveth and giveth and giveth again.
 
-592 6.6.8.6.8.8.
+# 592 6.6.8.6.8.8.
 
 1 A little bird I am,\
 Shut from the fields of air,\
@@ -29702,7 +29702,7 @@ Whose providence I love;\
 And in Thy mighty will to find\
 The joy, the freedom of the mind.
 
-593 7.6.7.6.8.8.
+# 593 7.6.7.6.8.8.
 
 1 Strong are the walls around me,
 
@@ -29748,7 +29748,7 @@ Oh, ’tis enough, whate’er befall,
 
 To know that God is All in all.
 
-594 10.10.10.10. with chorus
+# 594 10.10.10.10. with chorus
 
 1 Pressed out of measure, pressed beyond all length;
 
@@ -29778,7 +29778,7 @@ Pressed into life, a life in Christ the Lord,
 
 Pressed into life, the life of Christ outpoured.
 
-595 11.8.11.8.D. with repeat
+# 595 11.8.11.8.D. with repeat
 
 1 His angels His countenance always behold,
 
@@ -29870,7 +29870,7 @@ I then regret chances were lost,
 
 I then regret chances were lost.
 
-596 8.8.8.
+# 596 8.8.8.
 
 1 Why should I fear the darkest hour,
 
@@ -29920,7 +29920,7 @@ But on my side is power divine;
 
 Jesus is all, and He is mine!
 
-597 6.5.6.5.D.
+# 597 6.5.6.5.D.
 
 1 In the heart of Jesus There is love for you,
 
@@ -29954,7 +29954,7 @@ Why then, like a wand’rer, Roam with weary pace,
 
 If the Church of Jesus Holds for you a place?
 
-598 8.8.8.8. (A)
+# 598 8.8.8.8. (A)
 
 1 How good is the God we adore,
 
@@ -29972,7 +29972,7 @@ We’ll praise Him for all that is past,
 
 And trust Him for all that’s to come.
 
-599 8.8.8.5.
+# 599 8.8.8.5.
 
 1 Praise the Savior, ye who know Him!
 
@@ -30014,7 +30014,7 @@ Things which are not now, nor could be,
 
 Then shall be our own.
 
-600 9.8.9.8. with chorus
+# 600 9.8.9.8. with chorus
 
 1 O soul, are you weary and troubled?
 
@@ -30048,7 +30048,7 @@ Then go to a world that is dying,
 
 His perfect salvation to tell!
 
-601 11.11.11.11.
+# 601 11.11.11.11.
 
 1 O eyes that are weary and hearts that are sore,
 
@@ -30090,7 +30090,7 @@ I shall know how His love went before me each day,
 
 And wonder that ever my eyes turned away.
 
-602 Irregular Meter
+# 602 Irregular Meter
 
 1 Soldier, soldier, fighting in the world’s great strife,\
 On thyself relying, battling for thy life;\
@@ -30123,7 +30123,7 @@ Power bring from my weakness, Glory from my meekness:
 
 I can all things, all things do Through Christ, which strengtheneth me.
 
-603 11.10.11.10.
+# 603 11.10.11.10.
 
 1 “Be all at rest, my soul!” Oh! blessed secret
 
@@ -30157,7 +30157,7 @@ For God is rest, and where He dwells is stillness,
 
 And they who dwell in Him that rest shall share.
 
-604 10.10.10.10.
+# 604 10.10.10.10.
 
 1 “Consider Him,” let Christ thy pattern be,
 
@@ -30199,7 +30199,7 @@ And thus transformed, illumined thou shalt be,
 
 And Christ’s own image shall be seen in thee.
 
-605 6.5.6.5.D.
+# 605 6.5.6.5.D.
 
 1 Take time to be holy, Speak oft with Thy Lord,
 
@@ -30233,7 +30233,7 @@ Thus led by His Spirit To fountains of love,
 
 Thou soon shalt be fitted For service above.
 
-606 13.11.13.7. with chorus
+# 606 13.11.13.7. with chorus
 
 1 Would you live for Jesus and be always pure and good?
 
@@ -30267,7 +30267,7 @@ Would you in His service Labor always at your best?
 
 Let Him have His way with thee.
 
-607 6.5.6.5.D.
+# 607 6.5.6.5.D.
 
 1 Can you be obedient To the Lord of all,\
 Though the earth should totter, Though the heav’ns should fall?\
@@ -30295,7 +30295,7 @@ Then when soldiers muster At the set of sun,
 
 And your name is mentioned, Christ will say, “Well done.”
 
-608 11.8.11.8. with chorus
+# 608 11.8.11.8. with chorus
 
 1 Rejoice in the Lord! Oh, let His mercy cheer;\
 He sunders the hands that enthrall;
@@ -30336,7 +30336,7 @@ To pluck from His hand the weakest, trembling soul,
 
 It never, never can be done!
 
-609 8.7.8.7.D. with chorus
+# 609 8.7.8.7.D. with chorus
 
 1 Share thy handful with the stranger;
 
@@ -30388,7 +30388,7 @@ Spending doth not waste thy store,\
 Tho’ it seems the last thou givest,\
 There is, aye, one handful more.
 
-610 6.6.8.6.
+# 610 6.6.8.6.
 
 1 Rise up, O men of God!
 
@@ -30419,7 +30419,7 @@ As brothers of the Son of man,
 
 Rise up, O men of God!
 
-611 6.6.6.6.8.8.
+# 611 6.6.6.6.8.8.
 
 1 Ye sleeping souls, awake
 
@@ -30493,7 +30493,7 @@ Nor let us ever tire, nor rest,
 
 Till with Thy full possession blest!
 
-612 8.7.8.7.
+# 612 8.7.8.7.
 
 1 Rise, my soul, thy God directs thee;
 
@@ -30552,7 +30552,7 @@ Thou, with shouts of triumph swelling,
 
 Zion’s songs in rest shall sing.
 
-613 6.6.8.6.
+# 613 6.6.8.6.
 
 1 “On toward the goal!” Press on! Alone, yet unafraid;
 
@@ -30570,7 +30570,7 @@ When just ahead lies His “Well done,” And crowns await thy brow.
 
 Along the blood-marked, uphill way, Hard after Christ, press on!
 
-614 8.6.8.6. with chorus
+# 614 8.6.8.6. with chorus
 
 1 Press on, press on toward the goal—
 
@@ -30606,7 +30606,7 @@ Press onward to the Christ before,
 
 Press onward with this mind!
 
-615 11.9.11.9. with chorus
+# 615 11.9.11.9. with chorus
 
 1 There’s a race for us to run—Hallelujah,\
 And a way for us the race to win.
@@ -30655,7 +30655,7 @@ O what grace to run the race—Hallelujah—
 
 We obtain by looking off to Him!
 
-616 6.5.6.5.D.
+# 616 6.5.6.5.D.
 
 1 “Forward!” be our watchword, Steps and voices joined;\
 Seek the things before us, Not a look behind;\
@@ -30671,7 +30671,7 @@ Nor of these hath uttered Thought or speech or word;\
 Forward, marching forward Where the kingdom’s bright,\
 Till the veil be lifted, Till our faith be sight!
 
-617 7.6.7.6.D.
+# 617 7.6.7.6.D.
 
 1 Stand up! stand up for Jesus! Ye soldiers of the cross;
 
@@ -30705,7 +30705,7 @@ To him that overcometh A crown of life shall be;
 
 He, with the King of glory, Shall reign eternally.
 
-618 6.5.6.5.D. with chorus
+# 618 6.5.6.5.D. with chorus
 
 1 Onward Christian soldiers!
 
@@ -30751,7 +30751,7 @@ Glory, laud and honor Unto Christ, the King;
 
 This through countless ages Men and angels sing.
 
-619 7.6.7.6.D. with chorus
+# 619 7.6.7.6.D. with chorus
 
 1 I dare not be defeated With Calvary in view,
 
@@ -30789,7 +30789,7 @@ Come, Lord, bend from the Glory, On me Thy Spirit cast,
 
 Make me an overcomer, A victor to the last.
 
-620 8.8.8.8.
+# 620 8.8.8.8.
 
 1 Fight the good fight with all thy might!
 
@@ -30823,7 +30823,7 @@ Only believe, and thou shalt see
 
 That Christ is all in all to thee.
 
-621 9.7.9.7.8.7.8.7. with chorus
+# 621 9.7.9.7.8.7.8.7. with chorus
 
 1 Conquering now and still to conquer,
 
@@ -30881,7 +30881,7 @@ Find in Thy kingdom eternal
 
 Rest, when their warfare is past.
 
-622 7.6.7.6.D.
+# 622 7.6.7.6.D.
 
 1 ’Tis easy when the morning
 
@@ -30915,7 +30915,7 @@ And sin-chained souls around thee
 
 Shall see thy Lord’s great might.
 
-623 8.7.8.7.D.
+# 623 8.7.8.7.D.
 
 1 To the foe my word is always, “No,”
 
@@ -30965,7 +30965,7 @@ Then no trials shall prevent me,
 
 Nor will opposition grim.
 
-624 8.6.8.6.D. with chorus
+# 624 8.6.8.6.D. with chorus
 
 1 Encamped along the hills of light,
 
@@ -31035,7 +31035,7 @@ We’ll vanquish all. the hosts of night,
 
 In Jesus’ conqu’ring name.
 
-625 7.7.7.7.
+# 625 7.7.7.7.
 
 1 In the Overcomer’s Name Be an overcomer too!
 
@@ -31053,7 +31053,7 @@ Smite until the sinking sun Sets upon the warrior bold!
 
 Stand and put the foe to shame All the livelong battle through!
 
-626 Irregular Meter
+# 626 Irregular Meter
 
 In the name of Jesus,
 
@@ -31069,7 +31069,7 @@ Who can tell of His love for you?
 
 In the name of Jesus, Jesus, we have the victory.
 
-627 11.10.11.10. with repeat
+# 627 11.10.11.10. with repeat
 
 1 We rest on Thee, our Shield and our Defender;
 
@@ -31119,7 +31119,7 @@ When reigning in the Kingdom of Thy splendor,
 
 Victors, we rest with Thee, Through endless days.
 
-628 8.6.8.6.D.
+# 628 8.6.8.6.D.
 
 1 The Son of God goes forth to war, A kingly crown to gain;
 
@@ -31169,7 +31169,7 @@ O God, to us may grace be given
 
 To follow in their train.
 
-629 Irregular Meter
+# 629 Irregular Meter
 
 1 A mighty Fortress is our God,
 
@@ -31241,7 +31241,7 @@ God’s truth abideth still,
 
 His Kingdom is forever.
 
-630 8.6.8.6.D.
+# 630 8.6.8.6.D.
 
 1 The name of Jesus is our stand,
 
@@ -31323,7 +31323,7 @@ If now we suffer for His sake,
 
 Then we with Him shall reign.
 
-631 6.6.8.6.D.
+# 631 6.6.8.6.D.
 
 1 Soldiers of Christ, arise,
 
@@ -31405,7 +31405,7 @@ Till Christ the Lord descend from high,
 
 And take the conquerors home.
 
-632 Irregular Meter
+# 632 Irregular Meter
 
 1 O Lord, to conflict new
 
@@ -31463,7 +31463,7 @@ Wrestle, suffer and pray!
 
 We’ll reign with Christ for aye.
 
-633 8.8.8.8.
+# 633 8.8.8.8.
 
 1 With all the pow’r in heav’n and earth
 
@@ -31497,7 +31497,7 @@ We should, we must, we can, we will,
 
 Fulfill God’s purpose faithfully.
 
-634 6.6.8.6.D.
+# 634 6.6.8.6.D.
 
 1 Conflict today is fierce, The strength of Satan more;
 
@@ -31547,7 +31547,7 @@ Till we the day of rapture greet And glory ‘round shall glow.
 
 The overcomers will rejoice, Jesus, the Lord, has come!
 
-635 8.5.8.5.D.
+# 635 8.5.8.5.D.
 
 1 Hallelujah! Christ is Victor, Tell with every breath,
 
@@ -31573,7 +31573,7 @@ Evermore must dim thy vision! Christ the way will clear.
 
 “Come ye conquerors, come up hither, Join thy conquering King.”
 
-636 7.6.7.6.D.
+# 636 7.6.7.6.D.
 
 1 Charge, soldiers, charge in battle! The conflict has begun;
 
@@ -31623,7 +31623,7 @@ The Lamb has won the victory! The Lamb is on the throne!
 
 With shouts of joy we praise Him, For He must overcome.
 
-637 10.10.10.10.
+# 637 10.10.10.10.
 
 1 And is it so! I shall be like Thy Son?
 
@@ -31657,7 +31657,7 @@ All like Thee, for Thy glory like Thee, Lord,
 
 Object supreme of all, by all adored.
 
-638 8.8.8.8.8.8. with repeat
+# 638 8.8.8.8.8.8. with repeat
 
 1 ”A little while!” Our Lord shall come,
 
@@ -31713,7 +31713,7 @@ To see Thy glory, and to be
 
 In ev’rything conformed to Thee!
 
-639 Irregular Meter
+# 639 Irregular Meter
 
 1 Jesus is coming to earth again,
 
@@ -31771,7 +31771,7 @@ Watch, for that time is drawing nigh,
 
 What if it were today?
 
-640 Irregular Meter
+# 640 Irregular Meter
 
 1 Our Lord is now rejected, And by the world disowned,
 
@@ -31831,7 +31831,7 @@ For whom our Lord did die,
 
 For the crowning day that’s coming By-and-by.
 
-641 11.10.11.10.11.10.11.12.
+# 641 11.10.11.10.11.10.11.12.
 
 1 Since long ago at Bethany we parted,
 
@@ -31945,7 +31945,7 @@ Oh, may Thou come, the echo of the ages,
 
 Come, come and answer now this mighty corp’rate cry!
 
-642 11.10.11.10. with chorus
+# 642 11.10.11.10. with chorus
 
 1 Since Thy departure from Olivet’s Mountain,
 
@@ -32009,7 +32009,7 @@ We hope and hope and are endlessly hoping,
 
 That Thou wilt come. Canst Thou come e’en today?
 
-643 8.6.8.6.D.
+# 643 8.6.8.6.D.
 
 1 My King will soon come back again,
 
@@ -32139,7 +32139,7 @@ The foe be curshed and all Thy sons
 
 Into Thy bosom giv’n.
 
-644 12.12.12.8. with chorus
+# 644 12.12.12.8. with chorus
 
 1 It may be at morn when the day is awaking,
 
@@ -32181,7 +32181,7 @@ Caught up through the clouds with our Lord into glory,
 
 When Jesus receives His own.
 
-645 12.12.12.8. with chorus
+# 645 12.12.12.8. with chorus
 
 1.  It may be at morn as the day we are greeting;
 
@@ -32225,7 +32225,7 @@ Our Lord and our life, our Beloved, our Bridegroom
 
 Will take to Himself His Bride!
 
-646 Irregular Meter
+# 646 Irregular Meter
 
 1 Lord, Thou wilt soon appear, Thy day is almost here.
 
@@ -32257,7 +32257,7 @@ O Hallelujah! ’Tis this we long for,
 
 And Thou too wilt be satisfied.
 
-647 8.7.8.7.D.
+# 647 8.7.8.7.D.
 
 1 Face to face with Christ, my Savior,
 
@@ -32299,7 +32299,7 @@ Face to face with my Redeemer,
 
 Jesus Christ who loves me so.
 
-648 8.8.8.8.D.
+# 648 8.8.8.8.D.
 
 1 Some day the silver cord will break,
 
@@ -32341,7 +32341,7 @@ That when my Savior I will greet,
 
 My faith will then be changed to sight.
 
-649 8.5.8.5.D.
+# 649 8.5.8.5.D.
 
 1 ’Midst the darkness, storm, and sorrow,
 
@@ -32439,7 +32439,7 @@ Mine, to be forever with Him;
 
 His, that I am there.
 
-650 8.8.8.4. with repeat
+# 650 8.8.8.4. with repeat
 
 1 When my blest Lord will come again,
 
@@ -32525,7 +32525,7 @@ And give the victors Thy reward,
 
 O praise the Lord!
 
-651 Irregular Meter
+# 651 Irregular Meter
 
 1 Thou art coming, O my Savior,
 
@@ -32599,7 +32599,7 @@ Unto earth’s remotest end
 
 Glorified, adored, and owned!
 
-652 7.6.7.6.D.
+# 652 7.6.7.6.D.
 
 1 Hail to the Lord’s Anointed,
 
@@ -32681,7 +32681,7 @@ His Name shall stand forever,
 
 His changeless Name of Love.
 
-653 9.7.9.7. with chorus
+# 653 9.7.9.7. with chorus
 
 1 Rejoice! Rejoice! Our Bridegroom’s coming,
 
@@ -32731,7 +32731,7 @@ And then a thousand years of dining
 
 At the marriage feast with Him!
 
-654 10.7.10.7. with chorus
+# 654 10.7.10.7. with chorus
 
 1 When Jesus comes to reward His servants,
 
@@ -32773,7 +32773,7 @@ If He shall come at the dawn or mid-night,
 
 Will He find us watching there?
 
-655 7.7.7.3.D. with chorus
+# 655 7.7.7.3.D. with chorus
 
 1 Christ comes quickly for His Bride,
 
@@ -32863,7 +32863,7 @@ Lessons must not be postponed,
 
 Quickly yield to Christ enthroned—Yield in time!
 
-656 12.12.12.12. with chorus
+# 656 12.12.12.12. with chorus
 
 1 Our faith to God-ward must in these days spread abroad
 
@@ -32905,7 +32905,7 @@ We’d ever watchful be to see Thee in the air
 
 And as sons of the day for that meeting prepare.
 
-657 10.10.10.10. with chorus
+# 657 10.10.10.10. with chorus
 
 1 Sing we the King who is coming to reign,
 
@@ -32955,7 +32955,7 @@ When this new song Thy creation shall sing,
 
 Satan is vanquished and Jesus is King.
 
-658 15.15.15.6. with chorus
+# 658 15.15.15.6. with chorus
 
 1 Lo, the kingdom of the world is now
 
@@ -33047,7 +33047,7 @@ Hallelujah, hallelujah!
 
 The victory is won!
 
-659 10.10.10.10. with repeat
+# 659 10.10.10.10. with repeat
 
 1 Our goal—the holy city with the Lord,
 
@@ -33099,7 +33099,7 @@ O Lord, come quickly! Take us up with Thee.
 
 (Repeat last line).
 
-660 11.11.11.11. with chorus
+# 660 11.11.11.11. with chorus
 
 1 He looked for a city and lived in a tent,
 
@@ -33137,7 +33137,7 @@ Is ever our portion, since willing to be
 
 Just pilgrims with Jesus, our roof a tent tree.
 
-661 8.7.8.7.D.
+# 661 8.7.8.7.D.
 
 1 Glorious things of thee are spoken,
 
@@ -33203,7 +33203,7 @@ Solid joys and lasting treasure
 
 None but Zion’s members know.
 
-662 10.10.10.10.10.10.
+# 662 10.10.10.10.10.10.
 
 1 How true it is no heart may comprehend
 
@@ -33289,7 +33289,7 @@ Once safe in Thee, no more shall we remove,
 
 O Thou our everlasting sure abode.
 
-663 8.6.8.6.D.
+# 663 8.6.8.6.D.
 
 1 There is a stream which issues forth
 
@@ -33339,7 +33339,7 @@ Blest be my God, the God of joy,
 
 That gives here such a taste!
 
-664 7.6.7.6.
+# 664 7.6.7.6.
 
 1 No more in earthen vessels
 
@@ -33389,7 +33389,7 @@ God in the Lamb in glory
 
 Expressed forevermore.
 
-665 8.7.8.7. with chorus
+# 665 8.7.8.7. with chorus
 
 1 Christ has a full redemption made:
 
@@ -33443,7 +33443,7 @@ The world shall never share a part,
 
 What a wonderful Savior!
 
-666 10.10.10.6. with chorus
+# 666 10.10.10.6. with chorus
 
 1 Jesus, my Savior, to Bethlehem came,
 
@@ -33487,7 +33487,7 @@ O I shall see Him descend from the sky,
 
 Coming for me, for me!
 
-667 11.10.11.10. with chorus
+# 667 11.10.11.10. with chorus
 
 1 One day when heaven was filled with His praises,
 
@@ -33537,7 +33537,7 @@ Wonderful day, my beloved ones bringing;
 
 Glorious Savior, this Jesus is mine!
 
-668 8.7.8.7. with chorus
+# 668 8.7.8.7. with chorus
 
 1 The Great Physician now is near,
 
@@ -33579,7 +33579,7 @@ Oh, how my soul delights to hear
 
 The precious name of Jesus!
 
-669 Irregular Meter
+# 669 Irregular Meter
 
 1 We have heard the joyful sound:
 
@@ -33645,7 +33645,7 @@ This our song of victory,
 
 Jesus saves, Jesus saves.
 
-670 8.5.8.5.D. with chorus
+# 670 8.5.8.5.D. with chorus
 
 1 O how sweet the glorious message,
 
@@ -33711,7 +33711,7 @@ To the faith that claims His fulness,
 
 Still will give as much.
 
-671 11.9.11.9. with chorus
+# 671 11.9.11.9. with chorus
 
 1 Oh, how dark the night that wrapt my spirit round!
 
@@ -33745,7 +33745,7 @@ When He bore my trespass, bore it all alone;
 
 Praise His Name forever, make it known.
 
-672 6.6.6.6. with chorus
+# 672 6.6.6.6. with chorus
 
 1 I hear the Savior say,
 
@@ -33787,7 +33787,7 @@ I stand in Him complete,
 
 My lips shall still repeat.
 
-673 8.6.8.6. with chorus
+# 673 8.6.8.6. with chorus
 
 1 Alas, and did my Savior bleed?
 
@@ -33837,7 +33837,7 @@ Here, Lord, I give myself away,
 
 ’Tis all that I can do.
 
-674 8.8.6.8.8.6.
+# 674 8.8.6.8.8.6.
 
 1.  Why should I worry, doubt and fear?
 
@@ -33887,7 +33887,7 @@ I ne’er could be condemned by God,
 
 For He has died for me!
 
-675 Irregular Meter
+# 675 Irregular Meter
 
 1 Free from the law—oh, happy condition!
 
@@ -33929,7 +33929,7 @@ Passing from death to life at His call,
 
 Blessed salvation once for all.
 
-676 7.5.7.5.D.
+# 676 7.5.7.5.D.
 
 1 Nothing either great or small—
 
@@ -33975,7 +33975,7 @@ By a simple faith,
 
 Stand in Him, in Him alone, Gloriously complete.
 
-677 9.9.9.9. with chorus
+# 677 9.9.9.9. with chorus
 
 1 Christ our Redeemer died on the cross,
 
@@ -34017,7 +34017,7 @@ Find peace and shelter under the blood,
 
 “And I will pass, will pass over you.”
 
-678 8.6.8.6. with repeat
+# 678 8.6.8.6. with repeat
 
 1 There is a fountain filled with blood
 
@@ -34069,7 +34069,7 @@ I’ll sing Thy power to save.
 
 (Repeat the last two lines of each stanza)
 
-679 11.9.11.9. with chorus
+# 679 11.9.11.9. with chorus
 
 1 Have you been to Jesus for the cleansing pow’r?
 
@@ -34111,7 +34111,7 @@ There’s a fountain flowing for the soul unclean,
 
 O be washed in the blood of the Lamb.
 
-680 Irregular Meter
+# 680 Irregular Meter
 
 1 What can wash away my sin?
 
@@ -34153,7 +34153,7 @@ This is all my righteousness—
 
 Nothing but the blood of Jesus!
 
-681 10.9.10.8. with chorus
+# 681 10.9.10.8. with chorus
 
 1 Would you be free from your burden of sin?
 
@@ -34195,7 +34195,7 @@ Would you live daily His praises to sing?
 
 There’s wonderful power in the blood.
 
-682 8.6.8.6. with chorus
+# 682 8.6.8.6. with chorus
 
 1 O now I see the cleansing wave!
 
@@ -34229,7 +34229,7 @@ With heart renewed and garments white
 
 And Christ enthroned within.
 
-683 8.5.8.3.D.
+# 683 8.5.8.3.D.
 
 1 Precious, precious blood of Jesus,
 
@@ -34295,7 +34295,7 @@ Precious blood, our way of glory,
 
 Praise and laud.
 
-684 8.4.8.4.8.8.8.4.
+# 684 8.4.8.4.8.8.8.4.
 
 1 One there is above all others,
 
@@ -34361,7 +34361,7 @@ Safe to glory He will guide you:
 
 Oh, how He loves!
 
-685 10.4.10.7.4.10.
+# 685 10.4.10.7.4.10.
 
 1 Come let us sing of a wonderful love,
 
@@ -34411,7 +34411,7 @@ Seeking to be
 
 Lowly and humble, a learner of Thee.
 
-686 10.6.10.6. with chorus
+# 686 10.6.10.6. with chorus
 
 1 There is no love like the love of Jesus,
 
@@ -34461,7 +34461,7 @@ And we shall rest on His loving breast,
 
 And with Him we’ll be one!
 
-687 9.9.9.9. with chorus
+# 687 9.9.9.9. with chorus
 
 1 Marvelous grace of our loving Lord,
 
@@ -34503,7 +34503,7 @@ You that are longing to see His face,
 
 Will you this moment His grace receive?
 
-688 9.8.9.8. with chorus
+# 688 9.8.9.8. with chorus
 
 1 Under the burdens of guilt and care,
 
@@ -34545,7 +34545,7 @@ Oh, for a sanctified, fearless band,
 
 Ready to hail its arrival!
 
-689 10.10.10.6. with chorus
+# 689 10.10.10.6. with chorus
 
 1 Oh, what a Savior that He died for me!
 
@@ -34587,7 +34587,7 @@ For him that cometh He will not cast out:
 
 “Hath everlasting life.”
 
-690 8.8.8.7.
+# 690 8.8.8.7.
 
 1 I’ve tried in vain a thousand ways
 
@@ -34621,7 +34621,7 @@ I’ll go to Him because His name,
 
 Above all names, is Jesus.
 
-691 11.8.11.8. with chorus
+# 691 11.8.11.8. with chorus
 
 1 The whole world was lost in the darkness of sin;
 
@@ -34655,7 +34655,7 @@ Go, wash, at His bidding, and light will arise;
 
 The light of the world is Jesus.
 
-692 11.11.11.6. with chorus
+# 692 11.11.11.6. with chorus
 
 1 A ruler once came to Jesus by night,
 
@@ -34689,7 +34689,7 @@ The life everlasting if ye would obtain,
 
 “Ye must be born again.”
 
-693 11.7.11.7. with chorus
+# 693 11.7.11.7. with chorus
 
 1 Softly and tenderly Jesus is calling—
 
@@ -34731,7 +34731,7 @@ Though we have sinned, He has mercy and pardon—
 
 Pardon for you and for me!
 
-694 10.8.10.7. with chorus
+# 694 10.8.10.7. with chorus
 
 1 Jesus is tenderly calling thee home—
 
@@ -34769,7 +34769,7 @@ They who believe on His name shall rejoice:
 
 Quickly arise, come away!
 
-695 8.6.8.6. with chorus
+# 695 8.6.8.6. with chorus
 
 1 Come, every soul by sin oppressed,
 
@@ -34811,7 +34811,7 @@ In Christ’s redemption take your stand,
 
 And all His goodness know.
 
-696 11.11.11.7. with chorus
+# 696 11.11.11.7. with chorus
 
 1 “Whosoever heareth!” shout, shout the sound!
 
@@ -34845,7 +34845,7 @@ Jesus is the true, the only Living Way:
 
 “Whosoever will may come.”
 
-697 8.7.8.7.D.
+# 697 8.7.8.7.D.
 
 1 Have you any room for Jesus,
 
@@ -34879,7 +34879,7 @@ O, today is time accepted,
 
 Tomorrow you may call in vain.
 
-698 10.8.10.8. with chorus
+# 698 10.8.10.8. with chorus
 
 1 If you are tired of the load of your sin,
 
@@ -34913,7 +34913,7 @@ If there’s a void this world never can fill,
 
 Let Jesus come into your heart.
 
-699 Irregular Meter
+# 699 Irregular Meter
 
 1 Hark, the Savior’s knocking, knocking,
 
@@ -34955,7 +34955,7 @@ Won’t you let Him enter, enter,
 
 And His grace impart.
 
-700 9.9.9.7. with chorus
+# 700 9.9.9.7. with chorus
 
 1 “Almost persuaded” now to believe;
 
@@ -35017,7 +35017,7 @@ Peace will your spirit fill—
 
 Oh, turn today!
 
-701 7.7.7.3.D. with chorus
+# 701 7.7.7.3.D. with chorus
 
 1 Life at best is very brief,
 
@@ -35097,7 +35097,7 @@ Come, receive His life tonight,
 
 Be in time!
 
-702 8.8.8.8.
+# 702 8.8.8.8.
 
 1 Just as I am, without one plea,
 
@@ -35147,7 +35147,7 @@ Now, to be Thine, yea, Thine alone,
 
 Lamb of God, I come, I come!
 
-703 Irregular Meter
+# 703 Irregular Meter
 
 1 Out of my bondage, sorrow, and night,
 
@@ -35213,7 +35213,7 @@ Ever Thy glorious face to behold,
 
 Jesus, I come to Thee!
 
-704 6.6.8.6. with chorus
+# 704 6.6.8.6. with chorus
 
 1 I hear Thy welcome voice,
 
@@ -35263,7 +35263,7 @@ All hail, the gift of Christ our Lord,
 
 Our strength and righteousness.
 
-705 6.6.8.6. with chorus
+# 705 6.6.8.6. with chorus
 
 1 I’ve wandered far away from God,
 
@@ -35321,7 +35321,7 @@ O wash me whiter than the snow;
 
 Lord, I’m coming home.
 
-706 Irregular Meter
+# 706 Irregular Meter
 
 1 “All things are ready,” come to the feast!
 
@@ -35363,7 +35363,7 @@ Come, feast upon the Christ of God
 
 And drink everlasting life.
 
-707 7.7.7.7.D.
+# 707 7.7.7.7.D.
 
 1 Jesus, lover of my soul,
 
@@ -35429,7 +35429,7 @@ Spring Thou up within my heart,
 
 Rise to all eternity.
 
-708 7.7.7.7.7.7.
+# 708 7.7.7.7.7.7.
 
 1 Rock of Ages, cleft for me,
 
@@ -35479,7 +35479,7 @@ Rock of Ages, cleft for me,
 
 Let me hide myself in Thee.
 
-709 Irregular Meter
+# 709 Irregular Meter
 
 1 Thou didst leave Thy throne and Thy kingly crown,
 
@@ -35545,7 +35545,7 @@ And my heart shall rejoice, Lord Jesus!
 
 When Thou comest and callest for me.
 
-710 9.7.9.7. with chorus
+# 710 9.7.9.7. with chorus
 
 1 Come into my heart, O Lord Jesus,
 
@@ -35579,7 +35579,7 @@ Fill me with Thy wonderful Spirit,
 
 Come in and take full control.
 
-711 8.5.8.3.
+# 711 8.5.8.3.
 
 1 I am trusting Thee, Lord Jesus,
 
@@ -35629,7 +35629,7 @@ I am trusting Thee for ever,
 
 And for all.
 
-712 6.5.6.5.D. with chorus
+# 712 6.5.6.5.D. with chorus
 
 1 Jesus, I will trust Thee,
 
@@ -35703,7 +35703,7 @@ These my soul’s salvation,
 
 Thou my Savior God!
 
-713 7.6.7.6.D. with chorus
+# 713 7.6.7.6.D. with chorus
 
 1 I love to tell the story,
 
@@ -35777,7 +35777,7 @@ I sing the new, new song,
 
 That I have loved so long.
 
-714 7.7.7.5.D.
+# 714 7.7.7.5.D.
 
 1 O how great His salvation!
 
@@ -35819,7 +35819,7 @@ I will sing Hallelujah!
 
 Jesus saves me now!
 
-715 9.9.9.5. with chorus
+# 715 9.9.9.5. with chorus
 
 1 Down at the cross where my Savior died,
 
@@ -35861,7 +35861,7 @@ Plunge in today, and be made complete;
 
 Glory to His name.
 
-716 12.9.12.9. with chorus
+# 716 12.9.12.9. with chorus
 
 1 There was One who was willing to die in my stead,
 
@@ -35899,7 +35899,7 @@ With a song on my lips and a song in my heart,
 
 That my sins have been taken away.
 
-717 Irregular Meter
+# 717 Irregular Meter
 
 1 In tenderness He sought me,
 
@@ -35945,7 +35945,7 @@ I wondered what He saw in me,
 
 To suffer such deep agony.
 
-718 Irregular Meter
+# 718 Irregular Meter
 
 1 I was sinking deep in sin,
 
@@ -36003,7 +36003,7 @@ He your Savior wants to be—
 
 Be saved today.
 
-719 7.7.7.7.D.
+# 719 7.7.7.7.D.
 
 1 Sinners Jesus will receive;
 
@@ -36045,7 +36045,7 @@ Purged from every spot and stain,
 
 Glory I shall enter in.
 
-720 Irregular Meter
+# 720 Irregular Meter
 
 1 There were ninety and nine that safely lay
 
@@ -36108,7 +36108,7 @@ And the angels echoed around the throne,
 
 “Rejoice, for the Lord brings back His own!”
 
-721 7.6.7.6.D. with chorus
+# 721 7.6.7.6.D. with chorus
 
 1 Tell me the old, old story,
 
@@ -36182,7 +36182,7 @@ Tell me the old, old story:
 
 “Christ Jesus makes thee whole.”
 
-722 10.9.10.9.D.
+# 722 10.9.10.9.D.
 
 1 If I gained the world, but lost the Savior,
 
@@ -36248,7 +36248,7 @@ O then everything is mine in Jesus;
 
 For my needs and more He will provide.
 
-723 10.6.10.6.D.
+# 723 10.6.10.6.D.
 
 1 Ours is a fellowship in the gospel
 
@@ -36314,7 +36314,7 @@ Christ is the life, the church His expression,
 
 Sound everywhere abroad.
 
-724 6.4.6.4.6.6.6.4.
+# 724 6.4.6.4.6.6.6.4.
 
 1 Sound ye the trumpet-call; Heralds proclaim
 
@@ -36348,7 +36348,7 @@ Then the wide world shall own, Bending before His throne,
 
 Jesus is King alone, Jesus is King!
 
-725 11.10.11.10. with chorus
+# 725 11.10.11.10. with chorus
 
 1.  Christians, make haste, your mission high fulfilling,
 
@@ -36402,7 +36402,7 @@ Let none whom He hath ransomed fail to greet Him,
 
 Through your neglect unfit to see His face.
 
-726 7.7.7.7.7.7.
+# 726 7.7.7.7.7.7.
 
 1 He shall reign o’er all the earth,
 
@@ -36452,7 +36452,7 @@ Bow each rebel heart, that all
 
 At Thy feet adoring fall.
 
-727 Irregular Meter
+# 727 Irregular Meter
 
 1 Rescue the perishing, Care for the dying,
 
@@ -36490,7 +36490,7 @@ Back to the narrow way. Patiently win them;
 
 Tell the poor wand’rer a Savior has died.
 
-728 11.10.11.10. with chorus
+# 728 11.10.11.10. with chorus
 
 1 Far, far away, in heathen darkness dwelling,
 
@@ -36524,7 +36524,7 @@ Jesus hath died to save from death appalling,
 
 Life and salvation therefore go proclaim.
 
-729 8.8.6.8.8.6.6. with chorus
+# 729 8.8.6.8.8.6.6. with chorus
 
 1 A hundred thousand souls a day
 
@@ -36604,7 +36604,7 @@ They charge thee with their doom,
 
 They charge thee with their doom?
 
-730 8.8.8.6.
+# 730 8.8.8.6.
 
 1 Send Thou, O Lord, to every place
 
@@ -36646,7 +36646,7 @@ Their war-cry, We will seek the lost,
 
 Where Thou, O Christ, wilt come!
 
-731 .8.8.8.
+# 731 .8.8.8.
 
 1 Jesus and shall it ever be?
 
@@ -36688,7 +36688,7 @@ And, O may this my glory be,
 
 That Christ is not ashamed of me.
 
-732 5.4.5.4.D.
+# 732 5.4.5.4.D.
 
 1 Out in the darkness, Shadowed by sin,
 
@@ -36730,7 +36730,7 @@ Thy love ne’er faileth,
 
 Love is Thy way.
 
-733 8.7.8.7.D.
+# 733 8.7.8.7.D.
 
 1 “Must I go, and empty-handed,”
 
@@ -36772,7 +36772,7 @@ Ere the night of death o’ertake thee,
 
 Strive for souls while still you may.
 
-734 12.5.12.5. with chorus
+# 734 12.5.12.5. with chorus
 
 1 The Lord is the portion of my inheritance,
 
@@ -36808,7 +36808,7 @@ My flesh rests in hope.
 
 (Do not repeat chorus after the last verse.)
 
-735 Irregular Meter
+# 735 Irregular Meter
 
 Dan Marks
 
@@ -36822,7 +36822,7 @@ So as for me, I will behold Thy face.
 
 So as for me, I will behold Thy face.
 
-736 Irregular
+# 736 Irregular
 
 I will call upon the Lord, (I will call upon the Lord,)
 
@@ -36840,7 +36840,7 @@ The Lord liveth and blessed be the Rock
 
 And may the God of my salvation be exalted.
 
-737 Irregular Meter
+# 737 Irregular Meter
 
 1 The law of the Lord is perfect
 
@@ -36890,7 +36890,7 @@ And in keeping of them
 
 There is great reward.
 
-738 11.11.7.6.11
+# 738 11.11.7.6.11
 
 Unto Thee, O Lord, do I lift up my soul;
 
@@ -36902,7 +36902,7 @@ Let me not be ashamed,
 
 Let not my enemies triumph over me.
 
-739 Irregular Meter
+# 739 Irregular Meter
 
 Thou hast turned my mourning into dancing for me;
 
@@ -36918,7 +36918,7 @@ And not be silent.
 
 O Lord my God, I will give thanks unto Thee forever.
 
-740 Irregular Meter
+# 740 Irregular Meter
 
 Great is the Lord, and greatly to be praised,
 
@@ -36938,7 +36938,7 @@ The city of the great King.
 
 Used by permission of Robert Ewing.
 
-741 Irregular Meter
+# 741 Irregular Meter
 
 Lord, I am continually with Thee:
 
@@ -36964,7 +36964,7 @@ But God is the strength of my heart,
 
 And my portion forever.
 
-742 Irregular Meter
+# 742 Irregular Meter
 
 I will sing of the mercies of the Lord forever,
 
@@ -36990,13 +36990,13 @@ I will sing of the mercies of the Lord forever,
 
 I will sing of the mercies of the Lord.
 
-743 6.6.7.5.
+# 743 6.6.7.5.
 
 Bless the Lord, O my soul; Bless the Lord, O my soul;
 
 And all that is within me, Bless His holy name.
 
-744 8.10.8.13.
+# 744 8.10.8.13.
 
 What shall I give unto the Lord
 
@@ -37006,7 +37006,7 @@ I’ll take the cup of salvation,
 
 And call, and call, and call upon the name of the Lord.
 
-745 Irregular Meter
+# 745 Irregular Meter
 
 When the Lord turned again the captivity of Zion,
 
@@ -37032,7 +37032,7 @@ The Lord hath done great things for us;
 
 Whereof we are glad.
 
-746 Irregular Meter
+# 746 Irregular Meter
 
 This is My rest forever;
 
@@ -37050,7 +37050,7 @@ He will clothe her priests with salvation,
 
 And her saints shall shout aloud for joy.
 
-747 Irregular Meter
+# 747 Irregular Meter
 
 Behold how good and how pleasant it is,
 
@@ -37078,7 +37078,7 @@ For there the Lord commanded the blessing,
 
 Even life for evermore.
 
-748 Irregular Meter
+# 748 Irregular Meter
 
 Praise ye the Lord,
 
@@ -37108,7 +37108,7 @@ Let everything that hath breath praise the Lord,
 
 Praise ye the Lord.
 
-749 Bob McGee——Isaiah 7:14
+# 749 Bob McGee——Isaiah 7:14
 
 Emmanuel, Emmanuel;
 
@@ -37118,7 +37118,7 @@ God is with us, revealed in us;
 
 His name is called Emmanuel.
 
-750. Irregular Meter——Isaiah 12:3,4,6
+# 750. Irregular Meter——Isaiah 12:3,4,6
 
 Therefore with joy shall ye draw water
 
@@ -37138,7 +37138,7 @@ Cry out and shout, thou inhabitant of Zion:
 
 For great is the Holy One of Israel in the midst of thee.
 
-751 Irregular Meter
+# 751 Irregular Meter
 
 His Name is Wonderful;
 
@@ -37170,7 +37170,7 @@ His Name is Wonderful,
 
 Jesus my Lord.
 
-752 8.8.8.6.
+# 752 8.8.8.6.
 
 Thou wilt keep him in perfect peace,
 
@@ -37180,7 +37180,7 @@ Thou wilt keep him in perfect peace,
 
 Whose mind is stayed on Thee.
 
-753 Irregular Meter
+# 753 Irregular Meter
 
 Therefore the redeemed of the Lord shall return,
 
@@ -37200,7 +37200,7 @@ And sorrow and mourning shall flee away.
 
 (Repeat the first three lines)
 
-754 Irregular Meter
+# 754 Irregular Meter
 
 Therefore, they shall come and sing in the height of Zion,
 
@@ -37214,7 +37214,7 @@ And their soul shall be as a watered garden;
 
 And they shall not sorrow any more at all.
 
-755 Irregular Meter
+# 755 Irregular Meter
 
 1 Seek ye first the Kingdom of God
 
@@ -37240,7 +37240,7 @@ Knock, and the door shall be opened unto you,
 
 Allelu, alleluia.
 
-756 Irregular Meter
+# 756 Irregular Meter
 
 My peace I give unto you;
 
@@ -37252,7 +37252,7 @@ Peace to know, peace to live,
 
 My peace I give unto you.
 
-757 6.6.6.6.6.6.7.
+# 757 6.6.6.6.6.6.7.
 
 For God so loved the world,
 
@@ -37270,7 +37270,7 @@ Wonderful His love to me!
 
 (No English translation)
 
-758 Irregular Meter
+# 758 Irregular Meter
 
 A new commandment I give unto you
 
@@ -37282,7 +37282,7 @@ By this shall all men Know you are My disciples
 
 If you have love one to another.
 
-759 Irregular Meter
+# 759 Irregular Meter
 
 Whenever the heart shall turn to the Lord,
 
@@ -37302,7 +37302,7 @@ Whenever the heart shall turn to the Lord,
 
 The veil shall be taken away.
 
-760 9.6.9.6.6.6.9.6.
+# 760 9.6.9.6.6.6.9.6.
 
 Unto Him be glory in the Church,
 
@@ -37320,7 +37320,7 @@ Unto Him be glory in the Church,
 
 Both now and evermore.
 
-761 Irregular Meter
+# 761 Irregular Meter
 
 God is light, and in Him there is
 
@@ -37364,7 +37364,7 @@ Brothers: We are cleansed
 
 Everyone: From every sin!
 
-762 16.16.9.9.
+# 762 16.16.9.9.
 
 Behold, what manner of love
 
@@ -37378,7 +37378,7 @@ That we should be called the sons of God,
 
 That we should be called the sons of God.
 
-763 Irregular Meter
+# 763 Irregular Meter
 
 Now is come salvation and strength
 
@@ -37402,7 +37402,7 @@ And they loved not their soul lives unto death.
 
 Therefore rejoice, rejoice, rejoice!
 
-764 Irregular Meter
+# 764 Irregular Meter
 
 Hallelujah, for the Lord our God,
 
@@ -37420,7 +37420,7 @@ Hallelujah, for the Lord our god,
 
 the Almighty reigns!
 
-765 8.6.8.6.
+# 765 8.6.8.6.
 
 1 Of all the gifts Thy love bestows,
 
@@ -37478,7 +37478,7 @@ The precious Saviour, and the power
 
 That makes Him precious too.
 
-766 (No English translation)
+# 766 (No English translation)
 
 1 (No English translation)
 
@@ -37494,7 +37494,7 @@ That makes Him precious too.
 
 7 (No English translation)
 
-767 (No English translation)
+# 767 (No English translation)
 
 1 (No English translation)
 
@@ -37504,7 +37504,7 @@ That makes Him precious too.
 
 4 (No English translation)
 
-768 10.10.10.10.
+# 768 10.10.10.10.
 
 1 O God and Father, we our praises bring,
 
@@ -37540,7 +37540,7 @@ Thou hast a dwelling ever to abide.
 
 (“truth in 1^st^ stanza denote Christ)
 
-769 8.6.8.6.
+# 769 8.6.8.6.
 
 (No English translation)
 
@@ -37570,7 +37570,7 @@ Thy heart could only love!
 
 (No English translation)
 
-770 6.6.6.6.8.8.
+# 770 6.6.6.6.8.8.
 
 1 Praise Him forevermore,
 
@@ -37608,7 +37608,7 @@ Behold! God’s Son on Calvary
 
 Was crucified for you and me.
 
-771 (No English translation)
+# 771 (No English translation)
 
 1 (No English translation)
 
@@ -37616,7 +37616,7 @@ Was crucified for you and me.
 
 3 (No English translation)
 
-772 8.8.8.8.8.
+# 772 8.8.8.8.8.
 
 Glory, honor, praise and power,
 
@@ -37628,7 +37628,7 @@ Hallelujah! Hallelujah!
 
 Hallelujah! Praise ye the Lord!
 
-773 (No English translation)
+# 773 (No English translation)
 
 1 (No English translation)
 
@@ -37638,7 +37638,7 @@ Hallelujah! Praise ye the Lord!
 
 4 (No English translation)
 
-774 (No English translation)
+# 774 (No English translation)
 
 1 (No English translation)
 
@@ -37666,7 +37666,7 @@ Hallelujah! Praise ye the Lord!
 
 13 (No English translation)
 
-775 8.6.8.6. with chorus
+# 775 8.6.8.6. with chorus
 
 1 Lord Jesus Christ, our heart feels sweet
 
@@ -37708,7 +37708,7 @@ Beside Thee, none in heaven or earth
 
 Our heart's desire could meet.
 
-776 7.7.7.7. with chorus
+# 776 7.7.7.7. with chorus
 
 1 Come, Lord, as the Spirit come,
 
@@ -37754,7 +37754,7 @@ Through the all-prevailing Name
 
 All the promises are mine.
 
-777. 8.6.8.6.6.6.7.5.
+# 777. 8.6.8.6.6.6.7.5.
 
 1 While fighting for my Savior here,
 
@@ -37836,7 +37836,7 @@ A little talk with Jesus makes
 
 it right, all right.
 
-778 (No English translation)
+# 778 (No English translation)
 
 1 (No English translation)
 
@@ -37844,7 +37844,7 @@ it right, all right.
 
 3 (No English translation)
 
-779 8.6.8.6.D.
+# 779 8.6.8.6.D.
 
 Behold, how good, how pleasant 'tis
 
@@ -37862,7 +37862,7 @@ The Lord His blessing there commands,
 
 E'en life forevermore.
 
-780 (No English translation)
+# 780 (No English translation)
 
 1 (No English translation)
 
@@ -37870,7 +37870,7 @@ E'en life forevermore.
 
 3 (No English translation)
 
-781 (No English translation)
+# 781 (No English translation)
 
 1 (No English translation)
 
@@ -37884,7 +37884,7 @@ E'en life forevermore.
 
 6 (No English translation)
 
-782 Irregular Meter
+# 782 Irregular Meter
 
 In death's waters I am buried,
 
@@ -37902,7 +37902,7 @@ Now the Spirit life supplies
 
 And His strength exhaustless unto me doth give.
 
-783 8.6.8.6.
+# 783 8.6.8.6.
 
 1 Lord, when by baptism we confess
 
@@ -37944,7 +37944,7 @@ Thy steps we'd follow, for Thee live,
 
 And e'er be one with Thee.
 
-784 8.7.8.7.
+# 784 8.7.8.7.
 
 1 Already dead! And buried too!
 
@@ -37964,21 +37964,9 @@ No longer I! No longer I!
 
 Christ in me I'll testify!
 
-785 (No English translation)
+# 785 (No English translation)
 
-786 (No English translation)
-
-1 (No English translation)
-
-2 (No English translation)
-
-3 (No English translation)
-
-4 (No English translation)
-
-5 (No English translation)
-
-787 (No English translation)
+# 786 (No English translation)
 
 1 (No English translation)
 
@@ -37990,7 +37978,19 @@ Christ in me I'll testify!
 
 5 (No English translation)
 
-788 7.6.7.5.D.
+# 787 (No English translation)
+
+1 (No English translation)
+
+2 (No English translation)
+
+3 (No English translation)
+
+4 (No English translation)
+
+5 (No English translation)
+
+# 788 7.6.7.5.D.
 
 1 Work, for the night is coming,
 
@@ -38040,7 +38040,7 @@ Work, while the night is dark'ning,
 
 When man's work is o'er.
 
-789 8.8.8.8.8.8.
+# 789 8.8.8.8.8.8.
 
 1 Lord, in Thy presence we are met,
 
@@ -38102,7 +38102,7 @@ Bless'd Spirit, have unhindered way
 
 In yielded hearts and lives today.
 
-790 8.6.8.6.
+# 790 8.6.8.6.
 
 1 A mind at perfect peace with God;
 
@@ -38144,21 +38144,21 @@ He watches o'er me night and day,
 
 And tells me ""Mine is thine.""
 
-791 (No English translation)
+# 791 (No English translation)
 
-792 (No English translation)
-
-(No English translation)
-
-(No English translation)
-
-793 (No English translation)
+# 792 (No English translation)
 
 (No English translation)
 
 (No English translation)
 
-794 9.8.9.6.8.8.8.7. with chorus
+# 793 (No English translation)
+
+(No English translation)
+
+(No English translation)
+
+# 794 9.8.9.6.8.8.8.7. with chorus
 
 1 Wonderful grand new song of the Lamb;
 
@@ -38248,7 +38248,7 @@ All new creatures,
 
 lift your voice!
 
-795 6.6.8.6.6. with chorus
+# 795 6.6.8.6.6. with chorus
 
 1 Come, ye that love the Lord,
 
@@ -38290,7 +38290,7 @@ We're marching through Immanuel's ground,
 
 To fairer worlds on high.
 
-796 8.6.8.6. with chorus
+# 796 8.6.8.6. with chorus
 
 1 If Thou shouldst take my love away,
 
@@ -38332,7 +38332,7 @@ If Thy return will be delayed,
 
 I need Thyself today.
 
-797 (No English translation)
+# 797 (No English translation)
 
 1 (No English translation)
 
@@ -38344,7 +38344,7 @@ I need Thyself today.
 
 5 (No English translation)
 
-798 (No English translation)
+# 798 (No English translation)
 
 1 (No English translation)
 
@@ -38356,7 +38356,7 @@ I need Thyself today.
 
 5 (No English translation)
 
-799 (No English translation)
+# 799 (No English translation)
 
 1 (No English translation)
 
@@ -38368,7 +38368,7 @@ I need Thyself today.
 
 5 (No English translation)
 
-800 8.6.8.6.8.6.
+# 800 8.6.8.6.8.6.
 
 1 Father, I know that all my life
 
@@ -38466,7 +38466,7 @@ A life of self-renouncing love
 
 Is one of liberty.
 
-801 7.7.7.7.
+# 801 7.7.7.7.
 
 1 Jesus, cast a look on me;
 
@@ -38516,7 +38516,7 @@ In this temper let me die,
 
 And hosannas ever cry.
 
-802 8.7.8.7.D.
+# 802 8.7.8.7.D.
 
 1 Hast thou heard Him, seen Him, known Him?
 
@@ -38579,7 +38579,7 @@ Till the cup o’erflow the brim;\
 What have we to do with idols\
 Who have companied with Him?
 
-803 7.6.7.6. D. with chorus
+# 803 7.6.7.6. D. with chorus
 
 1 (No English translation)
 
@@ -38593,7 +38593,7 @@ Who have companied with Him?
 
 6 (No English translation)
 
-804 8.8.6.8.8.6.
+# 804 8.8.6.8.8.6.
 
 1 How can I ever stay away
 
@@ -38643,7 +38643,7 @@ Accepting willingly the cross,
 
 With Him identified.
 
-805 11.11.11.11.11.11.
+# 805 11.11.11.11.11.11.
 
 Lord, here I take my cross now to follow Thee,
 
@@ -38659,7 +38659,7 @@ Till at last I reach home, there’s a crown for me,
 
 A bright crown for me, yes, a crown for me.
 
-806 6.6.6.6.
+# 806 6.6.6.6.
 
 1 He is most dear to me,
 
@@ -38685,7 +38685,7 @@ He is most dear to me,
 
 No greater love have I.
 
-807 8.7.8.7.D.
+# 807 8.7.8.7.D.
 
 1 Give up the world, Christ to obtain,
 
@@ -38727,7 +38727,7 @@ Where there is Christ there morning is;
 
 Where He is not, night remains.
 
-808 Irregular Meter with chorus
+# 808 Irregular Meter with chorus
 
 1 (No English translation)
 
@@ -38737,7 +38737,7 @@ Where He is not, night remains.
 
 4 (No English translation)
 
-809 6.6.8.6.
+# 809 6.6.8.6.
 
 1 The Lord my shepherd is,
 
@@ -38787,7 +38787,7 @@ Nor from Thy house will I remove,
 
 Nor cease to speak Thy praise.
 
-810 10.10.10.10.
+# 810 10.10.10.10.
 
 1 Thy name is sweet as ointment poured forth;
 
@@ -38853,7 +38853,7 @@ Ne'er can it be destroyed or e'er replaced
 
 Till Thou on spices mountains come ere long.
 
-811 8.8.8.8.
+# 811 8.8.8.8.
 
 1 Sun of my soul, Thou Savior dear,
 
@@ -38887,7 +38887,7 @@ Till in the ocean of Thy love
 
 We lose ourselves in Thee above.
 
-812 10.10.10.10.
+# 812 10.10.10.10.
 
 1 (No English translation)
 
@@ -38903,7 +38903,7 @@ We lose ourselves in Thee above.
 
 7 (No English translation)
 
-813 8.7.8.7. with chorus
+# 813 8.7.8.7. with chorus
 
 1 'Tis so sweet to walk with Jesus,
 
@@ -38971,7 +38971,7 @@ Walking with Thee all the way.
 
 Walking with Thee all the way.
 
-814 8.6.8.6.
+# 814 8.6.8.6.
 
 1 Oh, how the thought of God attracts
 
@@ -39045,7 +39045,7 @@ And go where grace entices thee—
 
 Perfection lies in this.
 
-815 10.10.10.10.D.
+# 815 10.10.10.10.D.
 
 1 (No English translation)
 
@@ -39057,7 +39057,7 @@ Perfection lies in this.
 
 5 (No English translation)
 
-816 8.7.8.7. with chorus
+# 816 8.7.8.7. with chorus
 
 1 If I'd know Christ's risen power.
 
@@ -39091,7 +39091,7 @@ Only then as death is working
 
 Will His life thru me be poured.
 
-817 8.6.8.6.
+# 817 8.6.8.6.
 
 1 (No English translation)
 
@@ -39103,7 +39103,7 @@ Will His life thru me be poured.
 
 5 (No English translation)
 
-818 8.8.8.6. with chorus
+# 818 8.8.8.6. with chorus
 
 1 Amid the trials that I meet,
 
@@ -39137,7 +39137,7 @@ I am content, for this I know
 
 Thou thinkest, Lord, of me!
 
-819 7.5.7.5. with chorus
+# 819 7.5.7.5. with chorus
 
 1 When I fear my faith will fail,
 
@@ -39179,7 +39179,7 @@ Bought by Him at such a cost,
 
 He will hold me fast:
 
-820 8.6.8.6.D.
+# 820 8.6.8.6.D.
 
 1 (No English translation)
 
@@ -39193,7 +39193,7 @@ He will hold me fast:
 
 6 (No English translation)
 
-821 (No English translation)
+# 821 (No English translation)
 
 1 (No English translation)
 
@@ -39203,7 +39203,7 @@ He will hold me fast:
 
 4 (No English translation)
 
-822 7.6.7.6.D. with chorus
+# 822 7.6.7.6.D. with chorus
 
 1 Have you felt the Father's love?
 
@@ -39261,7 +39261,7 @@ Freely He His power bestows,
 
 Still there's more to follow.
 
-823 8.7.8.7. with chorus
+# 823 8.7.8.7. with chorus
 
 1 Fresh as the dew of the morning,
 
@@ -39315,9 +39315,9 @@ Come, O Thou blest hope of glory,
 
 Never, O never depart.
 
-824 (No English translation)
+# 824 (No English translation)
 
-825 (No English translation)
+# 825 (No English translation)
 
 1 (No English translation)
 
@@ -39333,7 +39333,7 @@ Never, O never depart.
 
 7 (No English translation)
 
-826 (No English translation)
+# 826 (No English translation)
 
 1 (No English translation)
 
@@ -39351,7 +39351,7 @@ Never, O never depart.
 
 8 (No English translation)
 
-827 (No English translation)
+# 827 (No English translation)
 
 1 (No English translation)
 
@@ -39365,7 +39365,7 @@ Never, O never depart.
 
 6 (No English translation)
 
-828 10.10.10.10. with chorus
+# 828 10.10.10.10. with chorus
 
 1 O hope of glory, our Christ will return!
 
@@ -39405,7 +39405,7 @@ Running the race, pressing on toward the goal
 
 That we the Kingdom's reward might deserve.
 
-829 (No English translation)
+# 829 (No English translation)
 
 1 (No English translation)
 
@@ -39419,7 +39419,7 @@ That we the Kingdom's reward might deserve.
 
 6 (No English translation)
 
-830 (No English translation)
+# 830 (No English translation)
 
 1 (No English translation)
 
@@ -39431,7 +39431,7 @@ That we the Kingdom's reward might deserve.
 
 5 (No English translation)
 
-831 (No English translation)
+# 831 (No English translation)
 
 1 (No English translation)
 
@@ -39445,7 +39445,7 @@ That we the Kingdom's reward might deserve.
 
 6 (No English translation)
 
-832 (No English translation)
+# 832 (No English translation)
 
 1 (No English translation)
 
@@ -39461,7 +39461,7 @@ That we the Kingdom's reward might deserve.
 
 7 (No English translation)
 
-833 (No English translation)
+# 833 (No English translation)
 
 1 (No English translation)
 
@@ -39471,7 +39471,7 @@ That we the Kingdom's reward might deserve.
 
 4 (No English translation)
 
-834 (No English translation)
+# 834 (No English translation)
 
 1 (No English translation)
 
@@ -39481,7 +39481,7 @@ That we the Kingdom's reward might deserve.
 
 4 (No English translation)
 
-835 15.11.15.7. with chorus
+# 835 15.11.15.7. with chorus
 
 1 When the toils of life are over,
 
@@ -39545,7 +39545,7 @@ and we'll grow in perfect love,
 
 In the new Jerusalem.
 
-836 6.5.6.5.D.
+# 836 6.5.6.5.D.
 
 Merciful and loving,
 
@@ -39563,7 +39563,7 @@ This is Christ the Savior,
 
 What will you do with Him?
 
-837 8.8.8.8. with chorus
+# 837 8.8.8.8. with chorus
 
 Christ has become one with sinners,
 
@@ -39581,7 +39581,7 @@ O yes, for us, for us, for us.
 
 Christ came and died for us.
 
-838 Irregular Meter
+# 838 Irregular Meter
 
 1 Christ the Savior is just the One you need,
 
@@ -39649,9 +39649,9 @@ Yes, you need Jesus!
 
 That you need Jesus!
 
-839 (No English translation)
+# 839 (No English translation)
 
-840 (Selected \#720)
+# 840 (Selected \#720)
 
 Irregular Meter
 
@@ -39719,7 +39719,7 @@ And the angels echoed around the throne,
 
 (Repeat the last line of each stanza)
 
-841 8.9.8.9.D.
+# 841 8.9.8.9.D.
 
 1 I hear my risen Savior say:
 
@@ -39769,7 +39769,7 @@ My hand shall wipe away all tears,
 
 Follow me, follow me, follow me.""
 
-842 (No English translation)
+# 842 (No English translation)
 
 1 (No English translation)
 
@@ -39777,7 +39777,7 @@ Follow me, follow me, follow me.""
 
 3 (No English translation)
 
-843 (No English translation)
+# 843 (No English translation)
 
 1 (No English translation)
 
@@ -39789,7 +39789,7 @@ Follow me, follow me, follow me.""
 
 5 (No English translation)
 
-844 10.7.10.7. with chorus
+# 844 10.7.10.7. with chorus
 
 1 Jesus lingers still: ‘tis for you He waits,
 
@@ -39831,7 +39831,7 @@ While in grace He says, ""Oh, come to Me,""
 
 Let your answer be, ""I will.""
 
-845 (No English translation)
+# 845 (No English translation)
 
 1 (No English translation)
 
@@ -39841,7 +39841,7 @@ Let your answer be, ""I will.""
 
 4 (No English translation)
 
-846 (No English translation)
+# 846 (No English translation)
 
 1 (No English translation)
 
@@ -39849,7 +39849,7 @@ Let your answer be, ""I will.""
 
 3 (No English translation)
 
-847 6.6.6.5.D. with chorus
+# 847 6.6.6.5.D. with chorus
 
 1 Sowing in the morning, sowing seeds of kindness,
 
@@ -39883,7 +39883,7 @@ When our weeping's over, He will bid us welcome,
 
 We shall come rejoicing, bringing in the sheaves.
 
-848 11.11.12.11. with chorus
+# 848 11.11.12.11. with chorus
 
 1 I have a Savior, He’s pleading in glory,
 
