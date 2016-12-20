@@ -18,4 +18,4 @@ Clean:
 	automator -i $< /Applications/doc2docx.workflow
 
 %.md: %.docx
-	pandoc -F pantable2csv -s -o $@ $<
+	~/.cabal/bin/pandoc -F pantable2csv -s -o $@ $<
