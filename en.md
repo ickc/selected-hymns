@@ -1,3 +1,22 @@
+---
+title:	Selected Hymns
+date:	\today
+keywords:	Hymn
+toc:	true
+lang:	en
+papersize:	letter
+fontsize:	12pt
+documentclass:	memoir
+classoption:	article
+geometry:	inner=1.5in, outer=1.5in, top=1.5in, bottom=1.75in
+hypersetup:	bookmarksnumbered,pdfpagelabels,pagebackref,hypertexnames=false,linktocpage=true
+colorlinks:	true
+linkcolor:	blue
+citecolor:	blue
+urlcolor:	blue
+toccolor:	blue
+...
+
 # 001 8.7.8.7.D.
 
 1 God, our Father, we adore Thee!
