@@ -1,24 +1,9 @@
 ---
 title:	詩歌選集
-date:	\today
 keywords:	詩歌
-toc:	true
 lang:	zh
 CJKmainfont:	Kaiti TC
 CJKoptions:	BoldFont = * Bold, AutoFakeSlant
-papersize:	letter
-fontsize:	12pt
-documentclass:	memoir
-classoption:	article
-geometry:	inner=1.5in, outer=1.5in, top=1.5in, bottom=1.75in
-hypersetup:	bookmarksnumbered,pdfpagelabels,pagebackref,hypertexnames=false,linktocpage=true
-colorlinks:	true
-linkcolor:	blue
-citecolor:	blue
-urlcolor:	blue
-toccolor:	blue
-header-includes: |
-    \addtolength{\cftchapternumwidth}{1em}
 ...
 
 # 001 讚美和敬拜——三一神
