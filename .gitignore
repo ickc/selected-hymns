@@ -1,2 +1,11 @@
 *ipynb*
 *.pdf
+*.tex
+
+# LaTeX's auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc

@@ -1,13 +1,22 @@
 MD := $(wildcard *.md)
+TeX := $(patsubst %.md,%.tex,$(MD))
 PDF := $(patsubst %.md,%.pdf,$(MD))
 
-all: $(PDF)
+all: $(TeX) $(PDF)
 
 clean:
-	rm -f $(PDF)
+	latexmk -c -f $(TeX)
+	rm -f $(TeX)
 
-%.pdf: %.md
+Clean:
+	latexmk -C -f $(TeX)
+	rm -f $(TeX) $(PDF)
+
+%.tex: %.md
 	sed 's/# [[:digit:]][[:digit:]][[:digit:]]/# /g' $< | pandoc --latex-engine=xelatex -s -o $@
+
+%.pdf: %.tex
+	latexmk -xelatex $<
 
 ## Normalize white spaces:
 ### 1. Add 2 trailing newlines
