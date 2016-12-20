@@ -17,6 +17,8 @@ linkcolor:	blue
 citecolor:	blue
 urlcolor:	blue
 toccolor:	blue
+header-includes: |
+    \addtolength{\cftchapternumwidth}{1em}
 ...
 
 # 001 讚美和敬拜——三一神

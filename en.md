@@ -15,6 +15,8 @@ linkcolor:	blue
 citecolor:	blue
 urlcolor:	blue
 toccolor:	blue
+header-includes: |
+    \addtolength{\cftchapternumwidth}{1em}
 ...
 
 # 001 8.7.8.7.D.
