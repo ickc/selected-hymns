@@ -19,10 +19,12 @@ Clean:
 
 # Targets #####################################################################
 
-en.md: $(EN)
-	find en/ -iname '*.md' | sort | xargs cat > $@
-zh.md: $(ZH)
-	find zh/ -iname '*.md' | sort | xargs cat > $@
+en.md: en/000.yml $(EN)
+	cp $< $@
+	find en/ -iname '*.md' | sort | xargs cat >> $@
+zh.md: zh/000.yml $(ZH)
+	cp $< $@
+	find zh/ -iname '*.md' | sort | xargs cat >> $@
 
 %.tex: %.md metadata.yml
 	sed 's/# [[:digit:]][[:digit:]][[:digit:]]/# /g' $< | pandoc --latex-engine=xelatex -s -o $@ metadata.yml -
