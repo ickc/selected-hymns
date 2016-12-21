@@ -1,6 +1,8 @@
 .ipynb_checkpoints/
 *.pdf
 *.tex
+en.md
+zh.md
 
 # LaTeX's auxiliary files
 *.aux

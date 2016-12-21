@@ -1,24 +1,36 @@
 pandocArgMD := -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block+tex_math_double_backslash-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros --normalize -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
 
-MD := $(wildcard *.md)
+EN := $(wildcard en/*.md)
+ZH := $(wildcard zh/*.md)
+
+MD := zh.md en.md
 TeX := $(patsubst %.md,%.tex,$(MD))
 PDF := $(patsubst %.md,%.pdf,$(MD))
 
-all: $(TeX) $(PDF)
+all: $(MD) $(TeX) $(PDF)
 
 clean:
 	latexmk -c -f $(TeX)
-	rm -f $(TeX)
+	rm -f $(MD) $(TeX)
 
 Clean:
 	latexmk -C -f $(TeX)
-	rm -f $(TeX) $(PDF)
+	rm -f $(MD) $(TeX) $(PDF)
+
+# Targets #####################################################################
+
+en.md: $(EN)
+	find en/ -iname '*.md' | sort | xargs cat > $@
+zh.md: $(ZH)
+	find zh/ -iname '*.md' | sort | xargs cat > $@
 
 %.tex: %.md metadata.yml
 	sed 's/# [[:digit:]][[:digit:]][[:digit:]]/# /g' $< | pandoc --latex-engine=xelatex -s -o $@ metadata.yml -
 
 %.pdf: %.tex
 	latexmk -xelatex $<
+
+# Scripts #####################################################################
 
 cleanup: style normalize
 ## Normalize white spaces:
