@@ -1,4 +1,5 @@
 ---
+title: Selected Hymns
 ---
 
 # [English version](en.html)
