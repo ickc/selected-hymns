@@ -77,8 +77,8 @@ zh-Hans.md:  metadata.yml zh-Hans/000.yml $(ZH-Hans)
 	cat metadata.yml zh-Hans/000.yml > $@
 	find zh-Hans/ -iname '*.md' | sort | xargs cat >> $@
 # Bilingual
-en-zh-Hant.md: zh-Hant/000.yml $(ZH-Hant) $(EN)
-	cat metadata.yml zh-Hans/000.yml > $@
+en-zh-Hant.md: metadata.yml zh-Hant/000.yml $(ZH-Hant) $(EN)
+	cat metadata.yml zh-Hant/000.yml > $@
 	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
 	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -I {} -n1 bash -c 'echo "\"" >> $@; cat zh-hant/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
 	echo "~~~" >> $@
