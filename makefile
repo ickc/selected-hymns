@@ -34,8 +34,9 @@ pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github 
 
 EN := $(wildcard en/*.md)
 ZH-Hant := $(wildcard zh-Hant/*.md)
+ZH-Hans := $(patsubst zh-Hant/%.md,zh-Hans/%.md,$(ZH-Hant))
 
-MD := zh-Hant.md en.md
+MD := en.md zh-Hant.md zh-Hans.md
 HTML := $(patsubst %.md,docs/%.html,$(MD))
 EPUB := $(patsubst %.md,%.epub,$(MD))
 TeX := $(patsubst %.md,%.tex,$(MD))
@@ -63,9 +64,15 @@ Clean:
 en.md: metadata.yml en/000.yml $(EN)
 	cat metadata.yml en/000.yml > $@
 	find en/ -iname '*.md' | sort | xargs cat >> $@
- zh-Hant.md:  metadata.yml zh-Hant/000.yml $(ZH-Hant)
+zh-Hant.md:  metadata.yml zh-Hant/000.yml $(ZH-Hant)
 	cat metadata.yml zh-Hant/000.yml > $@
 	find zh-Hant/ -iname '*.md' | sort | xargs cat >> $@
+# Tranditional to Simplified Chinese
+zh-Hans/%.md: zh-Hant/%.md
+	opencc -c t2s.json -i $< -o $@
+zh-Hans.md:  metadata.yml zh-Hans/000.yml $(ZH-Hans)
+	cat metadata.yml zh-Hans/000.yml > $@
+	find zh-Hans/ -iname '*.md' | sort | xargs cat >> $@
 
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<

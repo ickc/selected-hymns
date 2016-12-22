@@ -1,6 +1,7 @@
 .ipynb_checkpoints/
 en.md
-zh-Hant.md
+zh*.md
+zh-Hans/*.md
 *.epub
 *.tex
 *.pdf
