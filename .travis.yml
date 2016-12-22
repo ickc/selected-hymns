@@ -21,8 +21,10 @@ deploy:
   file:
     - "en.epub"
     - "en.pdf"
-    - "zh.epub"
-    - "zh.pdf"
+    - "zh-Hant.epub"
+    - "zh-Hant.pdf"
+    - "zh-Hans.epub"
+    - "zh-Hans.pdf"
   skip_cleanup: true
   on:
     tags: true
