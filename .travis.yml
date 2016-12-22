@@ -11,11 +11,9 @@ matrix:
               - brew update
               - brew install pandoc opencc python3
               - brew cask install basictex
-              - alias python=python3
-              - alias pip=pip3
-              - pip install -U pip
-              - pip install -U future
-              - pip install -U pantable
+              - pip3 install -U pip
+              - pip3 install -U future
+              - pip3 install -U pantable
           install:
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
               - sudo tlmgr install latexmk physics cancel fourier utopia siunitx placeins xecjk
