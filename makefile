@@ -56,11 +56,11 @@ pdf: $(PDF)
 
 clean:
 	latexmk -c -f $(TeX)
-	rm -f $(MD) $(EPUB) $(TeX)
+	rm -f $(ZH-Hans) $(MD) $(TeX)
 
 Clean:
 	latexmk -C -f $(TeX)
-	rm -f $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
+	rm -f $(ZH-Hans) $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
 
 # Making dependancies #########################################################
 
@@ -80,12 +80,12 @@ zh-Hans.md:  metadata.yml zh-Hans/000.yml $(ZH-Hans)
 en-zh-Hant.md: zh-Hant/000.yml $(ZH-Hant) $(EN)
 	cat metadata.yml zh-Hans/000.yml > $@
 	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
-	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -i -n1 bash -c 'echo "\"" >> $@; cat zh-hant/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
+	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -I {} -n1 bash -c 'echo "\"" >> $@; cat zh-hant/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
 	echo "~~~" >> $@
 en-zh-Hans.md: metadata.yml zh-Hans/000.yml $(ZH-Hans) $(EN)
 	cat metadata.yml zh-Hans/000.yml > $@
 	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
-	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -i -n1 bash -c 'echo "\"" >> $@; cat zh-hans/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
+	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -I {} -n1 bash -c 'echo "\"" >> $@; cat zh-hans/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
 	echo "~~~" >> $@
 
 docs/%.html: %.md
@@ -120,9 +120,9 @@ cleanup: style normalize
 ### 5. delete trailing whitespace (spaces, tabs) from end of each line
 ### 6. revert (3)
 normalize:
-	find . -iname "*.md" | xargs -i -n1 -P8 bash -c 'printf "\n\n" >> "$$0" && sed -i -e "s/ / /g" -e '"'"'s/\\ / /g'"'"' -e '"'"'/./,/^$$/!d'"'"' -e '"'"'s/[ \t]*$$//'"'"' -e '"'"'s/ /\\ /g'"'"' $$0' {}
+	find . -iname "*.md" | xargs -I {} -n1 -P8 bash -c 'printf "\n\n" >> "$$0" && sed -i -e "s/ / /g" -e '"'"'s/\\ / /g'"'"' -e '"'"'/./,/^$$/!d'"'"' -e '"'"'s/[ \t]*$$//'"'"' -e '"'"'s/ /\\ /g'"'"' $$0' {}
 ## pandoc cleanup:
 ### 1. pandoc from markdown to markdown
 ### 2. transform unicode non-breaking space back to `\ `
 style:
-	find . -iname "*.md" | xargs -i -n1 -P8 bash -c 'pandoc $(pandocArgMD) -o $$0 $$0 && sed -i -e '"'"'s/ /\\ /g'"'"' $$0' {}
+	find . -iname "*.md" | xargs -I {} -n1 -P8 bash -c 'pandoc $(pandocArgMD) -o $$0 $$0 && sed -i -e '"'"'s/ /\\ /g'"'"' $$0' {}
