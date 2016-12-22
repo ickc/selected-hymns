@@ -17,9 +17,7 @@ matrix:
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
               - sudo tlmgr install latexmk physics cancel fourier utopia siunitx placeins xecjk
           cache:
-            pip: true
-            directories:
-            - $TRAVIS_BUILD_DIR
+          - pip
 script:
     - make -j4
 deploy:
