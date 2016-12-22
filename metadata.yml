@@ -1,6 +1,5 @@
 ---
 date:	\today
-toc:	true
 papersize:	letter
 fontsize:	12pt
 documentclass:	memoir
@@ -14,5 +13,6 @@ urlcolor:	blue
 toccolor:	blue
 header-includes: |
     \addtolength{\cftchapternumwidth}{1em}
+    \setsecnumdepth{part}
 ...
 
