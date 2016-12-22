@@ -1,36 +1,78 @@
+SHELL := /usr/bin/env bash
+
+# configure engine
+## LaTeX engine
+### LaTeX workflow: pdf; xelatex; lualatex
+latexmkEngine := xelatex
+### pandoc workflow: pdflatex; xelatex; lualatex
+pandocEngine := xelatex
+## HTML
+HTMLVersion := html5
+## ePub
+ePubVersion := epub3
+
+# Paths
+CSSURL:=https://ickc.github.io/markdown-latex-css
+# command line arguments
+pandocArgCommon := -f markdown+autolink_bare_uris-fancy_lists --toc --normalize -S -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue --latex-engine=$(pandocEngine) -M date="`date "+%B %e, %Y"`"
+# Workbooks
+## MD
 pandocArgMD := -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block+tex_math_double_backslash-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros --normalize -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
+## TeX/PDF
+### LaTeX workflow
+latexmkArg := -$(latexmkEngine)
+pandocArgFragment := $(pandocArgCommon) --top-level-division=chapter
+### pandoc workflow
+pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s
+## HTML/ePub
+pandocArgHTML := $(pandocArgFragment) -t $(HTMLVersion) --toc-depth=2 -s -c $(CSSURL)/css/common.css -c $(CSSURL)/fonts/fonts.css
+pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s -c $(CSSURL)/css/common.css -c $(CSSURL)/fonts/fonts.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+# GitHub README
+pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
+
+# Lists #######################################################################
 
 EN := $(wildcard en/*.md)
 ZH := $(wildcard zh/*.md)
 
 MD := zh.md en.md
+HTML := $(patsubst %.md,%.html,$(MD))
+EPUB := $(patsubst %.md,%.epub,$(MD))
 TeX := $(patsubst %.md,%.tex,$(MD))
 PDF := $(patsubst %.md,%.pdf,$(MD))
 
-all: $(MD) $(TeX) $(PDF)
+# Main Targets ################################################################
+
+all: $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
 
 clean:
 	latexmk -c -f $(TeX)
-	rm -f $(MD) $(TeX)
+	rm -f $(MD) $(HTML) $(EPUB) $(TeX)
 
 Clean:
 	latexmk -C -f $(TeX)
-	rm -f $(MD) $(TeX) $(PDF)
+	rm -f $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
 
-# Targets #####################################################################
+# Making dependancies #########################################################
 
-en.md: en/000.yml $(EN)
-	cp $< $@
+en.md: metadata.yml en/000.yml $(EN)
+	cat metadata.yml en/000.yml > $@
 	find en/ -iname '*.md' | sort | xargs cat >> $@
-zh.md: zh/000.yml $(ZH)
-	cp $< $@
+zh.md:  metadata.yml zh/000.yml $(ZH)
+	cat metadata.yml zh/000.yml > $@
 	find zh/ -iname '*.md' | sort | xargs cat >> $@
 
-%.tex: %.md metadata.yml
-	sed 's/# [[:digit:]][[:digit:]][[:digit:]]/# /g' $< | pandoc --latex-engine=xelatex -s -o $@ metadata.yml -
+%.html: %.md
+	pandoc $(pandocArgHTML) -o $@ $<
+
+%.epub: %.md
+	pandoc $(pandocArgePub) -o $@ $<
+
+%.tex: %.md
+	pandoc $(pandocArgStandalone) -o $@ $<
 
 %.pdf: %.tex
-	latexmk -xelatex $<
+	latexmk $(latexmkArg) $<
 
 # Scripts #####################################################################
 
