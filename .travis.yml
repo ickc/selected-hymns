@@ -4,12 +4,15 @@ branches:
   - /^v[0-9]/
 matrix:
     include:
+        # kaiti.ttc shipped with Mac
         - os: osx
           language: generic
           before_install:
               - brew update
-              - brew install pandoc opencc
+              - brew install pandoc opencc python3
               - brew cask install basictex
+              - alias python=python3
+              - alias pip=pip3
               - pip install -U pip
               - pip install -U future
               - pip install -U pantable
