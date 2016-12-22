@@ -36,7 +36,7 @@ EN := $(wildcard en/*.md)
 ZH := $(wildcard zh/*.md)
 
 MD := zh.md en.md
-HTML := $(patsubst %.md,%.html,$(MD))
+HTML := $(patsubst %.md,docs/%.html,$(MD))
 EPUB := $(patsubst %.md,%.epub,$(MD))
 TeX := $(patsubst %.md,%.tex,$(MD))
 PDF := $(patsubst %.md,%.pdf,$(MD))
@@ -62,7 +62,7 @@ zh.md:  metadata.yml zh/000.yml $(ZH)
 	cat metadata.yml zh/000.yml > $@
 	find zh/ -iname '*.md' | sort | xargs cat >> $@
 
-%.html: %.md
+docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<
 
 %.epub: %.md
