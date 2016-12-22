@@ -14,7 +14,7 @@ ePubVersion := epub3
 # Paths
 CSSURL:=https://ickc.github.io/markdown-latex-css
 # command line arguments
-pandocArgCommon := -f markdown+autolink_bare_uris-fancy_lists --toc --normalize -S -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue --latex-engine=$(pandocEngine) -M date="`date "+%B %e, %Y"`"
+pandocArgCommon := -f markdown+autolink_bare_uris-fancy_lists --toc --normalize -S -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue --latex-engine=$(pandocEngine) -M date="`date "+%B %e, %Y"`" -F pantable
 # Workbooks
 ## MD
 pandocArgMD := -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block+tex_math_double_backslash-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros --normalize -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
@@ -36,7 +36,7 @@ EN := $(wildcard en/*.md)
 ZH-Hant := $(wildcard zh-Hant/*.md)
 ZH-Hans := $(patsubst zh-Hant/%.md,zh-Hans/%.md,$(ZH-Hant))
 
-MD := en.md zh-Hant.md zh-Hans.md
+MD := en.md zh-Hant.md zh-Hans.md en-zh-Hant.md en-zh-Hans.md
 HTML := $(patsubst %.md,docs/%.html,$(MD))
 EPUB := $(patsubst %.md,%.epub,$(MD))
 TeX := $(patsubst %.md,%.tex,$(MD))
@@ -47,7 +47,7 @@ DOCS := docs/index.html README.md
 # Main Targets ################################################################
 
 all: $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
-docs: $(DOCS)
+docs: $(DOCS) html
 md: $(MD)
 html: $(HTML)
 epub: $(EPUB)
@@ -76,6 +76,17 @@ zh-Hans/%.md: zh-Hant/%.md
 zh-Hans.md:  metadata.yml zh-Hans/000.yml $(ZH-Hans)
 	cat metadata.yml zh-Hans/000.yml > $@
 	find zh-Hans/ -iname '*.md' | sort | xargs cat >> $@
+# Bilingual
+en-zh-Hant.md: zh-Hant/000.yml $(ZH-Hant) $(EN)
+	cat metadata.yml zh-Hans/000.yml > $@
+	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
+	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -i -n1 bash -c 'echo "\"" >> $@; cat zh-hant/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
+	echo "~~~" >> $@
+en-zh-Hans.md: metadata.yml zh-Hans/000.yml $(ZH-Hans) $(EN)
+	cat metadata.yml zh-Hans/000.yml > $@
+	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
+	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -i -n1 bash -c 'echo "\"" >> $@; cat zh-hans/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
+	echo "~~~" >> $@
 
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<

@@ -10,10 +10,12 @@ matrix:
               - brew update
               - brew install pandoc opencc
               - brew cask install basictex
+              - pip install -U pip pantable
           install:
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
               - sudo tlmgr install latexmk physics cancel fourier utopia siunitx placeins xecjk
           cache:
+            pip: true
             directories:
             - $TRAVIS_BUILD_DIR
 script:
@@ -28,6 +30,10 @@ deploy:
     - "zh-Hant.pdf"
     - "zh-Hans.epub"
     - "zh-Hans.pdf"
+    - "en-zh-Hant.epub"
+    - "en-zh-Hant.pdf"
+    - "en-zh-Hans.epub"
+    - "en-zh-Hans.pdf"
   skip_cleanup: true
   on:
     tags: true

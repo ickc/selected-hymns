@@ -14,4 +14,8 @@ You can see the texts in
 
     -   [简体中文版](https://ickc.github.io/selected-hymns/zh-Hans.html)
 
+    -   [繁中英](https://ickc.github.io/selected-hymns/en-zh-Hant.html)
+
+    -   [简中英](https://ickc.github.io/selected-hymns/en-zh-Hans.html)
+
 -   [Other formats](https://github.com/ickc/selected-hymns/releases/latest)
