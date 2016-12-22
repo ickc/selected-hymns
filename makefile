@@ -44,10 +44,15 @@ PDF := $(patsubst %.md,%.pdf,$(MD))
 # Main Targets ################################################################
 
 all: $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
+md: $(MD)
+html: $(HTML)
+epub: $(EPUB)
+tex: $(TeX)
+pdf: $(PDF)
 
 clean:
 	latexmk -c -f $(TeX)
-	rm -f $(MD) $(HTML) $(EPUB) $(TeX)
+	rm -f $(MD) $(EPUB) $(TeX)
 
 Clean:
 	latexmk -C -f $(TeX)
