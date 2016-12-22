@@ -8,10 +8,10 @@ You can see the texts in
 
 - HTML:
 
-    - [English version](en.html)
+    - [English version](https://ickc.github.io/selected-hymns/en.html)
 
-    - [繁體中文版](zh-Hant.html)
+    - [繁體中文版](https://ickc.github.io/selected-hymns/zh-Hant.html)
 
-    - [简体中文版](zh-Hans.html)
+    - [简体中文版](https://ickc.github.io/selected-hymns/zh-Hans.html)
 
 - [Other formats](https://github.com/ickc/selected-hymns/releases/latest)
