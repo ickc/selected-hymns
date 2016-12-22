@@ -33,9 +33,9 @@ pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github 
 # Lists #######################################################################
 
 EN := $(wildcard en/*.md)
-ZH := $(wildcard zh/*.md)
+ZH := $(wildcard  zh-Hant/*.md)
 
-MD := zh.md en.md
+MD :=  zh-Hant.md en.md
 HTML := $(patsubst %.md,docs/%.html,$(MD))
 EPUB := $(patsubst %.md,%.epub,$(MD))
 TeX := $(patsubst %.md,%.tex,$(MD))
@@ -63,9 +63,9 @@ Clean:
 en.md: metadata.yml en/000.yml $(EN)
 	cat metadata.yml en/000.yml > $@
 	find en/ -iname '*.md' | sort | xargs cat >> $@
-zh.md:  metadata.yml zh/000.yml $(ZH)
-	cat metadata.yml zh/000.yml > $@
-	find zh/ -iname '*.md' | sort | xargs cat >> $@
+ zh-Hant.md:  metadata.yml  zh-Hant/000.yml $(ZH)
+	cat metadata.yml  zh-Hant/000.yml > $@
+	find  zh-Hant/ -iname '*.md' | sort | xargs cat >> $@
 
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<
