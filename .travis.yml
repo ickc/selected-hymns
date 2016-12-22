@@ -1,0 +1,28 @@
+branches:
+  only:
+  - master
+  - /^v[0-9]/
+matrix:
+    include:
+        - os: linux
+          sudo: false
+          language: r
+          pandoc_version: 1.19.1
+          install:
+              - tlmgr install latexmk physics cancel fourier utopia
+          cache:
+          - packages
+          - pip
+script:
+    - make -j4
+deploy:
+  provider: releases
+  api_key: "$GH_TOKEN"
+  file:
+    - "en.epub"
+    - "en.pdf"
+    - "zh.epub"
+    - "zh.pdf"
+  skip_cleanup: true
+  on:
+    tags: true
