@@ -9,7 +9,7 @@ matrix:
           language: r
           pandoc_version: 1.19.1
           install:
-              - tlmgr install latexmk physics cancel fourier utopia xeCJK
+              - tlmgr install latexmk physics cancel fourier utopia xecjk
           cache:
           - packages
           - pip
