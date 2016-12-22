@@ -126,3 +126,7 @@ normalize:
 ### 2. transform unicode non-breaking space back to `\ `
 style:
 	find . -iname "*.md" | xargs -I {} -n1 -P8 bash -c 'pandoc $(pandocArgMD) -o $$0 $$0 && sed -i -e '"'"'s/ /\\ /g'"'"' $$0' {}
+
+# get the Chinese categories
+cat:
+	grep -hr '^\#' ./zh-Hant/ | sed 's/^# ... \(.*\)——.*$$/\1/g' | uniq > zh-Hant-category.txt
