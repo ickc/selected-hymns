@@ -4,15 +4,15 @@ branches:
   - /^v[0-9]/
 matrix:
     include:
-        - os: linux
-          sudo: false
-          language: r
-          pandoc_version: 1.19.1
+        - os: osx
+          language: generic
+          before_install:
+              - brew update
+              - brew install pandoc
+              - brew cask install basictex
           install:
-              - tlmgr install latexmk physics cancel fourier utopia xecjk
-          cache:
-          - packages
-          - pip
+              - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
+              - sudo tlmgr install latexmk physics cancel fourier utopia siunitx placeins xecjk
 script:
     - make -j4
 deploy:
