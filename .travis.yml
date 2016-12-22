@@ -5,8 +5,7 @@ branches:
 matrix:
     include:
         - os: osx
-          language: python
-          python: "3.5"
+          language: generic
           before_install:
               - brew update
               - brew install pandoc opencc
