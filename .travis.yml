@@ -16,7 +16,7 @@ matrix:
               - pip3 install -U pantable
           install:
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
-              - sudo tlmgr install latexmk physics cancel fourier utopia siunitx placeins xecjk
+              - sudo tlmgr install latexmk fourier utopia placeins xecjk
           cache:
           - pip
 script:
