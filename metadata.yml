@@ -4,6 +4,7 @@ papersize:	letter
 fontsize:	12pt
 documentclass:	memoir
 classoption:	article
+fontfamily:	fourier
 geometry:	inner=1.5in, outer=1.5in, top=1.5in, bottom=1.75in
 hypersetup:	bookmarksnumbered,pdfpagelabels,pagebackref,hypertexnames=false,linktocpage=true
 colorlinks:	true
