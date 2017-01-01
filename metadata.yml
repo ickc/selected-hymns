@@ -1,5 +1,4 @@
 ---
-date:	\today
 papersize:	letter
 fontsize:	12pt
 documentclass:	memoir
