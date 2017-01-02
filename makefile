@@ -119,7 +119,7 @@ README.md: docs/badges.markdown docs/README.md
 # Scripts #####################################################################
 
 # epubcheck
-epubcheck:
+epubcheck: $(EPUB)
 	find . -iname '*.epub' | xargs -i -n1 -P8 epubcheck {}
 
 cleanup: style normalize
