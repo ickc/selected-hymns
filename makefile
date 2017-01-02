@@ -26,7 +26,7 @@ pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s
 pandocArgTeX := $(pandocArgStandalone) -H metadata.tex
 ## HTML/ePub
 pandocArgHTML := $(pandocArgFragment) -t $(HTMLVersion) --toc-depth=2 -s -c https://ickc.github.io/markdown-latex-css/css/common.css -c https://ickc.github.io/markdown-latex-css/fonts/fonts.css
-pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/epub.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.css --epub-stylesheet=fonts/fonts.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
 # GitHub README
 pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
 
@@ -94,7 +94,7 @@ en-zh-Hans.md: metadata.yml zh-Hans/000.yml $(ZH-Hans) $(EN)
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<
 
-%.epub: %.md css/epub.css
+%.epub: %.md $(CSS)
 	pandoc $(pandocArgePub) -o $@ $<
 
 %.tex: %.md
@@ -115,9 +115,6 @@ README.md: docs/badges.markdown docs/README.md
 # download CSS
 %.css:
 	dir=$@; mkdir -p $${dir%/*} && cd $${dir%/*} && wget https://ickc.github.io/markdown-latex-css/$@
-# cat css
-css/epub.css: $(CSS)
-	cat $^ > $@
 
 # Scripts #####################################################################
 
