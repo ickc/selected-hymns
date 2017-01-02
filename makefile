@@ -12,7 +12,7 @@ HTMLVersion := html5
 ePubVersion := epub3
 
 # command line arguments
-pandocArgCommon := -f markdown+autolink_bare_uris-fancy_lists --toc --normalize -S -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue --latex-engine=$(pandocEngine) -M date="`date "+%B %e, %Y"`" -F pantable
+pandocArgCommon := -f markdown+autolink_bare_uris-fancy_lists --toc --normalize -S -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue --latex-engine=$(pandocEngine) -F pantable
 # Workbooks
 ## MD
 pandocArgMD := -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block+tex_math_double_backslash-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros --normalize -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
@@ -21,11 +21,11 @@ pandocArgMD := -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+m
 latexmkArg := -$(latexmkEngine) -quiet
 pandocArgFragment := $(pandocArgCommon) --top-level-division=chapter
 ### pandoc workflow
-pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s
+pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s -M date="`date "+%B %e, %Y"`"
 ### TeX output (for TeX only header)
 pandocArgTeX := $(pandocArgStandalone) -H metadata.tex
 ## HTML/ePub
-pandocArgHTML := $(pandocArgFragment) -t $(HTMLVersion) --toc-depth=2 -s -c https://ickc.github.io/markdown-latex-css/css/common.css -c https://ickc.github.io/markdown-latex-css/fonts/fonts.css
+pandocArgHTML := $(pandocArgStandalone) -t $(HTMLVersion) -c https://ickc.github.io/markdown-latex-css/css/common.css -c https://ickc.github.io/markdown-latex-css/fonts/fonts.css
 pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
 # GitHub README
 pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
