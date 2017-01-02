@@ -26,7 +26,7 @@ pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s
 pandocArgTeX := $(pandocArgStandalone) -H metadata.tex
 ## HTML/ePub
 pandocArgHTML := $(pandocArgFragment) -t $(HTMLVersion) --toc-depth=2 -s -c https://ickc.github.io/markdown-latex-css/css/common.css -c https://ickc.github.io/markdown-latex-css/fonts/fonts.css
-pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.css --epub-stylesheet=fonts/fonts.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
 # GitHub README
 pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
 
@@ -44,7 +44,7 @@ PDF := $(patsubst %.md,%.pdf,$(MD))
 
 DOCS := docs/index.html README.md
 
-CSS := css/common.css fonts/fonts.css
+CSS := css/common.css
 
 # Main Targets ################################################################
 
