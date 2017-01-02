@@ -22,6 +22,8 @@ latexmkArg := -$(latexmkEngine) -quiet
 pandocArgFragment := $(pandocArgCommon) --top-level-division=chapter
 ### pandoc workflow
 pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s
+### TeX output (for TeX only header)
+pandocArgTeX := $(pandocArgStandalone) -H metadata.tex
 ## HTML/ePub
 pandocArgHTML := $(pandocArgFragment) -t $(HTMLVersion) --toc-depth=2 -s -c https://ickc.github.io/markdown-latex-css/css/common.css -c https://ickc.github.io/markdown-latex-css/fonts/fonts.css
 pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/epub.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
@@ -96,7 +98,7 @@ docs/%.html: %.md
 	pandoc $(pandocArgePub) -o $@ $<
 
 %.tex: %.md
-	pandoc $(pandocArgStandalone) -o $@ $<
+	pandoc $(pandocArgTeX) -o $@ $<
 
 %.pdf: %.tex
 	latexmk $(latexmkArg) $<

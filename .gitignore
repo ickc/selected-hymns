@@ -6,6 +6,8 @@ zh-Hans/*.md
 *.tex
 *.pdf
 
+!metadata.tex
+
 # LaTeX's auxiliary files
 *.aux
 *.fdb_latexmk
