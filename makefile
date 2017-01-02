@@ -118,6 +118,10 @@ README.md: docs/badges.markdown docs/README.md
 
 # Scripts #####################################################################
 
+# epubcheck
+epubcheck:
+	find . -iname '*.epub' | xargs -i -n1 -P8 epubcheck {}
+
 cleanup: style normalize
 ## Normalize white spaces:
 ### 1. Add 2 trailing newlines
