@@ -114,7 +114,7 @@ README.md: docs/badges.markdown docs/README.md
 
 # download CSS
 %.css:
-	dir=$@; mkdir -p $${dir%/*} && cd $${dir%/*} && wget https://ickc.github.io/markdown-latex-css/$@
+	mkdir -p $(@D) && cd $(@D) && wget https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$@
 
 # Scripts #####################################################################
 
