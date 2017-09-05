@@ -15,6 +15,7 @@ zh-Hans/*.md
 *.log
 *.out
 *.toc
+*.xdv
 
 # temporary
 zh-Hant-category.txt
