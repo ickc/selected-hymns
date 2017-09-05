@@ -25,8 +25,8 @@ pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s -M date="`date "+%B
 ### TeX output (for TeX only header)
 pandocArgTeX := $(pandocArgStandalone) -H metadata.tex
 ## HTML/ePub
-pandocArgHTML := $(pandocArgStandalone) -t $(HTMLVersion) -c https://ickc.github.io/markdown-latex-css/css/common.css -c https://ickc.github.io/markdown-latex-css/fonts/fonts.css
-pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgHTML := $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
+pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.min.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
 # GitHub README
 pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
 
@@ -44,7 +44,7 @@ PDF := $(patsubst %.md,%.pdf,$(MD))
 
 DOCS := docs/index.html README.md
 
-CSS := css/common.css
+CSS := css/common.min.css
 
 # Main Targets ################################################################
 
