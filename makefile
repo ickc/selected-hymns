@@ -1,52 +1,48 @@
-SHELL := /usr/bin/env bash
+SHELL = /usr/bin/env bash
 
-# configure engine
-## LaTeX engine
-### LaTeX workflow: pdf; xelatex; lualatex
-latexmkEngine := xelatex
-### pandoc workflow: pdflatex; xelatex; lualatex
-pandocEngine := xelatex
-## HTML
-HTMLVersion := html5
-## ePub
-ePubVersion := epub3
+# LaTeX
+latexmkEngine = xelatex
+# HTML
+HTMLVersion = html5
+# ePub
+ePubVersion = epub3
 
-# command line arguments
-pandocArgCommon := -f markdown+autolink_bare_uris-fancy_lists --toc -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue --pdf-engine=$(pandocEngine) -F pantable
-# Workbooks
-## MD
-pandocArgMD := -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block+tex_math_double_backslash-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
-## TeX/PDF
-### LaTeX workflow
-latexmkArg := -$(latexmkEngine) -quiet
-pandocArgFragment := $(pandocArgCommon) --top-level-division=chapter
+CSS = css/common.min.css
+
+# Args #########################################################################
+
+# LaTeX args
+latexmkArg = -$(latexmkEngine) -quiet
+
+# pandoc args
+pandocArgCommon = -f markdown+autolink_bare_uris-fancy_lists --toc -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue -F pantable
 ### pandoc workflow
-pandocArgStandalone := $(pandocArgFragment) --toc-depth=1 -s -M date="`date "+%B %e, %Y"`"
-### TeX output (for TeX only header)
-pandocArgTeX := $(pandocArgStandalone) -H metadata.tex
-## HTML/ePub
-pandocArgHTML := $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
-pandocArgePub := $(pandocArgFragment) --toc-depth=2 -s --epub-stylesheet=css/common.min.css -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgStandalone = $(pandocArgCommon) --toc-depth=1 -s -M date="`date "+%B %e, %Y"`"
+
+# used in rules below
+pandocArgePub = $(pandocArgCommon) --toc-depth=2 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
+pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter -H metadata.tex
 # GitHub README
-pandocArgReadmeGitHub := $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
+pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
+# for cleanup only
+pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block+tex_math_double_backslash-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
 
-# Lists #######################################################################
+# Lists ########################################################################
 
-EN := $(wildcard en/*.md)
-ZH-Hant := $(wildcard zh-Hant/*.md)
-ZH-Hans := $(patsubst zh-Hant/%.md,zh-Hans/%.md,$(ZH-Hant))
+EN = $(wildcard en/*.md)
+ZH-Hant = $(wildcard zh-Hant/*.md)
+ZH-Hans = $(patsubst zh-Hant/%.md,zh-Hans/%.md,$(ZH-Hant))
 
-MD := en.md zh-Hant.md zh-Hans.md en-zh-Hant.md en-zh-Hans.md
-HTML := $(patsubst %.md,docs/%.html,$(MD))
-EPUB := $(patsubst %.md,%.epub,$(MD))
-TeX := $(patsubst %.md,%.tex,$(MD))
-PDF := $(patsubst %.md,%.pdf,$(MD))
+MD = en.md zh-Hant.md zh-Hans.md en-zh-Hant.md en-zh-Hans.md
+HTML = $(patsubst %.md,docs/%.html,$(MD))
+EPUB = $(patsubst %.md,%.epub,$(MD))
+TeX = $(patsubst %.md,%.tex,$(MD))
+PDF = $(patsubst %.md,%.pdf,$(MD))
 
-DOCS := docs/index.html README.md
+DOCS = docs/index.html README.md
 
-CSS := css/common.min.css
-
-# Main Targets ################################################################
+# Main Targets #################################################################
 
 all: $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
 docs: $(DOCS) html
@@ -65,7 +61,7 @@ Clean:
 	rm -f $(ZH-Hans) $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
 	rm -rf css fonts
 
-# Making dependancies #########################################################
+# Making dependancies ##########################################################
 
 en.md: metadata.yml en/000.yml $(EN)
 	cat metadata.yml en/000.yml > $@
@@ -116,7 +112,7 @@ README.md: docs/badges.markdown docs/README.md
 %.css:
 	mkdir -p $(@D) && cd $(@D) && wget https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$@
 
-# Scripts #####################################################################
+# Scripts ######################################################################
 
 # epubcheck
 epubcheck: $(EPUB)
