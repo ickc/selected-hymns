@@ -1,4 +1,6 @@
 .ipynb_checkpoints/
+*.ipynb
+
 en.md
 *zh-Han*.md
 zh-Hans/*.md
