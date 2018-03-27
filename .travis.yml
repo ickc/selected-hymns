@@ -7,14 +7,11 @@ matrix:
         # kaiti.ttc shipped with Mac
         - os: osx
           language: generic
-          before_install:
-              - brew update
-              - brew install pandoc opencc python3
-              - brew cask install basictex
-              - pip3 install -U pip
-              - pip3 install -U future
-              - pip3 install -U pantable
           install:
+              - pip3 install -U pip future pantable
+              - brew update
+              - brew install pandoc opencc
+              - brew cask install basictex
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
               - sudo tlmgr install latexmk fourier utopia placeins xecjk
           cache:
