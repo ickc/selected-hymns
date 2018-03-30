@@ -1,5 +1,8 @@
+.DS_Store
+
 .ipynb_checkpoints/
 *.ipynb
+__pycache__
 
 en.md
 *zh-Han*.md
