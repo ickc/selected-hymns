@@ -345,4 +345,24 @@ def parse_to_dict(num, idxs, value):
 
 
 def parser(num):
+    '''read both en and zh-Hant hymns and convert it to a dict
+    chaining read_md, parse_to_list, parse_to_dict
+    '''
     return parse_to_dict(num, *parse_to_list(num, read_md(num)))
+
+
+def convert(num):
+    '''read markdown, parse it using ``parser``,
+    and write to yaml
+    '''
+    import yaml
+    import yamlordereddictloader
+
+    with open('data/{0:03}.yml'.format(num), 'w') as f:
+        yaml.dump(
+            parser(num),
+            f,
+            Dumper=yamlordereddictloader.Dumper,
+            allow_unicode=True,
+            default_flow_style=False
+        )
