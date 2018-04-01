@@ -7,6 +7,7 @@ matrix:
         # kaiti.ttc shipped with Mac
         - os: osx
           language: generic
+          before_install: brew upgrade python
           install:
               - pip install -U pip future pantable
               - brew update
