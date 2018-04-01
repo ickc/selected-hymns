@@ -8,7 +8,7 @@ matrix:
         - os: osx
           language: generic
           install:
-              - pip3 install -U pip future pantable
+              - pip install -U pip future pantable
               - brew update
               - brew install pandoc opencc
               - brew cask install basictex
