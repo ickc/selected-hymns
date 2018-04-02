@@ -14,8 +14,8 @@ matrix:
               - pip3 install -U pip future pantable
               - brew update
               - brew install opencc # pandoc
-              # - brew cask install basictex
-              # - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
+              - brew cask install basictex
+              - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
               - sudo tlmgr install latexmk fourier utopia placeins xecjk ucharcat lm
           cache:
           - pip
