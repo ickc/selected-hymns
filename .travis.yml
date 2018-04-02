@@ -1,3 +1,5 @@
+language: r
+pandoc_version: 2.1.3
 branches:
   only:
   - master
@@ -11,9 +13,9 @@ matrix:
           install:
               - pip3 install -U pip future pantable
               - brew update
-              - brew install pandoc opencc
-              - brew cask install basictex
-              - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
+              - brew install opencc # pandoc
+              # - brew cask install basictex
+              # - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
               - sudo tlmgr install latexmk fourier utopia placeins xecjk ucharcat lm
           cache:
           - pip
