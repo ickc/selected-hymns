@@ -97,7 +97,7 @@ docs/%.html: %.md
 	pandoc $(pandocArgTeX) -o $@ $<
 
 %.pdf: %.tex
-	latexmk $(latexmkArg) $<
+	tectonic $<
 
 # readme
 ## index.html
