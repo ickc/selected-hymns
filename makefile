@@ -55,11 +55,13 @@ pdf: $(PDF)
 clean:
 	latexmk -c -f $(TeX)
 	rm -f $(ZH-Hans) $(MD) $(TeX)
+	find \( -type f -name '*.py[co]' -o -type d -name '__pycache__' \) -delete
 
 Clean:
 	latexmk -C -f $(TeX)
 	rm -f $(ZH-Hans) $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
 	rm -rf css fonts
+	find \( -type f -name '*.py[co]' -o -type d -name '__pycache__' \) -delete
 
 # Making dependancies ##########################################################
 
