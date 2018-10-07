@@ -8,7 +8,9 @@ matrix:
         - os: osx
           osx_image: xcode10
           language: generic
-          before_install: brew upgrade python || :
+          before_install:
+            - |
+              brew upgrade python || :
           install:
               - pip3 install -U pip future pantable
               - brew update
