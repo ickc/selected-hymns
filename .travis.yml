@@ -17,7 +17,7 @@ matrix:
               - brew install pandoc opencc
               - brew cask install basictex
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
-              - sudo tlmgr install latexmk fourier utopia placeins xecjk ucharcat lm
+              - sudo tlmgr install latexmk fourier utopia placeins xecjk ucharcat lm ifetex
           cache:
           - pip
 script:
