@@ -98,8 +98,10 @@ docs/%.html: %.md
 %.tex: %.md
 	pandoc $(pandocArgTeX) -o $@ $<
 
-%.pdf: %.tex
-	latexmk $(latexmkArg) $<
+# %.pdf: %.tex
+# 	latexmk $(latexmkArg) $<
+%.pdf: %.md
+	pandoc $(pandocArgTeX) -o $@ $<
 
 # readme
 ## index.html
