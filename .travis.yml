@@ -17,7 +17,7 @@ matrix:
               - brew install pandoc opencc
               - brew cask install basictex
               - export PATH="/Library/TeX/texbin:$PATH" && sudo tlmgr update --self
-              - sudo tlmgr install amsmath amssymb booktabs fixltx2e fourier hyperref ifetex ifluatex ifxetex latexmk lm longtable parskip placeins polyglossia textcomp ucharcat unicode-math upquote utopia xcolor xecjk
+              - sudo tlmgr install amsmath booktabs fixltx2e fourier hyperref ifetex ifluatex ifxetex latexmk lm longtable parskip placeins polyglossia textcomp ucharcat upquote utopia xcolor xecjk
           cache:
           - pip
 script:
