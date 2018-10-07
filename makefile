@@ -2,6 +2,8 @@ SHELL = /usr/bin/env bash
 
 # LaTeX
 latexmkEngine = xelatex
+# pandoc
+pandocEngine = xelatex
 # HTML
 HTMLVersion = html5
 # ePub
@@ -22,7 +24,7 @@ pandocArgStandalone = $(pandocArgCommon) --toc-depth=1 -s -M date="`date "+%B %e
 # used in rules below
 pandocArgePub = $(pandocArgCommon) --toc-depth=2 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=2 --self-contained
 pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
-pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter -H metadata.tex
+pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter -H metadata.tex --pdf-engine=$(pandocEngine)
 # GitHub README
 pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
 # for cleanup only
