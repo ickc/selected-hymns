@@ -6,6 +6,7 @@ matrix:
     include:
         # kaiti.ttc shipped with Mac
         - os: osx
+          osx_image: xcode10
           language: generic
           before_install: brew upgrade python
           install:
@@ -18,7 +19,7 @@ matrix:
           cache:
           - pip
 script:
-    - make -j4
+    - make -j3
 deploy:
   provider: releases
   api_key: "$GH_TOKEN"
