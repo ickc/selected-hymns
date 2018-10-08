@@ -23,6 +23,7 @@ matrix:
           cache:
           - pip
 script:
+    - fc-list : family # see available fonts
     - make -j3
 deploy:
   provider: releases
