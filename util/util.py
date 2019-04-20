@@ -356,13 +356,13 @@ def convert(num):
     and write to yaml
     '''
     import yaml
-    import yamlordereddictloader
+    import yamlloader
 
     with open('data/{0:03}.yml'.format(num), 'w') as f:
         yaml.dump(
             parser(num),
             f,
-            Dumper=yamlordereddictloader.Dumper,
+            Dumper=yamlloader.ordereddict.CDumper,
             allow_unicode=True,
             default_flow_style=False
         )
