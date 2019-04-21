@@ -17,9 +17,9 @@ CSS = css/common.min.css
 latexmkArg = -$(latexmkEngine) -quiet
 
 # pandoc args
-pandocArgCommon = -f markdown+autolink_bare_uris-fancy_lists --toc -V linkcolorblue -V citecolor=blue -V urlcolor=blue -V toccolor=blue -F pantable
+pandocArgCommon = --toc
 ### pandoc workflow
-pandocArgStandalone = $(pandocArgCommon) --toc-depth=1 -s -M date="`date "+%B %e, %Y"`"
+pandocArgStandalone = $(pandocArgCommon) --toc-depth=1 -s -M date="`date "+%B %e, %Y"`" -N
 
 # used in rules below
 pandocArgePub = $(pandocArgCommon) --toc-depth=2 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=2 --self-contained
@@ -32,64 +32,44 @@ pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mm
 
 # Lists ########################################################################
 
-EN = $(wildcard en/*.md)
-ZH-Hant = $(wildcard zh-Hant/*.md)
-ZH-Hans = $(patsubst zh-Hant/%.md,zh-Hans/%.md,$(ZH-Hant))
-
-MD = en.md zh-Hant.md zh-Hans.md en-zh-Hant.md en-zh-Hans.md
+MD = en.md zh-Hant.md zh-Hans.md
 HTML = $(patsubst %.md,docs/%.html,$(MD))
 EPUB = $(patsubst %.md,%.epub,$(MD))
 TeX = $(patsubst %.md,%.tex,$(MD))
 PDF = $(patsubst %.md,%.pdf,$(MD))
 
+logosMD = en-logos.md zh-Hant-logos.md zh-Hans-logos.md
+logosDOCX = $(patsubst %.md,%.docx,$(logosMD))
+
+ZH-Hans = zh-Hans.md zh-Hans-logos.md
+
 DOCS = docs/index.html README.md
 
 # Main Targets #################################################################
 
-all: $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
+all: $(DOCS) $(HTML) $(EPUB) $(TeX) $(PDF) $(ZH-Hans) $(logosDOCX)
 docs: $(DOCS) html
-md: $(MD)
 html: $(HTML)
 epub: $(EPUB)
 tex: $(TeX)
 pdf: $(PDF)
+docx: $(logosDOCX)
 
 clean:
 	latexmk -c -f $(TeX)
 	rm -f $(ZH-Hans) $(MD) $(TeX)
 	find \( -type f -name '*.py[co]' -o -type d -name '__pycache__' \) -delete
 
-Clean:
+Clean: clean
 	latexmk -C -f $(TeX)
-	rm -f $(ZH-Hans) $(DOCS) $(MD) $(HTML) $(EPUB) $(TeX) $(PDF)
+	rm -f $(DOCS) $(HTML) $(EPUB) $(PDF)
 	rm -rf css fonts
-	find \( -type f -name '*.py[co]' -o -type d -name '__pycache__' \) -delete
 
 # Making dependancies ##########################################################
 
-en.md: metadata.yml en/000.yml $(EN)
-	cat metadata.yml en/000.yml > $@
-	find en/ -iname '*.md' | sort | xargs cat >> $@
-zh-Hant.md:  metadata.yml zh-Hant/000.yml $(ZH-Hant)
-	cat metadata.yml zh-Hant/000.yml > $@
-	find zh-Hant/ -iname '*.md' | sort | xargs cat >> $@
 # Tranditional to Simplified Chinese
-zh-Hans/%.md: zh-Hant/%.md
+zh-Hans%.md: zh-Hant%.md
 	opencc -c t2s.json -i $< -o $@
-zh-Hans.md:  metadata.yml zh-Hans/000.yml $(ZH-Hans)
-	cat metadata.yml zh-Hans/000.yml > $@
-	find zh-Hans/ -iname '*.md' | sort | xargs cat >> $@
-# Bilingual
-en-zh-Hant.md: metadata.yml zh-Hant/000.yml $(ZH-Hant) $(EN)
-	cat metadata.yml zh-Hant/000.yml > $@
-	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
-	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -I {} -n1 bash -c 'echo "\"" >> $@; cat zh-hant/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
-	echo "~~~" >> $@
-en-zh-Hans.md: metadata.yml zh-Hans/000.yml $(ZH-Hans) $(EN)
-	cat metadata.yml zh-Hans/000.yml > $@
-	printf "%s\n" "~~~table" "---" "width: [0.5, 0.5]" "header: False" "markdown: True" "..." >> $@
-	find en -iname '*.md' | sort | cut -sd / -f 2- | xargs -I {} -n1 bash -c 'echo "\"" >> $@; cat zh-hans/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\",\"" >> $@; cat en/$$0 | sed "s/\"/\"\"/g" >> $@; echo "\"" >> $@' {}
-	echo "~~~" >> $@
 
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<
@@ -99,6 +79,10 @@ docs/%.html: %.md
 
 %.tex: %.md
 	pandoc $(pandocArgTeX) -o $@ $<
+
+%.docx: %.md
+	pandoc $(pandocArgHTML) -o $*.html $<
+	ebook-convert $*.html $@
 
 # %.pdf: %.tex
 # 	latexmk $(latexmkArg) $<
