@@ -62,13 +62,22 @@ clean:
 
 Clean: clean
 	latexmk -C -f $(TeX)
-	rm -f $(DOCS) $(HTML) $(EPUB) $(PDF) $(MD) $(logosMD)
+	rm -f $(DOCS) $(HTML) $(EPUB) $(PDF) $(MD) $(logosMD) data2.yml $(logosDOCX) *-logos.html
 	rm -rf css fonts
+
+# sanity check 848 hymns are included and not duplicated
+check:
+	grep -oE '^1\. |' en.md | wc -l
+	grep -oE '^1\. |' en-logos.md | wc -l
+	grep -oE '^1\. |' zh-Hant.md | wc -l
+	grep -oE '^1\. |' zh-Hant-logos.md | wc -l
+	grep -oE '^1\. |' zh-Hans.md | wc -l
+	grep -oE '^1\. |' zh-Hans-logos.md | wc -l
 
 # Making dependancies ##########################################################
 
 # Tranditional to Simplified Chinese
-zh-Hans%: zh-Hant%
+zh-Hans%md: zh-Hant%md
 	opencc -c t2s.json -i $< -o $@
 
 docs/%.html: %.md
