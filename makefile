@@ -19,10 +19,10 @@ latexmkArg = -$(latexmkEngine) -quiet
 # pandoc args
 pandocArgCommon = --toc
 ### pandoc workflow
-pandocArgStandalone = $(pandocArgCommon) --toc-depth=1 -s -M date="`date "+%B %e, %Y"`" -N
+pandocArgStandalone = $(pandocArgCommon) --toc-depth=2 -s -M date="`date "+%B %e, %Y"`"
 
 # used in rules below
-pandocArgePub = $(pandocArgCommon) --toc-depth=2 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgePub = $(pandocArgCommon) --toc-depth=4 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=2 --self-contained
 pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
 pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter -H metadata.tex --pdf-engine=$(pandocEngine)
 # GitHub README
@@ -62,13 +62,13 @@ clean:
 
 Clean: clean
 	latexmk -C -f $(TeX)
-	rm -f $(DOCS) $(HTML) $(EPUB) $(PDF)
+	rm -f $(DOCS) $(HTML) $(EPUB) $(PDF) $(MD) $(logosMD)
 	rm -rf css fonts
 
 # Making dependancies ##########################################################
 
 # Tranditional to Simplified Chinese
-zh-Hans%.md: zh-Hant%.md
+zh-Hans%: zh-Hant%
 	opencc -c t2s.json -i $< -o $@
 
 docs/%.html: %.md
