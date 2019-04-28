@@ -19,12 +19,14 @@ latexmkArg = -$(latexmkEngine) -quiet
 # pandoc args
 pandocArgCommon = --toc
 ### pandoc workflow
-pandocArgStandalone = $(pandocArgCommon) --toc-depth=2 -s -M date="`date "+%B %e, %Y"`"
+pandocArgStandalone = $(pandocArgCommon) --toc-depth=4 -s -M date="`date "+%B %e, %Y"`"
 
 # used in rules below
-pandocArgePub = $(pandocArgCommon) --toc-depth=4 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=2 --self-contained
+pandocArgePub = $(pandocArgCommon) --toc-depth=4 -s --css=$(CSS) -t $(ePubVersion) --epub-chapter-level=4 --self-contained
 pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
-pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter -H metadata.tex --pdf-engine=$(pandocEngine)
+pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter --pdf-engine=$(pandocEngine)
+# docx output rely on pandoc to HTML and then ebook-convert from html to docx
+pandocArgDocx = -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
 # GitHub README
 pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t markdown_github --reference-location=block
 # for cleanup only
@@ -83,6 +85,7 @@ check:
 # Tranditional to Simplified Chinese
 zh-Hans%md: zh-Hant%md
 	opencc -c t2s.json -i $< -o $@
+	sed -i -e 's/zh-Hant/zh-Hans/g' -e 's/Kaiti TC/Kaiti SC/g' $@
 
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<
@@ -94,7 +97,8 @@ docs/%.html: %.md
 	pandoc $(pandocArgTeX) -o $@ $<
 
 %.docx: %.md
-	pandoc $(pandocArgHTML) -o $*.html $<
+	# pandoc -o $@ $<
+	pandoc $(pandocArgDocx) -o $*.html $<
 	ebook-convert $*.html $@
 
 # %.pdf: %.tex
