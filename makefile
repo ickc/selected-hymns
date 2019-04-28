@@ -96,16 +96,16 @@ docs/%.html: %.md
 %.tex: %.md
 	pandoc $(pandocArgTeX) -o $@ $<
 
+# Logos doesn't support gapless double English emdash
 %.docx: %.md
 	# pandoc -o $@ $<
-	pandoc $(pandocArgDocx) -o $*.html $<
+	sed 's/——/⸺/g' $< | pandoc $(pandocArgDocx) -f markdown -o $*.html
 	ebook-convert $*.html $@
 
 # %.pdf: %.tex
 # 	latexmk $(latexmkArg) $<
-# because Kaiti doesn't has the Chinese em-dash
 %.pdf: %.md
-	sed 's/⸺/——/g' $< | pandoc $(pandocArgTeX) -o $@
+	pandoc $(pandocArgTeX) -o $@ $<
 
 # readme
 ## index.html
