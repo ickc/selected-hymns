@@ -103,8 +103,9 @@ docs/%.html: %.md
 
 # %.pdf: %.tex
 # 	latexmk $(latexmkArg) $<
+# because Kaiti doesn't has the Chinese em-dash
 %.pdf: %.md
-	pandoc $(pandocArgTeX) -o $@ $<
+	sed 's/⸺/——/g' $< | pandoc $(pandocArgTeX) -o $@
 
 # readme
 ## index.html
