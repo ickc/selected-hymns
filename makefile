@@ -32,16 +32,16 @@ pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mm
 
 # Lists ########################################################################
 
-MD = en.md zh-Hant.md zh-Hans.md
+MD = en.md zh-Hant.md zh-Hans.md zh-Hant-en.md zh-Hans-en.md
 HTML = $(patsubst %.md,docs/%.html,$(MD))
 EPUB = $(patsubst %.md,%.epub,$(MD))
 TeX = $(patsubst %.md,%.tex,$(MD))
 PDF = $(patsubst %.md,%.pdf,$(MD))
 
-logosMD = en-logos.md zh-Hant-logos.md zh-Hans-logos.md
+logosMD = en-logos.md zh-Hant-logos.md zh-Hans-logos.md zh-Hant-en-logos.md zh-Hans-en-logos.md
 logosDOCX = $(patsubst %.md,%.docx,$(logosMD))
 
-ZH-Hans = zh-Hans.md zh-Hans-logos.md
+ZH-Hans = zh-Hans.md zh-Hans-logos.md zh-Hans-en.md zh-Hans-en-logos.md
 
 DOCS = docs/index.html README.md
 
@@ -73,6 +73,10 @@ check:
 	grep -oE '^1\. |' zh-Hant-logos.md | wc -l
 	grep -oE '^1\. |' zh-Hans.md | wc -l
 	grep -oE '^1\. |' zh-Hans-logos.md | wc -l
+	grep -oE '^1\. |' zh-Hant-en.md | wc -l
+	grep -oE '^1\. |' zh-Hant-en-logos.md | wc -l
+	grep -oE '^1\. |' zh-Hans-en.md | wc -l
+	grep -oE '^1\. |' zh-Hans-en-logos.md | wc -l
 
 # Making dependancies ##########################################################
 
@@ -136,3 +140,6 @@ style:
 # get the Chinese categories
 cat:
 	grep -hr '^\#' ./zh-Hant/ | sed 's/^# ... \(.*\)——.*$$/\1/g' | uniq > zh-Hant-category.txt
+
+print-%:
+	$(info $* = $($*))
