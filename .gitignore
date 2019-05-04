@@ -4,6 +4,7 @@
 __pycache__
 
 en.md
+en-logos.md
 *zh-Han*.md
 zh-Hans/*.md
 *.epub
@@ -28,3 +29,6 @@ css/
 fonts/
 
 data2.yml
+
+*.docx
+*.html
