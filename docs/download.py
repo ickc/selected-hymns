@@ -27,7 +27,7 @@ formats = {
 
 def get_url(url_dict, format, version):
     name = f'{version}{format}'
-    url = name if format == '.html' else url_dict[name]
+    url = f'https://ickc.github.io/selected-hymns/{name}' if format == '.html' else url_dict[name]
     return f'[{name}]({url})'
 
 
