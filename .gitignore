@@ -32,3 +32,5 @@ data2.yml
 
 *.docx
 *.html
+
+docs/download.csv

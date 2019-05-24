@@ -6,16 +6,9 @@ Selected Hymns (詩歌選集) is a hymnal released by Tree of Life Publishers in
 
 You can see the texts in
 
-- HTML:
-
-    - [English version](https://ickc.github.io/selected-hymns/en.html)
-
-    - [繁體中文版](https://ickc.github.io/selected-hymns/zh-Hant.html)
-
-    - [简体中文版](https://ickc.github.io/selected-hymns/zh-Hans.html)
-
-    - [繁中英](https://ickc.github.io/selected-hymns/zh-Hant-en.html)
-
-    - [简中英](https://ickc.github.io/selected-hymns/zh-Hans-en.html)
-
-- [Other formats](https://github.com/ickc/selected-hymns/releases/latest)
+```table
+---
+markdown: True
+include: docs/download.csv
+...
+```
