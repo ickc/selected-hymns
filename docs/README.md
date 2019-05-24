@@ -8,7 +8,7 @@ You can see the texts in
 
 ```table
 ---
-markdown: True
+grid_tables: True
 include: docs/download.csv
 ...
 ```
