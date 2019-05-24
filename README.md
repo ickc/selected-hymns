@@ -13,17 +13,73 @@ issue and replaces it with one that is not.
 
 You can see the texts in
 
--   HTML:
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 28%" />
+<col style="width: 27%" />
+<col style="width: 31%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><p>ePub<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></th>
+<th><p>PDF</p></th>
+<th><p>Logos version</p></th>
+<th><p>HTML (browser)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>English</p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.epub">en.epub</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.pdf">en.pdf</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en-logos.docx">en-logos.docx</a></p></td>
+<td><p><a href="en.html">en.html</a></p></td>
+</tr>
+<tr class="even">
+<td><p>繁體中文版</p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.epub">zh-Hant.epub</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.pdf">zh-Hant.pdf</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-logos.docx">zh-Hant-logos.docx</a></p></td>
+<td><p><a href="zh-Hant.html">zh-Hant.html</a></p></td>
+</tr>
+<tr class="odd">
+<td><p>繁體中英對照</p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.epub">zh-Hant-en.epub</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.pdf">zh-Hant-en.pdf</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en-logos.docx">zh-Hant-en-logos.docx</a></p></td>
+<td><p><a href="zh-Hant-en.html">zh-Hant-en.html</a></p></td>
+</tr>
+<tr class="even">
+<td><p>简体中文版</p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub">zh-Hans.epub</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf">zh-Hans.pdf</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-logos.docx">zh-Hans-logos.docx</a></p></td>
+<td><p><a href="zh-Hans.html">zh-Hans.html</a></p></td>
+</tr>
+<tr class="odd">
+<td><p>简体中英对照</p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub">zh-Hans-en.epub</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf">zh-Hans-en.pdf</a></p></td>
+<td><p><a href="https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en-logos.docx">zh-Hans-en-logos.docx</a></p></td>
+<td><p><a href="zh-Hans-en.html">zh-Hans-en.html</a></p></td>
+</tr>
+</tbody>
+</table>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>for mobile such as Apple Books or Google Play Books<a href="#fnref1" class="footnote-back" role="doc-backlink">↩</a></p></li>
+</ol>
+</section>
 
-    -   [English version](https://ickc.github.io/selected-hymns/en.html)
+,ePub[1],PDF,Logos version,HTML (browser)
+English,[en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.epub),[en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.pdf),[en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en-logos.docx),[en.html](en.html)
+繁體中文版,[zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.epub),[zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.pdf),[zh-Hant-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-logos.docx),[zh-Hant.html](zh-Hant.html)
+繁體中英對照,[zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.epub),[zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.pdf),[zh-Hant-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en-logos.docx),[zh-Hant-en.html](zh-Hant-en.html)
+简体中文版,[zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub),[zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf),[zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-logos.docx),[zh-Hans.html](zh-Hans.html)
+简体中英对照,[zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub),[zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf),[zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en-logos.docx),[zh-Hans-en.html](zh-Hans-en.html)
 
-    -   [繁體中文版](https://ickc.github.io/selected-hymns/zh-Hant.html)
-
-    -   [简体中文版](https://ickc.github.io/selected-hymns/zh-Hans.html)
-
-    -   [繁中英](https://ickc.github.io/selected-hymns/zh-Hant-en.html)
-
-    -   [简中英](https://ickc.github.io/selected-hymns/zh-Hans-en.html)
-
--   [Other
-    formats](https://github.com/ickc/selected-hymns/releases/latest)
+[1] for mobile such as Apple Books or Google Play Books
