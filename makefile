@@ -17,7 +17,7 @@ CSS = css/common.min.css
 latexmkArg = -$(latexmkEngine) -quiet
 
 # pandoc args
-pandocArgCommon = --toc -F pantable
+pandocArgCommon = --toc
 ### pandoc workflow
 pandocArgStandalone = $(pandocArgCommon) --toc-depth=4 -s -M date="`date "+%B %e, %Y"`"
 
@@ -26,9 +26,8 @@ pandocArgePub = $(pandocArgCommon) --toc-depth=4 -s --css=$(CSS) -t $(ePubVersio
 pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
 pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter --pdf-engine=$(pandocEngine)
 # docx output rely on pandoc to HTML and then ebook-convert from html to docx
-pandocArgDocx = -t $(HTMLVersion) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$(CSS) -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css
 # GitHub README
-pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t gfm --reference-location=block
+pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t gfm --reference-location=block -F pantable
 # for cleanup only
 pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
 
@@ -99,8 +98,8 @@ docs/%.html: %.md
 # Logos doesn't support gapless double English emdash
 %.docx: %.md
 	# pandoc -o $@ $<
-	sed 's/——/⸺/g' $< | pandoc $(pandocArgDocx) -f markdown -o $*.html
-	ebook-convert $*.html $@
+	sed 's/——/⸺/g' $< | pandoc $(pandocArgePub) -f markdown -o $*.epub
+	ebook-convert $*.epub $@
 
 # %.pdf: %.tex
 # 	latexmk $(latexmkArg) $<
