@@ -17,7 +17,7 @@ CSS = css/common.min.css
 latexmkArg = -$(latexmkEngine) -quiet
 
 # pandoc args
-pandocArgCommon = --toc
+pandocArgCommon = --toc -F pantable
 ### pandoc workflow
 pandocArgStandalone = $(pandocArgCommon) --toc-depth=4 -s -M date="`date "+%B %e, %Y"`"
 
@@ -27,7 +27,7 @@ pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr
 pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter --pdf-engine=$(pandocEngine)
 # docx output rely on pandoc to HTML and then ebook-convert from html to docx
 # GitHub README
-pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t gfm --reference-location=block -F pantable
+pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t gfm --reference-location=block
 # for cleanup only
 pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
 
@@ -38,6 +38,8 @@ HTML = $(patsubst %.md,docs/%.html,$(MD))
 EPUB = $(patsubst %.md,%.epub,$(MD))
 TeX = $(patsubst %.md,%.tex,$(MD))
 PDF = $(patsubst %.md,%.pdf,$(MD))
+MD_SLIDE = $(wildcard slide/*.md)
+HTML_SLIDE = $(patsubst slide/%.md,docs/slide/%.html,$(MD_SLIDE))
 
 logosMD = en-logos.md zh-Hant-logos.md zh-Hans-logos.md zh-Hant-en-logos.md zh-Hans-en-logos.md
 logosDOCX = $(patsubst %.md,%.docx,$(logosMD))
@@ -49,8 +51,9 @@ DOCS = docs/index.html README.md
 # Main Targets #################################################################
 
 all: $(DOCS) $(HTML) $(EPUB) $(TeX) $(PDF) $(ZH-Hans) $(logosDOCX)
-docs: $(DOCS) html
+docs: $(DOCS) html html_slide
 html: $(HTML)
+html_slide: $(HTML_SLIDE)
 epub: $(EPUB)
 tex: $(TeX)
 pdf: $(PDF)
@@ -122,6 +125,11 @@ README.md: docs/badges.markdown docs/README.md docs/download.csv
 %.css:
 	mkdir -p $(@D) && cd $(@D) && wget https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$@
 
+# Slides
+
+docs/slide/%.html: slide/%.md
+	# pandoc -s -o $@ $< -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css -t slidy
+	pandoc -s -o $@ $< --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow
 # Scripts ######################################################################
 
 # epubcheck
