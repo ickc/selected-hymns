@@ -8,7 +8,19 @@ You can see the texts in
 
 ```table
 ---
-grid_tables: True
+markdown: true
 include: docs/download.csv
+...
+```
+
+# Slide
+
+Press space or arrows to advance to next slide. Type `?` in the slide for help.
+
+```table
+---
+markdown: true
+header: false
+include: docs/slide.csv
 ...
 ```
