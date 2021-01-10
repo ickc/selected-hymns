@@ -127,9 +127,14 @@ README.md: docs/badges.markdown docs/README.md docs/download.csv
 
 # Slides
 
-docs/slide/%.html: slide/%.md
+# run convert_slide.ipynb first
+docs/slide/%.html: slide/%.md docs/slide/
 	# pandoc -s -o $@ $< -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css -t slidy
-	pandoc -s -o $@ $< --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow
+	pandoc -s -o $@ $< --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow -c ../slide.css
+
+docs/slide/:
+	mkdir -p docs/slide/
+
 # Scripts ######################################################################
 
 # epubcheck
