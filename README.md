@@ -83,7 +83,9 @@ Download any supported formats below.
 | 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf)       | [zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-logos.docx)       | [zh-Hans.html](https://ickc.github.io/selected-hymns/zh-Hans.html)       |
 | 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf) | [zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en-logos.docx) | [zh-Hans-en.html](https://ickc.github.io/selected-hymns/zh-Hans-en.html) |
 
-## Slide listing
+## Slide listing[2]
+
+[2] This only works in <https://ickc.github.io/selected-hymns/>.
 
 | [1](slide/1.html)     | [2](slide/2.html)     | [3](slide/3.html)     | [4](slide/4.html)     | [5](slide/5.html)     | [6](slide/6.html)     | [7](slide/7.html)     | [8](slide/8.html)     | [9](slide/9.html)     | [10](slide/10.html)   | [11](slide/11.html)   | [12](slide/12.html)   | [13](slide/13.html)   | [14](slide/14.html)   | [15](slide/15.html)   | [16](slide/16.html)   |
 |-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
