@@ -28,17 +28,20 @@ Selected Hymns (詩歌選集) is a hymnal released by Tree of Life Publishers in
 
 ## Install
 
+### 繁體中文
+
 手機用戶請從ePub一欄下載。蘋果手機用戶可用Apple Books 應用程式打開檔案，安卓手機用戶可用Google Play 圖書 應用程式打開檔案。其他用戶可以從PDF一欄下載。
 
 請按你的語言從列中選擇所需檔案。例如你只需要中文版，請選擇中文版， 或按喜好選擇中英對照版。
 
+```table
 ---
+markdown: true
+include: docs/download-zh-Hant.csv
+...
+```
 
-Mobile phone users please download from the ePub column. Apple users can open it using Apple Books, and Android users using Google Play Books. Other users can choose from the PDF column instead.
-
-Please choose the file from the rows according to your language. For example, you only need the Chinese version, please choose “Chinese only” version, or you can choose the “Bilingual version” if preferred.
-
----
+### 简体中文
 
 手机用户请从ePub一栏下载。苹果手机用户可用Apple Books 应用程式打开档案，安卓手机用户可用Google Play 图书 应用程式打开档案。其他用户可以从PDF一栏下载。
 
@@ -47,7 +50,20 @@ Please choose the file from the rows according to your language. For example, yo
 ```table
 ---
 markdown: true
-include: docs/download.csv
+include: docs/download-zh-Hans.csv
+...
+```
+
+### English
+
+If you are bilingual, see other sections above.
+
+Mobile phone users please download from the ePub column. Apple users can open it using Apple Books, and Android users using Google Play Books. Other users can choose from the PDF column instead.
+
+```table
+---
+markdown: true
+include: docs/download-en.csv
 ...
 ```
 
