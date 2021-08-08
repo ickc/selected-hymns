@@ -27,7 +27,7 @@ pandocArgHTML = $(pandocArgStandalone) -t $(HTMLVersion) -c https://cdn.jsdelivr
 pandocArgTeX = $(pandocArgStandalone) --top-level-division=chapter --pdf-engine=$(pandocEngine)
 # docx output rely on pandoc to HTML and then ebook-convert from html to docx
 # GitHub README
-pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -s -t gfm --reference-location=block
+pandocArgReadmeGitHub = $(pandocArgCommon) --toc-depth=2 -t gfm --reference-location=block
 # for cleanup only
 pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mmd_header_identifiers+mmd_link_attributes+mmd_title_block-latex_macros-auto_identifiers -t markdown+raw_tex-native_spans-simple_tables-multiline_tables-grid_tables-latex_macros -s --wrap=none --column=999 --atx-headers --reference-location=block --file-scope
 
