@@ -69,7 +69,7 @@ include: docs/download-en.csv
 
 ## Slide
 
-In the following box, input the hymn no., say, 16, and either hit enter on your keyboard or click the button on its right, a new tab will pops up.^[This only works in <https://ickc.github.io/selected-hymns/>.]
+In the following box, input the hymn no., say, 16, and either hit enter on your keyboard or click the button on its right, a new tab will pops up.[^itworks]
 
 <input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
 <button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
@@ -89,7 +89,7 @@ include: docs/download-all.csv
 ...
 ```
 
-## Slide listing
+## Slide listing[^itworks]
 
 ```table
 ---
@@ -98,3 +98,5 @@ header: false
 include: docs/slide.csv
 ...
 ```
+
+[^itworks]: This only works in <https://ickc.github.io/selected-hymns/>.
