@@ -15,6 +15,8 @@ issue and replaces it with one that is not.
 
 ## Install
 
+### 繁體中文
+
 手機用戶請從ePub一欄下載。蘋果手機用戶可用Apple Books
 應用程式打開檔案，安卓手機用戶可用Google Play 圖書
 應用程式打開檔案。其他用戶可以從PDF一欄下載。
@@ -22,17 +24,12 @@ issue and replaces it with one that is not.
 請按你的語言從列中選擇所需檔案。例如你只需要中文版，請選擇中文版，
 或按喜好選擇中英對照版。
 
-------------------------------------------------------------------------
+|              | ePub                                                                                               | PDF                                                                                              |
+|--------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.pdf)       |
+| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.pdf) |
 
-Mobile phone users please download from the ePub column. Apple users can
-open it using Apple Books, and Android users using Google Play Books.
-Other users can choose from the PDF column instead.
-
-Please choose the file from the rows according to your language. For
-example, you only need the Chinese version, please choose “Chinese only”
-version, or you can choose the “Bilingual version” if preferred.
-
-------------------------------------------------------------------------
+### 简体中文
 
 手机用户请从ePub一栏下载。苹果手机用户可用Apple Books
 应用程式打开档案，安卓手机用户可用Google Play 图书
@@ -43,11 +40,20 @@ version, or you can choose the “Bilingual version” if preferred.
 
 |              | ePub                                                                                               | PDF                                                                                              |
 |--------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| English      | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.epub)                 | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.pdf)                 |
-| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.pdf)       |
-| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.pdf) |
 | 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf)       |
 | 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf) |
+
+### English
+
+If you are bilingual, see other sections above.
+
+Mobile phone users please download from the ePub column. Apple users can
+open it using Apple Books, and Android users using Google Play Books.
+Other users can choose from the PDF column instead.
+
+|         | ePub                                                                               | PDF                                                                              |
+|---------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| English | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.epub) | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.pdf) |
 
 ## Slide
 
