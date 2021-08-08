@@ -2,6 +2,7 @@
 
 .ipynb_checkpoints/
 __pycache__
+.mypy_cache/
 
 en.md
 en-logos.md
@@ -32,7 +33,7 @@ data2.yml
 
 *.docx
 
-docs/download.csv
+docs/download*.csv
 
 slide/
 !docs/slide/
