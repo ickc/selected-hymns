@@ -6,11 +6,11 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.13.6
+#       jupytext_version: 1.13.5
 #   kernelspec:
-#     display_name: all3-defaults
+#     display_name: all310-conda-forge
 #     language: python
-#     name: all3-defaults
+#     name: all310-conda-forge
 # ---
 
 # %%
@@ -23,10 +23,6 @@ import yaml
 import yamlloader
 from pantable.ast import PanTableMarkdown
 from pantable.util import convert_text
-
-# %%
-
-# %%
 
 
 # %% [markdown]
