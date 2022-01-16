@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
@@ -27,12 +30,14 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Charge, soldiers, charge in battle! The conflict has begun; 沖過！戰士哪，沖過！前線正在開火；</h1>
+  <h1 class="title">Charge, soldiers, charge in battle! The conflict has
+begun; 沖過！戰士哪，沖過！前線正在開火；</h1>
 </section>
 
 <section id="section" class="slide level1">
 <h1>1</h1>
-<div class="line-block">Charge, soldiers, charge in battle! The conflict has begun;<br />
+<div class="line-block">Charge, soldiers, charge in battle! The conflict
+has begun;<br />
 沖過！戰士哪，沖過！前線正在開火；<br />
 Thy battle song triumphant—<q>The victory is won!</q><br />
 但各各他已得勝，請你常唱此歌。<br />
@@ -43,7 +48,8 @@ The Captain of the Army Will come and triumph soon.<br />
 </section>
 <section id="section-1" class="slide level1">
 <h1>2</h1>
-<div class="line-block">Charge, soldiers, charge in battle! And gaze upon thy Lord;<br />
+<div class="line-block">Charge, soldiers, charge in battle! And gaze
+upon thy Lord;<br />
 “沖過！戰士哪，沖過！仰起你頭看我；<br />
 If thou wilt fight His battle, The throne is thy reward.<br />
 你若為我打勝仗，必得登我寶座。”<br />
@@ -54,18 +60,21 @@ The Lord well knows the foe is near, Encircling us around.<br />
 </section>
 <section id="section-2" class="slide level1">
 <h1>3</h1>
-<div class="line-block">Charge, soldiers, charge in battle! Christ’s throne awaiteth thee;<br />
+<div class="line-block">Charge, soldiers, charge in battle! Christ’s
+throne awaiteth thee;<br />
 “沖過！戰士哪，沖過！ 你要登我寶座；<br />
 His resurrection power Will lift thy spirit free.<br />
 使我復活的能力，會使你靈超脫。<br />
 Through Him thou wilt have power, The foe to battle down;<br />
 藉我你要得權能，藉我你要得勝，<br />
-Through Him thou wilt the triumph sing, And wear the victor’s crown.<br />
+Through Him thou wilt the triumph sing, And wear the victor’s
+crown.<br />
 藉我你要唱凱歌，藉我你要高升。”</div>
 </section>
 <section id="section-3" class="slide level1">
 <h1>4</h1>
-<div class="line-block">Charge, soldiers, charge in battle! Thou shalt ascend the throne;<br />
+<div class="line-block">Charge, soldiers, charge in battle! Thou shalt
+ascend the throne;<br />
 “沖過！戰士哪，沖過！你要登我寶座；<br />
 A feast He is preparing, How happy thou to own.<br />
 我已為你留一席，你要歡喜快樂。”<br />
@@ -76,7 +85,8 @@ Transcending all that binds us, We’re far above in Him.<br />
 </section>
 <section id="section-4" class="slide level1">
 <h1>5</h1>
-<div class="line-block">Charge, soldiers, charge in battle! Thou art the royal heir;<br />
+<div class="line-block">Charge, soldiers, charge in battle! Thou art the
+royal heir;<br />
 沖過！戰士哪，沖過！你要登主寶座；<br />
 The Lord from dust did choose thee, That thou His kingdom share.<br />
 主從灰塵揀選你，要你同祂得國。<br />
@@ -87,7 +97,8 @@ With Christ to dwell forever And in His love delight.<br />
 </section>
 <section id="section-5" class="slide level1">
 <h1>6</h1>
-<div class="line-block">With joyful shouts charge forward! The kingdom is before;<br />
+<div class="line-block">With joyful shouts charge forward! The kingdom
+is before;<br />
 沖過！歡呼著沖過！前面就是寶座！<br />
 Upon the peak of Zion We’ll sing, the battle o’er.<br />
 你從郇山的高峰，可唱得勝新歌。<br />
@@ -101,7 +112,7 @@ With shouts of joy we praise Him, For He must overcome.<br />
 
   <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
+  <!-- reveal.js plugins -->
   <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
   <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
   <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
@@ -111,20 +122,145 @@ With shouts of joy we praise Him, For He must overcome.<br />
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
         // Display the page number of the current slide
         slideNumber: true,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
         // Add the current slide number to the URL hash so that reloading the
         // page/copying the URL will return you to the same slide
         hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Specify the total time in seconds that is available to
-        // present.  If this is set to a nonzero value, the pacing
-        // timer will work out the time available for each slide,
-        // instead of using the defaultTiming value
-        totalTime: 2700,
-        // Transition speed
-        transitionSpeed: 'slow', // default/fast/slow
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'slow',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
 
         // reveal.js plugins
         plugins: [

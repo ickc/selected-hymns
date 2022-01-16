@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
@@ -27,12 +30,14 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Conflict today is fierce, The strength of Satan more; 今日戰爭兇猛，仇敵聲勢更強；</h1>
+  <h1 class="title">Conflict today is fierce, The strength of Satan
+more; 今日戰爭兇猛，仇敵聲勢更強；</h1>
 </section>
 
 <section id="section" class="slide level1">
 <h1>1</h1>
-<div class="line-block">Conflict today is fierce, The strength of Satan more;<br />
+<div class="line-block">Conflict today is fierce, The strength of Satan
+more;<br />
 今日戰爭兇猛，仇敵聲勢更強；<br />
 The cry of battle calling now Is louder than before.<br />
 戰場呼喊、殺伐之聲，比前更為響亮。<br />
@@ -43,7 +48,8 @@ But list, the midnight cry resounds, Behold, I quickly come!<br />
 </section>
 <section id="section-1" class="slide level1">
 <h1>2</h1>
-<div class="line-block">Trials more bitter grow, The fighting doth enlarge;<br />
+<div class="line-block">Trials more bitter grow, The fighting doth
+enlarge;<br />
 今日試煉更苦， 敵我交戰益烈；<br />
 Hell’s forces rally all their pow’rs And gather for the charge.<br />
 陰府軍兵一齊鼓舞， 集隊洶洶來劫 。<br />
@@ -54,7 +60,8 @@ We hear the joyful song ring out, Jesus, the Lord, is near!<br />
 </section>
 <section id="section-2" class="slide level1">
 <h1>3</h1>
-<div class="line-block">’Tis harder at the end The word to testify,<br />
+<div class="line-block">’Tis harder at the end The word to
+testify,<br />
 更難證實主話， 在此末後之世；<br />
 For Satan fights with all his pow’r Our witness to defy.<br />
 因為撒但傾力攻打， 竭其一切權勢。<br />
@@ -65,7 +72,8 @@ How happy when the Lord we see And all our sighing’s done!<br />
 </section>
 <section id="section-3" class="slide level1">
 <h1>4</h1>
-<div class="line-block">Who then will forward go Strong in His mighty power?<br />
+<div class="line-block">Who then will forward go Strong in His mighty
+power?<br />
 誰願一直前進， 借著主的大能？<br />
 Who then will firmly trust the Lord Until the vict’ry hour;<br />
 誰要堅定一直相信， 直到爭戰全贏？<br />
@@ -76,7 +84,8 @@ That man will then rejoice to hear, Behold, I quickly come!<br />
 </section>
 <section id="section-4" class="slide level1">
 <h1>5</h1>
-<div class="line-block">Who then will choose God’s best, And take the narrow track,<br />
+<div class="line-block">Who then will choose God’s best, And take the
+narrow track,<br />
 誰選神的最好， 走這十架窄路；<br />
 Though passing thru the wildest storms, Yet never turning back?<br />
 歷盡百般憂患、苦惱， 絲毫也不回顧？<br />
@@ -87,9 +96,10 @@ All such will then rejoice to see Jesus, the Lord, is near!<br />
 </section>
 <section id="section-5" class="slide level1">
 <h1>6</h1>
-<div class="line-block">Though deep the darkness be We still would onward go,<br />
+<div class="line-block">Though deep the darkness be We still would
+onward go,<br />
 現今黑暗深厚， 我們仍當力前，<br />
-Till we the day of rapture greet And glory ‘round shall glow.<br />
+Till we the day of rapture greet And glory ’round shall glow.<br />
 直到我們被提時候， 榮耀就必顯現！<br />
 ’Tis there we’ll see the Lord, And Satan overcome;<br />
 在彼我們見主， 仇敵已經失敗；<br />
@@ -101,7 +111,7 @@ The overcomers will rejoice, Jesus, the Lord, has come!<br />
 
   <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
+  <!-- reveal.js plugins -->
   <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
   <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
   <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
@@ -111,20 +121,145 @@ The overcomers will rejoice, Jesus, the Lord, has come!<br />
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
         // Display the page number of the current slide
         slideNumber: true,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
         // Add the current slide number to the URL hash so that reloading the
         // page/copying the URL will return you to the same slide
         hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Specify the total time in seconds that is available to
-        // present.  If this is set to a nonzero value, the pacing
-        // timer will work out the time available for each slide,
-        // instead of using the defaultTiming value
-        totalTime: 2700,
-        // Transition speed
-        transitionSpeed: 'slow', // default/fast/slow
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'slow',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
 
         // reveal.js plugins
         plugins: [
