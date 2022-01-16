@@ -172,3 +172,7 @@ cat:
 
 print-%:
 	$(info $* = $($*))
+
+# ipynb ########################################################################
+sync:
+	find \! -path '*/.ipynb_checkpoints/*' -name '*.ipynb' -exec jupytext --sync --pipe black --pipe 'isort - --treat-comment-as-code "# %%" --float-to-top' {} +
