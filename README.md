@@ -6,7 +6,7 @@ Status](https://travis-ci.org/ickc/selected-hymns.svg?branch=master)](https://tr
 Releases](https://img.shields.io/github/tag/ickc/selected-hymns.svg?label=github+release)](https://github.com/ickc/selected-hymns/releases)
 
 Selected Hymns (詩歌選集) is a hymnal released by Tree of Life
-Publishers in 1995, which is later dicontinued due to copyright issue.
+Publishers in 1995, which is later discontinued due to copyright issue.
 This project is to provide a text-only version of the original hymnal.
 The long-term goal will be to identify the texts that has copyright
 issue and replaces it with one that is not.
@@ -59,9 +59,9 @@ Other users can choose from the PDF column instead.
 
 In the following box, input the hymn no., say, 16, and either hit enter
 on your keyboard or click the button on its right, a new tab will pops
-up.[1]
+up.[^1]
 
-[1] This only works in <https://ickc.github.io/selected-hymns/>.
+[^1]: This only works in <https://ickc.github.io/selected-hymns/>.
 
 <input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
 <button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
@@ -83,9 +83,9 @@ Download any supported formats below.
 | 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf)       | [zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-logos.docx)       | [zh-Hans.html](https://ickc.github.io/selected-hymns/zh-Hans.html)       |
 | 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf) | [zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en-logos.docx) | [zh-Hans-en.html](https://ickc.github.io/selected-hymns/zh-Hans-en.html) |
 
-## Slide listing[2]
+## Slide listing[^2]
 
-[2] This only works in <https://ickc.github.io/selected-hymns/>.
+[^2]: This only works in <https://ickc.github.io/selected-hymns/>.
 
 | [1](slide/1.html)     | [2](slide/2.html)     | [3](slide/3.html)     | [4](slide/4.html)     | [5](slide/5.html)     | [6](slide/6.html)     | [7](slide/7.html)     | [8](slide/8.html)     | [9](slide/9.html)     | [10](slide/10.html)   | [11](slide/11.html)   | [12](slide/12.html)   | [13](slide/13.html)   | [14](slide/14.html)   | [15](slide/15.html)   | [16](slide/16.html)   |
 |-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
