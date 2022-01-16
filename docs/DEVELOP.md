@@ -16,6 +16,15 @@ make prepare && make css && make all_but_pdf && make pdf
 3. `make all` or `make all_but_pdf && make pdf`
     - `make pdf` is separated as it often has errors to debug
 
+# Release
+
+```sh
+make bump PART=minor
+make release
+# regenerate release table
+make docs/index.html -B
+```
+
 # Develop
 
 - `enumerate_data.ipynb` can be used to convert `data.yml` from list to dict with keys as the hymn number.
