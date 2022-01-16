@@ -6,7 +6,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.13.5
+#       jupytext_version: 1.13.6
 #   kernelspec:
 #     display_name: all310-conda-forge
 #     language: python
@@ -23,7 +23,6 @@ import yaml
 import yamlloader
 from pantable.ast import PanTableMarkdown
 from pantable.util import convert_text
-
 
 # %% [markdown]
 # keys per hymn:
@@ -86,14 +85,19 @@ len(data)
 def hymn_to_slide(hymn):
     pages = []
 
-    meta = []
+    meta = {}
     title = get_duolingual(get_title, hymn)
-    meta.append(f"title: {title}")
+    meta["title"] = title
     author = get_duolingual(partial(get, key="author"), hymn).strip()
     if author:
-        meta.append(f"author: {author}")
+        meta["author"] = author
 
-    temp = "\n".join(meta)
+    temp = yaml.dump(
+        meta,
+        Dumper=yamlloader.ordereddict.CSafeDumper,
+        default_flow_style=False,
+        allow_unicode=True,
+    )
     pages.append(
         f"""---
 {temp}
