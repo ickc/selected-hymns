@@ -4,7 +4,7 @@ TODO: automate in make
 # To generate the project
 
 ```sh
-make prepare && make css && make && make pdf
+make prepare && make css && make all_but_pdf && make pdf
 ```
 
 1. `make prepare` does these:
@@ -13,8 +13,8 @@ make prepare && make css && make && make pdf
         - `convert.ipynb` to generate `en.md`, `en-logos.md`, `zh-Hant.md`, `zh-Hant-logos.md`.
         - `convert-bilingual.ipynb` to generate `zh-Hant-en.md`, `zh-Hant-en-logos.md`.
 2. `make css` to download css for epub
-3. `make`
-4. `make pdf` is separated as it often has errors to debug
+3. `make all` or `make all_but_pdf && make pdf`
+    - `make pdf` is separated as it often has errors to debug
 
 # Develop
 
