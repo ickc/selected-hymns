@@ -24,10 +24,10 @@ issue and replaces it with one that is not.
 請按你的語言從列中選擇所需檔案。例如你只需要中文版，請選擇中文版，
 或按喜好選擇中英對照版。
 
-|              | ePub                                                                                               | PDF                                                                                              |
-|--------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.pdf)       |
-| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.pdf) |
+|              | ePub                                                                                                | PDF                                                                                               |
+|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.pdf)       |
+| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.pdf) |
 
 ### 简体中文
 
@@ -38,10 +38,10 @@ issue and replaces it with one that is not.
 请按你的语言从列中选择所需档案。例如你只需要中文版，请选择中文版，
 或按喜好选择中英对照版。
 
-|              | ePub                                                                                               | PDF                                                                                              |
-|--------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf)       |
-| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf) |
+|              | ePub                                                                                                | PDF                                                                                               |
+|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.pdf)       |
+| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.pdf) |
 
 ### English
 
@@ -51,9 +51,9 @@ Mobile phone users please download from the ePub column. Apple users can
 open it using Apple Books, and Android users using Google Play Books.
 Other users can choose from the PDF column instead.
 
-|         | ePub                                                                               | PDF                                                                              |
-|---------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| English | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.epub) | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.pdf) |
+|         | ePub                                                                                | PDF                                                                               |
+|---------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| English | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.epub) | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.pdf) |
 
 ## Slide
 
@@ -75,13 +75,13 @@ in the slide for help.
 
 Download any supported formats below.
 
-|              | ePub                                                                                               | PDF                                                                                              | Logos version                                                                                                  | HTML (browser)                                                           |
-|--------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| English      | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.epub)                 | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en.pdf)                 | [en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/en-logos.docx)                 | [en.html](https://ickc.github.io/selected-hymns/en.html)                 |
-| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant.pdf)       | [zh-Hant-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-logos.docx)       | [zh-Hant.html](https://ickc.github.io/selected-hymns/zh-Hant.html)       |
-| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en.pdf) | [zh-Hant-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hant-en-logos.docx) | [zh-Hant-en.html](https://ickc.github.io/selected-hymns/zh-Hant-en.html) |
-| 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans.pdf)       | [zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-logos.docx)       | [zh-Hans.html](https://ickc.github.io/selected-hymns/zh-Hans.html)       |
-| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en.pdf) | [zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.9.1/zh-Hans-en-logos.docx) | [zh-Hans-en.html](https://ickc.github.io/selected-hymns/zh-Hans-en.html) |
+|              | ePub                                                                                                | PDF                                                                                               | Logos version                                                                                                   | HTML (browser)                                                           |
+|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| English      | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.epub)                 | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.pdf)                 | [en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en-logos.docx)                 | [en.html](https://ickc.github.io/selected-hymns/en.html)                 |
+| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.pdf)       | [zh-Hant-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-logos.docx)       | [zh-Hant.html](https://ickc.github.io/selected-hymns/zh-Hant.html)       |
+| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.pdf) | [zh-Hant-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en-logos.docx) | [zh-Hant-en.html](https://ickc.github.io/selected-hymns/zh-Hant-en.html) |
+| 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.pdf)       | [zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-logos.docx)       | [zh-Hans.html](https://ickc.github.io/selected-hymns/zh-Hans.html)       |
+| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.pdf) | [zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en-logos.docx) | [zh-Hans-en.html](https://ickc.github.io/selected-hymns/zh-Hans-en.html) |
 
 ## Slide listing[^2]
 
