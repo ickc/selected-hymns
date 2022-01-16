@@ -48,7 +48,7 @@ title:	詩歌選集　Selected Hymns
 keywords:	詩歌, Hymn
 lang:	zh-Hant
 otherlangs: en
-CJKmainfont:	Kaiti TC
+CJKmainfont:	Noto Sans CJK TC
 CJKoptions:	BoldFont = * Bold, AutoFakeSlant
 ...
 

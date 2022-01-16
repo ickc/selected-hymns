@@ -1,15 +1,18 @@
 SHELL = /usr/bin/env bash
 
 # LaTeX
-latexmkEngine = xelatex
+latexmkEngine = lualatex
 # pandoc
-pandocEngine = xelatex
+pandocEngine = lualatex
 # HTML
 HTMLVersion = html5
 # ePub
 ePubVersion = epub3
 
 CSS = css/common.min.css
+
+# for bump2version, valid options are: major, minor, patch
+PART ?= patch
 
 # Args #########################################################################
 
@@ -50,7 +53,8 @@ DOCS = docs/index.html README.md
 
 # Main Targets #################################################################
 
-all: $(DOCS) $(HTML) $(EPUB) $(TeX) $(PDF) $(ZH-Hans) $(logosDOCX)
+all_but_pdf: $(DOCS) $(HTML) $(EPUB) $(TeX) $(ZH-Hans) $(logosDOCX)
+all: all_but_pdf $(PDF)
 docs: $(DOCS) html html_slide
 html: $(HTML)
 html_slide: $(HTML_SLIDE)
@@ -63,6 +67,9 @@ clean:
 	latexmk -c -f $(TeX)
 	rm -f $(ZH-Hans) $(MD) $(TeX)
 	find \( -type f -name '*.py[co]' -o -type d -name '__pycache__' \) -delete
+
+clean_tex:
+	find -name '*.tex' -exec latexmk -C {} +
 
 Clean: clean
 	latexmk -C -f $(TeX)
@@ -87,12 +94,12 @@ check:
 # Tranditional to Simplified Chinese
 zh-Hans%md: zh-Hant%md
 	opencc -c t2s.json -i $< -o $@
-	sed -i -e 's/zh-Hant/zh-Hans/g' -e 's/Kaiti TC/Kaiti SC/g' $@
+	sed -i -e 's/zh-Hant/zh-Hans/g' -e 's/Noto Sans CJK TC/Noto Sans CJK SC/g' $@
 
 docs/%.html: %.md
 	pandoc $(pandocArgHTML) -o $@ $<
 
-%.epub: %.md $(CSS)
+%.epub: %.md
 	pandoc $(pandocArgePub) -o $@ $<
 
 %.tex: %.md
@@ -104,10 +111,10 @@ docs/%.html: %.md
 	sed 's/——/⸺/g' $< | pandoc $(pandocArgePub) -f markdown -o $*.epub
 	ebook-convert $*.epub $@
 
-# %.pdf: %.tex
-# 	latexmk $(latexmkArg) $<
-%.pdf: %.md
-	pandoc $(pandocArgTeX) -o $@ $<
+%.pdf: %.tex
+	latexmk $(latexmkArg) $<
+# %.pdf: %.md
+# 	pandoc $(pandocArgTeX) -o $@ $<
 
 # readme
 ## index.html
@@ -131,15 +138,17 @@ README.md: docs/badges.markdown docs/README.md docs/download-all.csv
 	docs/download.py -o $@
 
 # download CSS
+css: $(CSS)
 %.css:
 	mkdir -p $(@D) && cd $(@D) && wget https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$@
 
 # Slides
 
+# reveal.js doesn't support gapless double English emdash
 # run convert_slide.ipynb first
 docs/slide/%.html: slide/%.md docs/slide/
 	# pandoc -s -o $@ $< -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css -t slidy
-	pandoc -s -o $@ $< --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow -c ../slide.css
+	sed 's/——/⸺/g' $< | pandoc -s -o $@ --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow -c ../slide.css
 
 docs/slide/:
 	mkdir -p docs/slide/
@@ -174,5 +183,27 @@ print-%:
 	$(info $* = $($*))
 
 # ipynb ########################################################################
+
+prepare: convert convert-bilingual slide/
+
+data2.yml: data.yml
+	python list_to_dict.py
+
+convert: data2.yml
+	python convert.py
+
+convert-bilingual: data2.yml
+	python convert-bilingual.py
+
+# this also make docs/slide.csv
+slide/:
+	python convert_slide.py
+
 sync:
 	find \! -path '*/.ipynb_checkpoints/*' -name '*.ipynb' -exec jupytext --sync --pipe black --pipe 'isort - --treat-comment-as-code "# %%" --float-to-top' {} +
+
+# releasing ####################################################################
+
+bump:
+	bump2version $(PART)
+	git push --follow-tags

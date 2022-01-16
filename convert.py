@@ -49,7 +49,7 @@ title:	Selected Hymns
 keywords:	Hymn
 lang:	en
 otherlangs: zh-Hant
-CJKmainfont:	Kaiti TC
+CJKmainfont:	Noto Sans CJK TC
 CJKoptions:	BoldFont = * Bold, AutoFakeSlant
 ...
 
@@ -59,7 +59,7 @@ title:	詩歌選集
 keywords:	詩歌
 lang:	zh-Hant
 otherlangs: en
-CJKmainfont:	Kaiti TC
+CJKmainfont:	Noto Sans CJK TC
 CJKoptions:	BoldFont = * Bold, AutoFakeSlant
 ...
 
