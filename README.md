@@ -66,8 +66,16 @@ up.[^1]
 <input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
 <button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
 
-In the slide, press space or arrows to advance to next slide. Type `?`
-in the slide for help.
+Tips:
+
+-   For best viewing of the presentation, press `F` to enter full
+    Screen, `Esc` to cancel full screen.
+-   For long text, scroll down using the wheel of the mouse.
+-   Do not zoom into the content, it will messed with the UI of the
+    presentation.
+-   In the slide, press space or arrows to advance to next slide. Type
+    `?` in the slide for help.
+    -   E.g. `O` can be used to jump to a slide.
 
 # Advanced usage
 
