@@ -38,6 +38,7 @@ pandocArgMD = -f markdown+abbreviations+autolink_bare_uris+markdown_attribute+mm
 # Lists ########################################################################
 
 MD = en.md zh-Hant.md zh-Hans.md zh-Hant-en.md zh-Hans-en.md
+TXT = en.txt zh-Hant.txt
 HTML = $(patsubst %.md,docs/%.html,$(MD))
 EPUB = $(patsubst %.md,%.epub,$(MD))
 TeX = $(patsubst %.md,%.tex,$(MD))
@@ -63,6 +64,7 @@ epub: $(EPUB)
 tex: $(TeX)
 pdf: $(PDF)
 docx: $(logosDOCX)
+txt: $(TXT)  ## generate text files (mainly for LLMs)
 
 clean:
 	latexmk -c -f $(TeX)
@@ -116,6 +118,8 @@ docs/%.html: %.md
 	latexmk $(latexmkArg) $<
 # %.pdf: %.md
 # 	pandoc $(pandocArgTeX) -o $@ $<
+%.txt: %.md
+	pandoc -t plain -o $@ $<
 
 # readme
 ## index.html

@@ -11,6 +11,7 @@ zh-Hans/*.md
 *.epub
 *.tex
 *.pdf
+*.txt
 
 !metadata.tex
 
