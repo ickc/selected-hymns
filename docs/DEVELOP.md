@@ -1,12 +1,12 @@
 # To generate the project
 
 ```sh
-make prepare && make css && make all_but_pdf && make pdf
+make prepare && make slide/ -B && make css && make all_but_pdf && make pdf
 ```
 
 1. `make prepare` does these:
     - run `list_to_dict.ipynb` for `data2.yml`
-        - `convert_slide.ipynb` to generate `slide/*.md`, `docs/slide.csv`
+        - `convert_slide.ipynb` to generate `slide/*.md`, `docs/slide.csv` (TODO: fix makefile dependencies here)
         - `convert.ipynb` to generate `en.md`, `en-logos.md`, `zh-Hant.md`, `zh-Hant-logos.md`.
         - `convert-bilingual.ipynb` to generate `zh-Hant-en.md`, `zh-Hant-en-logos.md`.
 2. `make css` to download css for epub
