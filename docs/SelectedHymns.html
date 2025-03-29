@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Hymns</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 800px;
+            height: 80px;
+        }
+        
+        #hymn-number {
+            width: 50%;
+            height: 100%;
+            font-size: 24px;
+            padding: 0 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px 0 0 8px;
+            outline: none;
+        }
+        
+        #go-button {
+            width: 50%;
+            height: 100%;
+            font-size: 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        #go-button:hover {
+            background-color: #45a049;
+        }
+        
+        .error-message {
+            position: absolute;
+            top: 60%;
+            color: #ff3333;
+            font-size: 18px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="number" id="hymn-number" placeholder="Enter hymn number (1-848)" min="1" max="848">
+        <button id="go-button">Go to Hymn</button>
+    </div>
+    <div class="error-message" id="error-msg">Please enter a valid number between 1 and 848</div>
+    
+    <script>
+        const input = document.getElementById('hymn-number');
+        const goButton = document.getElementById('go-button');
+        const errorMsg = document.getElementById('error-msg');
+        
+        // Function to validate and open the hymn
+        function goToSlide() {
+            const slideNumber = parseInt(input.value);
+            
+            // Validate the input
+            if (isNaN(slideNumber) || slideNumber < 1 || slideNumber > 848) {
+                errorMsg.style.display = 'block';
+                setTimeout(() => {
+                    errorMsg.style.display = 'none';
+                }, 3000);
+                return;
+            }
+            
+            // Open the hymn in a new tab
+            window.open(`slide/${slideNumber}.html`, '_blank');
+            
+            // Clear the input field
+            // input.value = '';
+        }
+        
+        // Add event listeners
+        goButton.addEventListener('click', goToSlide);
+        
+        // Allow Enter key to trigger the button
+        input.addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                goToSlide();
+            }
+        });
+        
+        // Auto-focus the input field when page loads
+        window.onload = function() {
+            input.focus();
+        };
+    </script>
+</body>
+</html>
