@@ -212,9 +212,9 @@ bump:  ## bump version
 	git push --follow-tags
 
 release:  ## release to GitHub
-	gh release create v0.11.0 \
+	gh release create v0.11.1 \
 	en-logos.docx en.epub en.pdf zh-Hans-en-logos.docx zh-Hans-en.epub zh-Hans-en.pdf zh-Hans-logos.docx zh-Hans.epub zh-Hans.pdf zh-Hant-en-logos.docx zh-Hant-en.epub zh-Hant-en.pdf zh-Hant-logos.docx zh-Hant.epub zh-Hant.pdf \
-	--title 'Selected Hymns v0.11.0' \
+	--title 'Selected Hymns v0.11.1' \
 	--generate-notes
 
 help:  ## print this help message
