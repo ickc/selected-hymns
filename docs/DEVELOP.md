@@ -19,7 +19,7 @@ make prepare && make css && make all_but_pdf && make pdf
 make bump PART=minor
 make release
 # regenerate release table
-make docs/index.html -B
+make docs/index.html README.md -B
 ```
 
 # Develop
