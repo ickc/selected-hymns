@@ -24,6 +24,7 @@ issue and replaces it with one that is not.
 
 Tips:
 
+- [Bookmark this page](SelectedHymns.html) for the button only.
 - For best viewing of the presentation, press `F` to enter full Screen,
   `Esc` to cancel full screen.
 - For long text, scroll down using the wheel of the mouse.
