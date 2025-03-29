@@ -55,32 +55,31 @@ DOCS = docs/index.html README.md
 
 # Main Targets #################################################################
 
-all_but_pdf: docs epub tex docx $(ZH-Hans)
-all: all_but_pdf $(PDF)
-docs: $(DOCS) html html_slide
-html: $(HTML)
-html_slide: $(HTML_SLIDE)
-epub: $(EPUB)
-tex: $(TeX)
-pdf: $(PDF)
-docx: $(logosDOCX)
+all_but_pdf: docs epub tex docx $(ZH-Hans)  ## generate all except PDF targets
+all: all_but_pdf $(PDF)  ## generate all
+docs: $(DOCS) html html_slide  ## generate all HTML targets
+html: $(HTML)  ## generate single file HTML targets
+html_slide: $(HTML_SLIDE)  ## generate HTML slides
+epub: $(EPUB)  ## generate ePub targets
+tex: $(TeX)  ## generate LaTeX targets
+pdf: $(PDF)  ## generate PDF targets
+docx: $(logosDOCX)  ## generate DOCX targets
 txt: $(TXT)  ## generate text files (mainly for LLMs)
 
-clean:
+clean:  ## clean up generated files
 	latexmk -c -f $(TeX)
 	rm -f $(ZH-Hans) $(MD) $(TeX)
 	find \( -type f -name '*.py[co]' -o -type d -name '__pycache__' \) -delete
 
-clean_tex:
+clean_tex:  ## clean up generated LaTeX files
 	find -name '*.tex' -exec latexmk -C {} +
 
-Clean: clean
+Clean: clean  ## clean up all generated files including targets
 	latexmk -C -f $(TeX)
 	rm -f $(DOCS) $(HTML) $(EPUB) $(PDF) $(MD) $(logosMD) data2.yml $(logosDOCX) *-logos.html
 	rm -rf css fonts
 
-# sanity check 848 hymns are included and not duplicated
-check:
+check:  ## sanity check 848 hymns are included and not duplicated
 	grep -oE '^1\. |' en.md | wc -l
 	grep -oE '^1\. |' en-logos.md | wc -l
 	grep -oE '^1\. |' zh-Hant.md | wc -l
@@ -143,7 +142,7 @@ README.md: docs/badges.markdown docs/README.md docs/download-all.csv
 	docs/download.py -o $@
 
 # download CSS
-css: $(CSS)
+css: $(CSS)  ## download CSS from markdown-latex-css
 %.css:
 	mkdir -p $(@D) && cd $(@D) && wget https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/$@
 
@@ -161,10 +160,10 @@ docs/slide/:
 # Scripts ######################################################################
 
 # epubcheck
-epubcheck: $(EPUB)
+epubcheck: $(EPUB)  ## check ePub files
 	find . -iname '*.epub' | xargs -i -n1 -P8 epubcheck {}
 
-cleanup: style normalize
+cleanup: style normalize  ## cleanup markdown files
 ## Normalize white spaces:
 ### 1. Add 2 trailing newlines
 ### 2. transform non-breaking space into (explicit) space
@@ -172,16 +171,15 @@ cleanup: style normalize
 ### 4. delete all CONSECUTIVE blank lines from file except the first; deletes all blank lines from top and end of file; allows 0 blanks at top, 0,1,2 at EOF
 ### 5. delete trailing whitespace (spaces, tabs) from end of each line
 ### 6. revert (3)
-normalize:
+normalize:  ## normalize white spaces
 	find . -iname "*.md" | xargs -I {} -n1 -P8 bash -c 'printf "\n\n" >> "$$0" && sed -i -e "s/ / /g" -e '"'"'s/\\ / /g'"'"' -e '"'"'/./,/^$$/!d'"'"' -e '"'"'s/[ \t]*$$//'"'"' -e '"'"'s/ /\\ /g'"'"' $$0' {}
 ## pandoc cleanup:
 ### 1. pandoc from markdown to markdown
 ### 2. transform unicode non-breaking space back to `\ `
-style:
+style:  ## style markdown files using pandoc
 	find . -iname "*.md" | xargs -I {} -n1 -P8 bash -c 'pandoc $(pandocArgMD) -o $$0 $$0 && sed -i -e '"'"'s/ /\\ /g'"'"' $$0' {}
 
-# get the Chinese categories
-cat:
+cat:  ## get the Chinese categories
 	grep -hr '^\#' ./zh-Hant/ | sed 's/^# ... \(.*\)——.*$$/\1/g' | uniq > zh-Hant-category.txt
 
 print-%:
@@ -189,7 +187,7 @@ print-%:
 
 # ipynb ########################################################################
 
-prepare: convert convert-bilingual slide/
+prepare: convert convert-bilingual slide/  ## generate various intermediate products using python
 
 data2.yml: data.yml
 	python list_to_dict.py
@@ -204,16 +202,16 @@ convert-bilingual: data2.yml
 slide/:
 	python convert_slide.py
 
-sync:
+sync:  ## sync all notebooks
 	find \! -path '*/.ipynb_checkpoints/*' -name '*.ipynb' -exec jupytext --sync --pipe black --pipe 'isort - --treat-comment-as-code "# %%" --float-to-top' {} +
 
 # releasing ####################################################################
 
-bump:
+bump:  ## bump version
 	bump2version $(PART)
 	git push --follow-tags
 
-release:
+release:  ## release to GitHub
 	gh release create v0.11.0 \
 	en-logos.docx en.epub en.pdf zh-Hans-en-logos.docx zh-Hans-en.epub zh-Hans-en.pdf zh-Hans-logos.docx zh-Hans.epub zh-Hans.pdf zh-Hant-en-logos.docx zh-Hant-en.epub zh-Hant-en.pdf zh-Hant-logos.docx zh-Hant.epub zh-Hant.pdf \
 	--title 'Selected Hymns v0.11.0' \
