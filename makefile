@@ -53,7 +53,7 @@ DOCS = docs/index.html README.md
 
 # Main Targets #################################################################
 
-all_but_pdf: $(DOCS) $(HTML) $(EPUB) $(TeX) $(ZH-Hans) $(logosDOCX)
+all_but_pdf: docs epub tex docx $(ZH-Hans)
 all: all_but_pdf $(PDF)
 docs: $(DOCS) html html_slide
 html: $(HTML)
@@ -148,7 +148,7 @@ css: $(CSS)
 # run convert_slide.ipynb first
 docs/slide/%.html: slide/%.md docs/slide/
 	# pandoc -s -o $@ $< -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css -c https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css -t slidy
-	sed 's/——/⸺/g' $< | pandoc -s -o $@ --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow -c ../slide.css
+	sed 's/——/⸺/g' $< | pandoc -s -o $@ --html-q-tags -t revealjs -V slideNumber=true -V hash=true -V totalTime=2700 -V theme=league -V transitionSpeed=slow -c ../slide.css -M revealjs-url=https://unpkg.com/reveal.js@^5
 
 docs/slide/:
 	mkdir -p docs/slide/
