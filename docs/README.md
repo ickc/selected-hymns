@@ -26,6 +26,21 @@ Selected Hymns (詩歌選集) is a hymnal released by Tree of Life Publishers in
 
 # Recommended usage
 
+## Slide
+
+In the following box, input the hymn no., say, 16, and either hit enter on your keyboard or click the button on its right, a new tab will pops up.[^itworks]
+
+<input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
+<button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
+
+Tips:
+
+- For best viewing of the presentation, press `F` to enter full Screen, `Esc` to cancel full screen.
+- For long text, scroll down using the wheel of the mouse.
+- Do not zoom into the content, it will messed with the UI of the presentation.
+- In the slide, press space or arrows to advance to next slide. Type `?` in the slide for help.
+    - E.g. `O` can be used to jump to a slide.
+
 ## Install
 
 ### 繁體中文
@@ -66,21 +81,6 @@ markdown: true
 include: docs/download-en.csv
 ...
 ```
-
-## Slide
-
-In the following box, input the hymn no., say, 16, and either hit enter on your keyboard or click the button on its right, a new tab will pops up.[^itworks]
-
-<input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
-<button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
-
-Tips:
-
-- For best viewing of the presentation, press `F` to enter full Screen, `Esc` to cancel full screen.
-- For long text, scroll down using the wheel of the mouse.
-- Do not zoom into the content, it will messed with the UI of the presentation.
-- In the slide, press space or arrows to advance to next slide. Type `?` in the slide for help.
-    - E.g. `O` can be used to jump to a slide.
 
 # Advanced usage
 
