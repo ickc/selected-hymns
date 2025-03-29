@@ -1,25 +1,67 @@
 ---
 title: Selected Hymns
 header-includes: |
-  <script type="text/JavaScript">
-    function openInNewTab() {
-        var ref = document.getElementById("hymn-ref").value;
-        const url='slide/' + ref + '.html';
-        window.open(url, '_blank').focus();
-    }
-  </script>
-include-after: |
-  <!-- https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp -->
-  <script type="text/JavaScript">
-    var input = document.getElementById("hymn-ref");
-    input.addEventListener("keyup", function(event) {
-        if (event.keyCode === 13) {
-        event.preventDefault();
-        document.getElementById("hymn-click").click();
+    <style>
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100px;
+            text-align: center;
         }
-      }
-    );
-  </script>
+        button {
+            padding: 10px 15px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #3367d6;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+include-after: |
+    <script>
+        // Add event listener for Enter key
+        document.getElementById("hymnNumber").addEventListener("keyup", function(event) {
+            if (event.key === "Enter") {
+                goToHymn();
+            }
+        });
+
+        function goToHymn() {
+            const hymnInput = document.getElementById("hymnNumber");
+            const errorMessage = document.getElementById("errorMessage");
+            const hymnNumber = parseInt(hymnInput.value);
+            
+            // Clear previous error message
+            errorMessage.textContent = "";
+            
+            // Validate input
+            if (isNaN(hymnNumber)) {
+                errorMessage.textContent = "Please enter a valid number.";
+                return;
+            }
+            
+            if (hymnNumber < 1 || hymnNumber > 848) {
+                errorMessage.textContent = "Please enter a number between 1 and 848.";
+                return;
+            }
+            
+            // Open hymn in a new tab
+            window.open(`slide/${hymnNumber}.html`, '_blank');
+            
+            // Optional: clear the input field after successful navigation
+            // hymnInput.value = "";
+        }
+    </script>
 ...
 
 Selected Hymns (詩歌選集) is a hymnal released by Tree of Life Publishers in 1995, which is later discontinued due to copyright issue. This project is to provide a text-only version of the original hymnal. The long-term goal will be to identify the texts that has copyright issue and replaces it with one that is not.
@@ -28,10 +70,11 @@ Selected Hymns (詩歌選集) is a hymnal released by Tree of Life Publishers in
 
 ## Slide
 
-In the following box, input the hymn no., say, 16, and either hit enter on your keyboard or click the button on its right, a new tab will pops up.[^itworks]
+<input type="number" id="hymnNumber" min="1" max="848" placeholder="1-848">
+<button onclick="goToHymn()">Go to Hymn</button>
 
-<input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
-<button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
+:::{.error #errorMessage}
+:::
 
 Tips:
 
