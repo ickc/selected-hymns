@@ -1,3 +1,4 @@
+.DEFAULT_GOAL = help
 SHELL = /usr/bin/env bash
 
 # LaTeX
@@ -213,3 +214,6 @@ release:
 	en-logos.docx en.epub en.pdf zh-Hans-en-logos.docx zh-Hans-en.epub zh-Hans-en.pdf zh-Hans-logos.docx zh-Hans.epub zh-Hans.pdf zh-Hant-en-logos.docx zh-Hant-en.epub zh-Hant-en.pdf zh-Hant-logos.docx zh-Hant.epub zh-Hant.pdf \
 	--title 'Selected Hymns v0.11.0' \
 	--generate-notes
+
+help:  ## print this help message
+	@awk 'BEGIN{w=0;n=0}{while(match($$0,/\\$$/)){sub(/\\$$/,"");getline nextLine;$$0=$$0 nextLine}if(/^[[:alnum:]_-]+:.*##.*$$/){n++;split($$0,cols[n],":.*##");l=length(cols[n][1]);if(w<l)w=l}}END{for(i=1;i<=n;i++)printf"\033[1m\033[93m%-*s\033[0m%s\n",w+1,cols[i][1]":",cols[i][2]}' $(MAKEFILE_LIST)
