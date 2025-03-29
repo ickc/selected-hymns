@@ -4,15 +4,23 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="dcterms.date" content="2022-01-16" />
+  <meta name="dcterms.date" content="2025-03-29" />
   <title>Selected Hymns</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css" />
@@ -24,31 +32,31 @@
         window.open(url, '_blank').focus();
     }
   </script>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Selected Hymns</h1>
-<p class="date">January 16, 2022</p>
+<p class="date">March 29, 2025</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
-<li><a href="#recommended-usage">Recommended usage</a>
+<li><a href="#recommended-usage" id="toc-recommended-usage">Recommended
+usage</a>
 <ul>
-<li><a href="#install">Install</a>
+<li><a href="#install" id="toc-install">Install</a>
 <ul>
-<li><a href="#繁體中文">繁體中文</a></li>
-<li><a href="#简体中文">简体中文</a></li>
-<li><a href="#english">English</a></li>
+<li><a href="#繁體中文" id="toc-繁體中文">繁體中文</a></li>
+<li><a href="#简体中文" id="toc-简体中文">简体中文</a></li>
+<li><a href="#english" id="toc-english">English</a></li>
 </ul></li>
-<li><a href="#slide">Slide</a></li>
+<li><a href="#slide" id="toc-slide">Slide</a></li>
 </ul></li>
-<li><a href="#advanced-usage">Advanced usage</a>
+<li><a href="#advanced-usage" id="toc-advanced-usage">Advanced usage</a>
 <ul>
-<li><a href="#install-any-formats">Install any formats</a></li>
-<li><a href="#slide-listingitworks">Slide listing</a></li>
+<li><a href="#install-any-formats" id="toc-install-any-formats">Install
+any formats</a></li>
+<li><a href="#slide-listingitworks" id="toc-slide-listingitworks">Slide
+listing</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -73,26 +81,26 @@ issue and replaces it with one that is not.</p>
 或按喜好選擇中英對照版。</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th>ePub</th>
 <th>PDF</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>繁體中文版</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.epub">zh-Hant.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.epub">zh-Hant.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.pdf">zh-Hant.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.pdf">zh-Hant.pdf</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td>繁體中英對照</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.epub">zh-Hant-en.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.epub">zh-Hant-en.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.pdf">zh-Hant-en.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.pdf">zh-Hant-en.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -104,26 +112,26 @@ href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-e
 或按喜好选择中英对照版。</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th>ePub</th>
 <th>PDF</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>简体中文版</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.epub">zh-Hans.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.epub">zh-Hans.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.pdf">zh-Hans.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.pdf">zh-Hans.pdf</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td>简体中英对照</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.epub">zh-Hans-en.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.epub">zh-Hans-en.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.pdf">zh-Hans-en.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.pdf">zh-Hans-en.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -134,19 +142,19 @@ can open it using Apple Books, and Android users using Google Play
 Books. Other users can choose from the PDF column instead.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th>ePub</th>
 <th>PDF</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>English</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.epub">en.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.epub">en.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.pdf">en.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.pdf">en.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +183,7 @@ presentation.</li>
 <p>Download any supported formats below.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th>ePub</th>
 <th>PDF</th>
@@ -184,58 +192,58 @@ presentation.</li>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>English</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.epub">en.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.epub">en.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.pdf">en.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.pdf">en.pdf</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en-logos.docx">en-logos.docx</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en-logos.docx">en-logos.docx</a></td>
 <td><a
 href="https://ickc.github.io/selected-hymns/en.html">en.html</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td>繁體中文版</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.epub">zh-Hant.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.epub">zh-Hant.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.pdf">zh-Hant.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.pdf">zh-Hant.pdf</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-logos.docx">zh-Hant-logos.docx</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-logos.docx">zh-Hant-logos.docx</a></td>
 <td><a
 href="https://ickc.github.io/selected-hymns/zh-Hant.html">zh-Hant.html</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>繁體中英對照</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.epub">zh-Hant-en.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.epub">zh-Hant-en.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.pdf">zh-Hant-en.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.pdf">zh-Hant-en.pdf</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en-logos.docx">zh-Hant-en-logos.docx</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en-logos.docx">zh-Hant-en-logos.docx</a></td>
 <td><a
 href="https://ickc.github.io/selected-hymns/zh-Hant-en.html">zh-Hant-en.html</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td>简体中文版</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.epub">zh-Hans.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.epub">zh-Hans.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.pdf">zh-Hans.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.pdf">zh-Hans.pdf</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-logos.docx">zh-Hans-logos.docx</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-logos.docx">zh-Hans-logos.docx</a></td>
 <td><a
 href="https://ickc.github.io/selected-hymns/zh-Hans.html">zh-Hans.html</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>简体中英对照</td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.epub">zh-Hans-en.epub</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.epub">zh-Hans-en.epub</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.pdf">zh-Hans-en.pdf</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.pdf">zh-Hans-en.pdf</a></td>
 <td><a
-href="https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en-logos.docx">zh-Hans-en-logos.docx</a></td>
+href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en-logos.docx">zh-Hans-en-logos.docx</a></td>
 <td><a
 href="https://ickc.github.io/selected-hymns/zh-Hans-en.html">zh-Hans-en.html</a></td>
 </tr>
@@ -246,7 +254,7 @@ class="footnote-ref" id="fnref2"
 role="doc-noteref"><sup>2</sup></a></h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th><a href="slide/1.html">1</a></th>
 <th><a href="slide/2.html">2</a></th>
 <th><a href="slide/3.html">3</a></th>
@@ -266,7 +274,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="slide/17.html">17</a></td>
 <td><a href="slide/18.html">18</a></td>
 <td><a href="slide/19.html">19</a></td>
@@ -284,7 +292,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/31.html">31</a></td>
 <td><a href="slide/32.html">32</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/33.html">33</a></td>
 <td><a href="slide/34.html">34</a></td>
 <td><a href="slide/35.html">35</a></td>
@@ -302,7 +310,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/47.html">47</a></td>
 <td><a href="slide/48.html">48</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/49.html">49</a></td>
 <td><a href="slide/50.html">50</a></td>
 <td><a href="slide/51.html">51</a></td>
@@ -320,7 +328,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/63.html">63</a></td>
 <td><a href="slide/64.html">64</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/65.html">65</a></td>
 <td><a href="slide/66.html">66</a></td>
 <td><a href="slide/67.html">67</a></td>
@@ -338,7 +346,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/79.html">79</a></td>
 <td><a href="slide/80.html">80</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/81.html">81</a></td>
 <td><a href="slide/82.html">82</a></td>
 <td><a href="slide/83.html">83</a></td>
@@ -356,7 +364,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/95.html">95</a></td>
 <td><a href="slide/96.html">96</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/97.html">97</a></td>
 <td><a href="slide/98.html">98</a></td>
 <td><a href="slide/99.html">99</a></td>
@@ -374,7 +382,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/111.html">111</a></td>
 <td><a href="slide/112.html">112</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/113.html">113</a></td>
 <td><a href="slide/114.html">114</a></td>
 <td><a href="slide/115.html">115</a></td>
@@ -392,7 +400,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/127.html">127</a></td>
 <td><a href="slide/128.html">128</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/129.html">129</a></td>
 <td><a href="slide/130.html">130</a></td>
 <td><a href="slide/131.html">131</a></td>
@@ -410,7 +418,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/143.html">143</a></td>
 <td><a href="slide/144.html">144</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/145.html">145</a></td>
 <td><a href="slide/146.html">146</a></td>
 <td><a href="slide/147.html">147</a></td>
@@ -428,7 +436,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/159.html">159</a></td>
 <td><a href="slide/160.html">160</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/161.html">161</a></td>
 <td><a href="slide/162.html">162</a></td>
 <td><a href="slide/163.html">163</a></td>
@@ -446,7 +454,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/175.html">175</a></td>
 <td><a href="slide/176.html">176</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/177.html">177</a></td>
 <td><a href="slide/178.html">178</a></td>
 <td><a href="slide/179.html">179</a></td>
@@ -464,7 +472,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/191.html">191</a></td>
 <td><a href="slide/192.html">192</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/193.html">193</a></td>
 <td><a href="slide/194.html">194</a></td>
 <td><a href="slide/195.html">195</a></td>
@@ -482,7 +490,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/207.html">207</a></td>
 <td><a href="slide/208.html">208</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/209.html">209</a></td>
 <td><a href="slide/210.html">210</a></td>
 <td><a href="slide/211.html">211</a></td>
@@ -500,7 +508,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/223.html">223</a></td>
 <td><a href="slide/224.html">224</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/225.html">225</a></td>
 <td><a href="slide/226.html">226</a></td>
 <td><a href="slide/227.html">227</a></td>
@@ -518,7 +526,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/239.html">239</a></td>
 <td><a href="slide/240.html">240</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/241.html">241</a></td>
 <td><a href="slide/242.html">242</a></td>
 <td><a href="slide/243.html">243</a></td>
@@ -536,7 +544,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/255.html">255</a></td>
 <td><a href="slide/256.html">256</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/257.html">257</a></td>
 <td><a href="slide/258.html">258</a></td>
 <td><a href="slide/259.html">259</a></td>
@@ -554,7 +562,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/271.html">271</a></td>
 <td><a href="slide/272.html">272</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/273.html">273</a></td>
 <td><a href="slide/274.html">274</a></td>
 <td><a href="slide/275.html">275</a></td>
@@ -572,7 +580,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/287.html">287</a></td>
 <td><a href="slide/288.html">288</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/289.html">289</a></td>
 <td><a href="slide/290.html">290</a></td>
 <td><a href="slide/291.html">291</a></td>
@@ -590,7 +598,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/303.html">303</a></td>
 <td><a href="slide/304.html">304</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/305.html">305</a></td>
 <td><a href="slide/306.html">306</a></td>
 <td><a href="slide/307.html">307</a></td>
@@ -608,7 +616,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/319.html">319</a></td>
 <td><a href="slide/320.html">320</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/321.html">321</a></td>
 <td><a href="slide/322.html">322</a></td>
 <td><a href="slide/323.html">323</a></td>
@@ -626,7 +634,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/335.html">335</a></td>
 <td><a href="slide/336.html">336</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/337.html">337</a></td>
 <td><a href="slide/338.html">338</a></td>
 <td><a href="slide/339.html">339</a></td>
@@ -644,7 +652,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/351.html">351</a></td>
 <td><a href="slide/352.html">352</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/353.html">353</a></td>
 <td><a href="slide/354.html">354</a></td>
 <td><a href="slide/355.html">355</a></td>
@@ -662,7 +670,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/367.html">367</a></td>
 <td><a href="slide/368.html">368</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/369.html">369</a></td>
 <td><a href="slide/370.html">370</a></td>
 <td><a href="slide/371.html">371</a></td>
@@ -680,7 +688,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/383.html">383</a></td>
 <td><a href="slide/384.html">384</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/385.html">385</a></td>
 <td><a href="slide/386.html">386</a></td>
 <td><a href="slide/387.html">387</a></td>
@@ -698,7 +706,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/399.html">399</a></td>
 <td><a href="slide/400.html">400</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/401.html">401</a></td>
 <td><a href="slide/402.html">402</a></td>
 <td><a href="slide/403.html">403</a></td>
@@ -716,7 +724,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/415.html">415</a></td>
 <td><a href="slide/416.html">416</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/417.html">417</a></td>
 <td><a href="slide/418.html">418</a></td>
 <td><a href="slide/419.html">419</a></td>
@@ -734,7 +742,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/431.html">431</a></td>
 <td><a href="slide/432.html">432</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/433.html">433</a></td>
 <td><a href="slide/434.html">434</a></td>
 <td><a href="slide/435.html">435</a></td>
@@ -752,7 +760,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/447.html">447</a></td>
 <td><a href="slide/448.html">448</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/449.html">449</a></td>
 <td><a href="slide/450.html">450</a></td>
 <td><a href="slide/451.html">451</a></td>
@@ -770,7 +778,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/463.html">463</a></td>
 <td><a href="slide/464.html">464</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/465.html">465</a></td>
 <td><a href="slide/466.html">466</a></td>
 <td><a href="slide/467.html">467</a></td>
@@ -788,7 +796,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/479.html">479</a></td>
 <td><a href="slide/480.html">480</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/481.html">481</a></td>
 <td><a href="slide/482.html">482</a></td>
 <td><a href="slide/483.html">483</a></td>
@@ -806,7 +814,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/495.html">495</a></td>
 <td><a href="slide/496.html">496</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/497.html">497</a></td>
 <td><a href="slide/498.html">498</a></td>
 <td><a href="slide/499.html">499</a></td>
@@ -824,7 +832,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/511.html">511</a></td>
 <td><a href="slide/512.html">512</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/513.html">513</a></td>
 <td><a href="slide/514.html">514</a></td>
 <td><a href="slide/515.html">515</a></td>
@@ -842,7 +850,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/527.html">527</a></td>
 <td><a href="slide/528.html">528</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/529.html">529</a></td>
 <td><a href="slide/530.html">530</a></td>
 <td><a href="slide/531.html">531</a></td>
@@ -860,7 +868,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/543.html">543</a></td>
 <td><a href="slide/544.html">544</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/545.html">545</a></td>
 <td><a href="slide/546.html">546</a></td>
 <td><a href="slide/547.html">547</a></td>
@@ -878,7 +886,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/559.html">559</a></td>
 <td><a href="slide/560.html">560</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/561.html">561</a></td>
 <td><a href="slide/562.html">562</a></td>
 <td><a href="slide/563.html">563</a></td>
@@ -896,7 +904,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/575.html">575</a></td>
 <td><a href="slide/576.html">576</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/577.html">577</a></td>
 <td><a href="slide/578.html">578</a></td>
 <td><a href="slide/579.html">579</a></td>
@@ -914,7 +922,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/591.html">591</a></td>
 <td><a href="slide/592.html">592</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/593.html">593</a></td>
 <td><a href="slide/594.html">594</a></td>
 <td><a href="slide/595.html">595</a></td>
@@ -932,7 +940,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/607.html">607</a></td>
 <td><a href="slide/608.html">608</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/609.html">609</a></td>
 <td><a href="slide/610.html">610</a></td>
 <td><a href="slide/611.html">611</a></td>
@@ -950,7 +958,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/623.html">623</a></td>
 <td><a href="slide/624.html">624</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/625.html">625</a></td>
 <td><a href="slide/626.html">626</a></td>
 <td><a href="slide/627.html">627</a></td>
@@ -968,7 +976,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/639.html">639</a></td>
 <td><a href="slide/640.html">640</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/641.html">641</a></td>
 <td><a href="slide/642.html">642</a></td>
 <td><a href="slide/643.html">643</a></td>
@@ -986,7 +994,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/655.html">655</a></td>
 <td><a href="slide/656.html">656</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/657.html">657</a></td>
 <td><a href="slide/658.html">658</a></td>
 <td><a href="slide/659.html">659</a></td>
@@ -1004,7 +1012,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/671.html">671</a></td>
 <td><a href="slide/672.html">672</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/673.html">673</a></td>
 <td><a href="slide/674.html">674</a></td>
 <td><a href="slide/675.html">675</a></td>
@@ -1022,7 +1030,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/687.html">687</a></td>
 <td><a href="slide/688.html">688</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/689.html">689</a></td>
 <td><a href="slide/690.html">690</a></td>
 <td><a href="slide/691.html">691</a></td>
@@ -1040,7 +1048,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/703.html">703</a></td>
 <td><a href="slide/704.html">704</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/705.html">705</a></td>
 <td><a href="slide/706.html">706</a></td>
 <td><a href="slide/707.html">707</a></td>
@@ -1058,7 +1066,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/719.html">719</a></td>
 <td><a href="slide/720.html">720</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/721.html">721</a></td>
 <td><a href="slide/722.html">722</a></td>
 <td><a href="slide/723.html">723</a></td>
@@ -1076,7 +1084,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/735.html">735</a></td>
 <td><a href="slide/736.html">736</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/737.html">737</a></td>
 <td><a href="slide/738.html">738</a></td>
 <td><a href="slide/739.html">739</a></td>
@@ -1094,7 +1102,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/751.html">751</a></td>
 <td><a href="slide/752.html">752</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/753.html">753</a></td>
 <td><a href="slide/754.html">754</a></td>
 <td><a href="slide/755.html">755</a></td>
@@ -1112,7 +1120,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/767.html">767</a></td>
 <td><a href="slide/768.html">768</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/769.html">769</a></td>
 <td><a href="slide/770.html">770</a></td>
 <td><a href="slide/771.html">771</a></td>
@@ -1130,7 +1138,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/783.html">783</a></td>
 <td><a href="slide/784.html">784</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/785.html">785</a></td>
 <td><a href="slide/786.html">786</a></td>
 <td><a href="slide/787.html">787</a></td>
@@ -1148,7 +1156,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/799.html">799</a></td>
 <td><a href="slide/800.html">800</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/801.html">801</a></td>
 <td><a href="slide/802.html">802</a></td>
 <td><a href="slide/803.html">803</a></td>
@@ -1166,7 +1174,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/815.html">815</a></td>
 <td><a href="slide/816.html">816</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="slide/817.html">817</a></td>
 <td><a href="slide/818.html">818</a></td>
 <td><a href="slide/819.html">819</a></td>
@@ -1184,7 +1192,7 @@ role="doc-noteref"><sup>2</sup></a></h2>
 <td><a href="slide/831.html">831</a></td>
 <td><a href="slide/832.html">832</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="slide/833.html">833</a></td>
 <td><a href="slide/834.html">834</a></td>
 <td><a href="slide/835.html">835</a></td>
@@ -1204,15 +1212,15 @@ role="doc-noteref"><sup>2</sup></a></h2>
 </tr>
 </tbody>
 </table>
-<section class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>This only works in <a
+<li id="fn1"><p>This only works in <a
 href="https://ickc.github.io/selected-hymns/"
 class="uri">https://ickc.github.io/selected-hymns/</a>.<a href="#fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>This only works in <a
+<li id="fn2"><p>This only works in <a
 href="https://ickc.github.io/selected-hymns/"
 class="uri">https://ickc.github.io/selected-hymns/</a>.<a href="#fnref2"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
