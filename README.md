@@ -13,6 +13,26 @@ issue and replaces it with one that is not.
 
 # Recommended usage
 
+## Slide
+
+<input type="number" id="hymnNumber" min="1" max="848" placeholder="1-848">
+<button onclick="goToHymn()">Go to Hymn</button>
+
+<div id="errorMessage" class="error">
+
+</div>
+
+Tips:
+
+- For best viewing of the presentation, press `F` to enter full Screen,
+  `Esc` to cancel full screen.
+- For long text, scroll down using the wheel of the mouse.
+- Do not zoom into the content, it will messed with the UI of the
+  presentation.
+- In the slide, press space or arrows to advance to next slide. Type `?`
+  in the slide for help.
+  - E.g. `O` can be used to jump to a slide.
+
 ## Install
 
 ### 繁體中文
@@ -24,10 +44,10 @@ issue and replaces it with one that is not.
 請按你的語言從列中選擇所需檔案。例如你只需要中文版，請選擇中文版，
 或按喜好選擇中英對照版。
 
-|              | ePub                                                                                                | PDF                                                                                               |
-|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.pdf)       |
-| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.pdf) |
+|  | ePub | PDF |
+|----|----|----|
+| 繁體中文版 | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.epub) | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.pdf) |
+| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.pdf) |
 
 ### 简体中文
 
@@ -38,10 +58,10 @@ issue and replaces it with one that is not.
 请按你的语言从列中选择所需档案。例如你只需要中文版，请选择中文版，
 或按喜好选择中英对照版。
 
-|              | ePub                                                                                                | PDF                                                                                               |
-|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.pdf)       |
-| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.pdf) |
+|  | ePub | PDF |
+|----|----|----|
+| 简体中文版 | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.epub) | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.pdf) |
+| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.pdf) |
 
 ### English
 
@@ -51,31 +71,9 @@ Mobile phone users please download from the ePub column. Apple users can
 open it using Apple Books, and Android users using Google Play Books.
 Other users can choose from the PDF column instead.
 
-|         | ePub                                                                                | PDF                                                                               |
-|---------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| English | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.epub) | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.pdf) |
-
-## Slide
-
-In the following box, input the hymn no., say, 16, and either hit enter
-on your keyboard or click the button on its right, a new tab will pops
-up.[^1]
-
-[^1]: This only works in <https://ickc.github.io/selected-hymns/>.
-
-<input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
-<button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button>
-
-Tips:
-
--   For best viewing of the presentation, press `F` to enter full
-    Screen, `Esc` to cancel full screen.
--   For long text, scroll down using the wheel of the mouse.
--   Do not zoom into the content, it will messed with the UI of the
-    presentation.
--   In the slide, press space or arrows to advance to next slide. Type
-    `?` in the slide for help.
-    -   E.g. `O` can be used to jump to a slide.
+|  | ePub | PDF |
+|----|----|----|
+| English | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.epub) | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.pdf) |
 
 # Advanced usage
 
@@ -83,26 +81,26 @@ Tips:
 
 Download any supported formats below.
 
-|              | ePub                                                                                                | PDF                                                                                               | Logos version                                                                                                   | HTML (browser)                                                           |
-|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| English      | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.epub)                 | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en.pdf)                 | [en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/en-logos.docx)                 | [en.html](https://ickc.github.io/selected-hymns/en.html)                 |
-| 繁體中文版   | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.epub)       | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant.pdf)       | [zh-Hant-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-logos.docx)       | [zh-Hant.html](https://ickc.github.io/selected-hymns/zh-Hant.html)       |
-| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en.pdf) | [zh-Hant-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hant-en-logos.docx) | [zh-Hant-en.html](https://ickc.github.io/selected-hymns/zh-Hant-en.html) |
-| 简体中文版   | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.epub)       | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans.pdf)       | [zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-logos.docx)       | [zh-Hans.html](https://ickc.github.io/selected-hymns/zh-Hans.html)       |
-| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en.pdf) | [zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.10.0/zh-Hans-en-logos.docx) | [zh-Hans-en.html](https://ickc.github.io/selected-hymns/zh-Hans-en.html) |
+|  | ePub | PDF | Logos version | HTML (browser) |
+|----|----|----|----|----|
+| English | [en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.epub) | [en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.pdf) | [en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en-logos.docx) | [en.html](https://ickc.github.io/selected-hymns/en.html) |
+| 繁體中文版 | [zh-Hant.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.epub) | [zh-Hant.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant.pdf) | [zh-Hant-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-logos.docx) | [zh-Hant.html](https://ickc.github.io/selected-hymns/zh-Hant.html) |
+| 繁體中英對照 | [zh-Hant-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.epub) | [zh-Hant-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en.pdf) | [zh-Hant-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hant-en-logos.docx) | [zh-Hant-en.html](https://ickc.github.io/selected-hymns/zh-Hant-en.html) |
+| 简体中文版 | [zh-Hans.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.epub) | [zh-Hans.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans.pdf) | [zh-Hans-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-logos.docx) | [zh-Hans.html](https://ickc.github.io/selected-hymns/zh-Hans.html) |
+| 简体中英对照 | [zh-Hans-en.epub](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.epub) | [zh-Hans-en.pdf](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en.pdf) | [zh-Hans-en-logos.docx](https://github.com/ickc/selected-hymns/releases/download/v0.11.0/zh-Hans-en-logos.docx) | [zh-Hans-en.html](https://ickc.github.io/selected-hymns/zh-Hans-en.html) |
 
-## Slide listing[^2]
+## Slide listing[^1]
 
-[^2]: This only works in <https://ickc.github.io/selected-hymns/>.
+[^1]: This only works in <https://ickc.github.io/selected-hymns/>.
 
-| [1](slide/1.html)     | [2](slide/2.html)     | [3](slide/3.html)     | [4](slide/4.html)     | [5](slide/5.html)     | [6](slide/6.html)     | [7](slide/7.html)     | [8](slide/8.html)     | [9](slide/9.html)     | [10](slide/10.html)   | [11](slide/11.html)   | [12](slide/12.html)   | [13](slide/13.html)   | [14](slide/14.html)   | [15](slide/15.html)   | [16](slide/16.html)   |
-|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-| [17](slide/17.html)   | [18](slide/18.html)   | [19](slide/19.html)   | [20](slide/20.html)   | [21](slide/21.html)   | [22](slide/22.html)   | [23](slide/23.html)   | [24](slide/24.html)   | [25](slide/25.html)   | [26](slide/26.html)   | [27](slide/27.html)   | [28](slide/28.html)   | [29](slide/29.html)   | [30](slide/30.html)   | [31](slide/31.html)   | [32](slide/32.html)   |
-| [33](slide/33.html)   | [34](slide/34.html)   | [35](slide/35.html)   | [36](slide/36.html)   | [37](slide/37.html)   | [38](slide/38.html)   | [39](slide/39.html)   | [40](slide/40.html)   | [41](slide/41.html)   | [42](slide/42.html)   | [43](slide/43.html)   | [44](slide/44.html)   | [45](slide/45.html)   | [46](slide/46.html)   | [47](slide/47.html)   | [48](slide/48.html)   |
-| [49](slide/49.html)   | [50](slide/50.html)   | [51](slide/51.html)   | [52](slide/52.html)   | [53](slide/53.html)   | [54](slide/54.html)   | [55](slide/55.html)   | [56](slide/56.html)   | [57](slide/57.html)   | [58](slide/58.html)   | [59](slide/59.html)   | [60](slide/60.html)   | [61](slide/61.html)   | [62](slide/62.html)   | [63](slide/63.html)   | [64](slide/64.html)   |
-| [65](slide/65.html)   | [66](slide/66.html)   | [67](slide/67.html)   | [68](slide/68.html)   | [69](slide/69.html)   | [70](slide/70.html)   | [71](slide/71.html)   | [72](slide/72.html)   | [73](slide/73.html)   | [74](slide/74.html)   | [75](slide/75.html)   | [76](slide/76.html)   | [77](slide/77.html)   | [78](slide/78.html)   | [79](slide/79.html)   | [80](slide/80.html)   |
-| [81](slide/81.html)   | [82](slide/82.html)   | [83](slide/83.html)   | [84](slide/84.html)   | [85](slide/85.html)   | [86](slide/86.html)   | [87](slide/87.html)   | [88](slide/88.html)   | [89](slide/89.html)   | [90](slide/90.html)   | [91](slide/91.html)   | [92](slide/92.html)   | [93](slide/93.html)   | [94](slide/94.html)   | [95](slide/95.html)   | [96](slide/96.html)   |
-| [97](slide/97.html)   | [98](slide/98.html)   | [99](slide/99.html)   | [100](slide/100.html) | [101](slide/101.html) | [102](slide/102.html) | [103](slide/103.html) | [104](slide/104.html) | [105](slide/105.html) | [106](slide/106.html) | [107](slide/107.html) | [108](slide/108.html) | [109](slide/109.html) | [110](slide/110.html) | [111](slide/111.html) | [112](slide/112.html) |
+| [1](slide/1.html) | [2](slide/2.html) | [3](slide/3.html) | [4](slide/4.html) | [5](slide/5.html) | [6](slide/6.html) | [7](slide/7.html) | [8](slide/8.html) | [9](slide/9.html) | [10](slide/10.html) | [11](slide/11.html) | [12](slide/12.html) | [13](slide/13.html) | [14](slide/14.html) | [15](slide/15.html) | [16](slide/16.html) |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| [17](slide/17.html) | [18](slide/18.html) | [19](slide/19.html) | [20](slide/20.html) | [21](slide/21.html) | [22](slide/22.html) | [23](slide/23.html) | [24](slide/24.html) | [25](slide/25.html) | [26](slide/26.html) | [27](slide/27.html) | [28](slide/28.html) | [29](slide/29.html) | [30](slide/30.html) | [31](slide/31.html) | [32](slide/32.html) |
+| [33](slide/33.html) | [34](slide/34.html) | [35](slide/35.html) | [36](slide/36.html) | [37](slide/37.html) | [38](slide/38.html) | [39](slide/39.html) | [40](slide/40.html) | [41](slide/41.html) | [42](slide/42.html) | [43](slide/43.html) | [44](slide/44.html) | [45](slide/45.html) | [46](slide/46.html) | [47](slide/47.html) | [48](slide/48.html) |
+| [49](slide/49.html) | [50](slide/50.html) | [51](slide/51.html) | [52](slide/52.html) | [53](slide/53.html) | [54](slide/54.html) | [55](slide/55.html) | [56](slide/56.html) | [57](slide/57.html) | [58](slide/58.html) | [59](slide/59.html) | [60](slide/60.html) | [61](slide/61.html) | [62](slide/62.html) | [63](slide/63.html) | [64](slide/64.html) |
+| [65](slide/65.html) | [66](slide/66.html) | [67](slide/67.html) | [68](slide/68.html) | [69](slide/69.html) | [70](slide/70.html) | [71](slide/71.html) | [72](slide/72.html) | [73](slide/73.html) | [74](slide/74.html) | [75](slide/75.html) | [76](slide/76.html) | [77](slide/77.html) | [78](slide/78.html) | [79](slide/79.html) | [80](slide/80.html) |
+| [81](slide/81.html) | [82](slide/82.html) | [83](slide/83.html) | [84](slide/84.html) | [85](slide/85.html) | [86](slide/86.html) | [87](slide/87.html) | [88](slide/88.html) | [89](slide/89.html) | [90](slide/90.html) | [91](slide/91.html) | [92](slide/92.html) | [93](slide/93.html) | [94](slide/94.html) | [95](slide/95.html) | [96](slide/96.html) |
+| [97](slide/97.html) | [98](slide/98.html) | [99](slide/99.html) | [100](slide/100.html) | [101](slide/101.html) | [102](slide/102.html) | [103](slide/103.html) | [104](slide/104.html) | [105](slide/105.html) | [106](slide/106.html) | [107](slide/107.html) | [108](slide/108.html) | [109](slide/109.html) | [110](slide/110.html) | [111](slide/111.html) | [112](slide/112.html) |
 | [113](slide/113.html) | [114](slide/114.html) | [115](slide/115.html) | [116](slide/116.html) | [117](slide/117.html) | [118](slide/118.html) | [119](slide/119.html) | [120](slide/120.html) | [121](slide/121.html) | [122](slide/122.html) | [123](slide/123.html) | [124](slide/124.html) | [125](slide/125.html) | [126](slide/126.html) | [127](slide/127.html) | [128](slide/128.html) |
 | [129](slide/129.html) | [130](slide/130.html) | [131](slide/131.html) | [132](slide/132.html) | [133](slide/133.html) | [134](slide/134.html) | [135](slide/135.html) | [136](slide/136.html) | [137](slide/137.html) | [138](slide/138.html) | [139](slide/139.html) | [140](slide/140.html) | [141](slide/141.html) | [142](slide/142.html) | [143](slide/143.html) | [144](slide/144.html) |
 | [145](slide/145.html) | [146](slide/146.html) | [147](slide/147.html) | [148](slide/148.html) | [149](slide/149.html) | [150](slide/150.html) | [151](slide/151.html) | [152](slide/152.html) | [153](slide/153.html) | [154](slide/154.html) | [155](slide/155.html) | [156](slide/156.html) | [157](slide/157.html) | [158](slide/158.html) | [159](slide/159.html) | [160](slide/160.html) |

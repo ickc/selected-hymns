@@ -25,13 +25,32 @@
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/css/common.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ickc/markdown-latex-css/fonts/fonts.min.css" />
-  <script type="text/JavaScript">
-    function openInNewTab() {
-        var ref = document.getElementById("hymn-ref").value;
-        const url='slide/' + ref + '.html';
-        window.open(url, '_blank').focus();
-    }
-  </script>
+  <style>
+      input {
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          width: 100px;
+          text-align: center;
+      }
+      button {
+          padding: 10px 15px;
+          background-color: #4285f4;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+          margin-left: 10px;
+      }
+      button:hover {
+          background-color: #3367d6;
+      }
+      .error {
+          color: red;
+      }
+  </style>
 </head>
 <body>
 <header id="title-block-header">
@@ -43,13 +62,13 @@
 <li><a href="#recommended-usage" id="toc-recommended-usage">Recommended
 usage</a>
 <ul>
+<li><a href="#slide" id="toc-slide">Slide</a></li>
 <li><a href="#install" id="toc-install">Install</a>
 <ul>
 <li><a href="#繁體中文" id="toc-繁體中文">繁體中文</a></li>
 <li><a href="#简体中文" id="toc-简体中文">简体中文</a></li>
 <li><a href="#english" id="toc-english">English</a></li>
 </ul></li>
-<li><a href="#slide" id="toc-slide">Slide</a></li>
 </ul></li>
 <li><a href="#advanced-usage" id="toc-advanced-usage">Advanced usage</a>
 <ul>
@@ -72,6 +91,25 @@ This project is to provide a text-only version of the original hymnal.
 The long-term goal will be to identify the texts that has copyright
 issue and replaces it with one that is not.</p>
 <h1 id="recommended-usage">Recommended usage</h1>
+<h2 id="slide">Slide</h2>
+<p><input type="number" id="hymnNumber" min="1" max="848" placeholder="1-848">
+<button onclick="goToHymn()">Go to Hymn</button></p>
+<div id="errorMessage" class="error">
+
+</div>
+<p>Tips:</p>
+<ul>
+<li>For best viewing of the presentation, press <code>F</code> to enter
+full Screen, <code>Esc</code> to cancel full screen.</li>
+<li>For long text, scroll down using the wheel of the mouse.</li>
+<li>Do not zoom into the content, it will messed with the UI of the
+presentation.</li>
+<li>In the slide, press space or arrows to advance to next slide. Type
+<code>?</code> in the slide for help.
+<ul>
+<li>E.g. <code>O</code> can be used to jump to a slide.</li>
+</ul></li>
+</ul>
 <h2 id="install">Install</h2>
 <h3 id="繁體中文">繁體中文</h3>
 <p>手機用戶請從ePub一欄下載。蘋果手機用戶可用Apple Books
@@ -158,26 +196,6 @@ href="https://github.com/ickc/selected-hymns/releases/download/v0.11.0/en.pdf">e
 </tr>
 </tbody>
 </table>
-<h2 id="slide">Slide</h2>
-<p>In the following box, input the hymn no., say, 16, and either hit
-enter on your keyboard or click the button on its right, a new tab will
-pops up.<a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a></p>
-<p><input type="text" placeholder="Enter hymn no.&hellip;" name="search" id="hymn-ref">
-<button type="button" onclick="openInNewTab()" id="hymn-click"><i class="fa fa-search"></i></button></p>
-<p>Tips:</p>
-<ul>
-<li>For best viewing of the presentation, press <code>F</code> to enter
-full Screen, <code>Esc</code> to cancel full screen.</li>
-<li>For long text, scroll down using the wheel of the mouse.</li>
-<li>Do not zoom into the content, it will messed with the UI of the
-presentation.</li>
-<li>In the slide, press space or arrows to advance to next slide. Type
-<code>?</code> in the slide for help.
-<ul>
-<li>E.g. <code>O</code> can be used to jump to a slide.</li>
-</ul></li>
-</ul>
 <h1 id="advanced-usage">Advanced usage</h1>
 <h2 id="install-any-formats">Install any formats</h2>
 <p>Download any supported formats below.</p>
@@ -249,9 +267,9 @@ href="https://ickc.github.io/selected-hymns/zh-Hans-en.html">zh-Hans-en.html</a>
 </tr>
 </tbody>
 </table>
-<h2 id="slide-listingitworks">Slide listing<a href="#fn2"
-class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a></h2>
+<h2 id="slide-listingitworks">Slide listing<a href="#fn1"
+class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></h2>
 <table>
 <thead>
 <tr>
@@ -1220,22 +1238,41 @@ role="doc-endnotes">
 href="https://ickc.github.io/selected-hymns/"
 class="uri">https://ickc.github.io/selected-hymns/</a>.<a href="#fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>This only works in <a
-href="https://ickc.github.io/selected-hymns/"
-class="uri">https://ickc.github.io/selected-hymns/</a>.<a href="#fnref2"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-<!-- https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp -->
-<script type="text/JavaScript">
-  var input = document.getElementById("hymn-ref");
-  input.addEventListener("keyup", function(event) {
-      if (event.keyCode === 13) {
-      event.preventDefault();
-      document.getElementById("hymn-click").click();
-      }
+<script>
+    // Add event listener for Enter key
+    document.getElementById("hymnNumber").addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            goToHymn();
+        }
+    });
+
+    function goToHymn() {
+        const hymnInput = document.getElementById("hymnNumber");
+        const errorMessage = document.getElementById("errorMessage");
+        const hymnNumber = parseInt(hymnInput.value);
+        
+        // Clear previous error message
+        errorMessage.textContent = "";
+        
+        // Validate input
+        if (isNaN(hymnNumber)) {
+            errorMessage.textContent = "Please enter a valid number.";
+            return;
+        }
+        
+        if (hymnNumber < 1 || hymnNumber > 848) {
+            errorMessage.textContent = "Please enter a number between 1 and 848.";
+            return;
+        }
+        
+        // Open hymn in a new tab
+        window.open(`slide/${hymnNumber}.html`, '_blank');
+        
+        // Optional: clear the input field after successful navigation
+        // hymnInput.value = "";
     }
-  );
 </script>
 </body>
 </html>
